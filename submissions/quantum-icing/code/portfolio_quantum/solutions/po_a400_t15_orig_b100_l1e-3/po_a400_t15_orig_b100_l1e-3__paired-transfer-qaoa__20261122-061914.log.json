@@ -1,0 +1,49 @@
+{
+"settings": "paired-transfer QAOA (p=3, local statevector, <=16 qubits, 448 shots); start=deliverables/portfolio_quantum/po_a400_t15_orig_b100_l1e-3__paired-trajectory-qaoa.sol (-3163545); seed=11 minutes=35.0 steps=1333 circuits=31864",
+"start": -3163545,
+"final": -3164781,
+"accepted": [
+{
+"step": 0,
+"day": 3,
+"obj": -3163665,
+"gain": -120,
+"circuits": 1
+},
+{
+"step": 4,
+"day": 3,
+"obj": -3163794,
+"gain": -129,
+"circuits": 130
+},
+{
+"step": 5,
+"day": 3,
+"obj": -3164194,
+"gain": -400,
+"circuits": 141
+},
+{
+"step": 47,
+"day": 6,
+"obj": -3164356,
+"gain": -162,
+"circuits": 1100
+},
+{
+"step": 422,
+"day": 12,
+"obj": -3164634,
+"gain": -278,
+"circuits": 10086
+},
+{
+"step": 659,
+"day": 12,
+"obj": -3164781,
+"gain": -147,
+"circuits": 15834
+}
+]
+}

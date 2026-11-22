@@ -1,0 +1,2 @@
+pooldp_po_a050_t10_s02_l1e-2_empty_s1: BKV -43565 (best known), our previous best -40149 (po_a050_t10_s02_b020_l1e-2__lns__20261121-221139.sol)
+RESULT pooldp_po_a050_t10_s02_l1e-2_empty_s1: raw -45069 (-3.45%) -> polished -45069 (-3.45%) BKV -43565 prev -40149 recorded=True [150.0s]

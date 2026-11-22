@@ -1,0 +1,70 @@
+po_a050_t10_s00 B=20 λ=1e-2: compact QUBO 3090 vars; BKV -12340 (best known)
+start objective -1000
+penalty weight 5000, n_layers 3, warm start no
+it   0 t=(4, 5) assets=[7, 24] q=9  3.6s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it   1 t=(7, 8) assets=[6, 27] q=9  0.8s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it   2 t=8 assets=[7, 18, 25, 43] q=8  0.7s  window-opt sampled=None   cand     6222  incumbent    -1000  gap +91.90%
+it   3 t=(5, 6) assets=[6, 42] q=9  0.8s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it   4 t=7 assets=[22, 25, 40, 47] q=8  0.7s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it   5 t=4 assets=[6, 10, 15, 27] q=8  0.7s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it   6 t=(3, 4) assets=[29, 46] q=9  0.7s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it   7 t=2 assets=[6, 43, 44, 48] q=8  0.7s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it   8 t=(3, 4) assets=[0, 4] q=9  0.7s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it   9 t=8 assets=[7, 12, 33, 42] q=8  0.7s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  10 t=1 assets=[1, 10, 30, 49] q=8  0.6s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  11 t=(1, 2) assets=[23, 36] q=9  0.7s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  12 t=8 assets=[0, 16, 37, 44] q=8  0.7s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  13 t=1 assets=[4, 22, 34, 40] q=8  0.7s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  14 t=(0, 1) assets=[9, 42] q=9  0.7s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  15 t=(4, 5) assets=[15, 46] q=9  0.8s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  16 t=(0, 1) assets=[1, 24] q=9  0.7s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  17 t=7 assets=[6, 21, 32, 36] q=8  0.8s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  18 t=(1, 2) assets=[7, 29] q=9  0.7s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  19 t=(7, 8) assets=[20, 40] q=9  0.8s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  20 t=(1, 2) assets=[0, 34] q=9  0.7s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  21 t=2 assets=[14, 24, 32, 42] q=8  0.7s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  22 t=(1, 2) assets=[12, 23] q=9  0.7s  window-opt sampled=None   cand    13469  incumbent    -1000  gap +91.90%
+it  23 t=8 assets=[17, 21, 25, 46] q=8  0.7s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  24 t=2 assets=[2, 3, 5, 43] q=8  0.6s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  25 t=(3, 4) assets=[8, 42] q=9  0.8s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  26 t=6 assets=[4, 33, 34, 45] q=8  0.6s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  27 t=7 assets=[7, 23, 27, 31] q=8  0.8s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  28 t=1 assets=[24, 34, 39, 44] q=8  0.8s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  29 t=(6, 7) assets=[3, 17] q=9  0.9s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  30 t=1 assets=[7, 12, 43, 48] q=8  0.8s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  31 t=(5, 6) assets=[16, 43] q=9  0.8s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  32 t=(0, 1) assets=[24, 26] q=9 -0.3s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  33 t=3 assets=[0, 1, 11, 31] q=8  0.8s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  34 t=2 assets=[8, 16, 24, 31] q=8  0.7s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  35 t=(0, 1) assets=[6, 11] q=9  0.8s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  36 t=(0, 1) assets=[28, 45] q=9  0.8s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  37 t=(7, 8) assets=[28, 34] q=9  0.7s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  38 t=3 assets=[3, 35, 36, 41] q=8  0.9s  window-opt sampled=None   cand    29560  incumbent    -1000  gap +91.90%
+it  39 t=4 assets=[7, 23, 38, 40] q=8  0.8s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  40 t=5 assets=[29, 35, 40, 41] q=8  0.8s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  41 t=(0, 1) assets=[17, 39] q=9  0.7s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  42 t=(0, 1) assets=[14, 19] q=9  0.8s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  43 t=(4, 5) assets=[30, 33] q=9  0.8s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  44 t=(6, 7) assets=[14, 31] q=9  0.8s  window-opt sampled=None   cand    20314  incumbent    -1000  gap +91.90%
+it  45 t=3 assets=[6, 14, 31, 39] q=8  0.7s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  46 t=4 assets=[20, 25, 33, 38] q=8  0.8s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  47 t=1 assets=[4, 16, 27, 30] q=8  0.8s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  48 t=(0, 1) assets=[28, 39] q=9  0.7s  window-opt sampled=None   cand     9309  incumbent    -1000  gap +91.90%
+it  49 t=7 assets=[32, 34, 37, 45] q=8  0.8s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  50 t=2 assets=[17, 24, 37, 43] q=8  0.7s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  51 t=(3, 4) assets=[34, 43] q=9  0.8s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  52 t=6 assets=[5, 27, 35, 39] q=8  0.8s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  53 t=4 assets=[3, 12, 14, 27] q=8  0.7s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  54 t=7 assets=[20, 24, 32, 40] q=8  0.8s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  55 t=(4, 5) assets=[41, 43] q=9  0.8s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  56 t=(5, 6) assets=[0, 30] q=9  0.8s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  57 t=2 assets=[6, 38, 41, 42] q=8  0.8s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  58 t=2 assets=[5, 6, 24, 26] q=8  0.7s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  59 t=2 assets=[8, 16, 43, 44] q=8  0.8s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  60 t=(6, 7) assets=[6, 22] q=9  0.8s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  61 t=(5, 6) assets=[7, 49] q=9  0.8s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  62 t=(6, 7) assets=[2, 20] q=9  0.8s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  63 t=7 assets=[6, 12, 14, 27] q=8  0.8s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  64 t=7 assets=[20, 21, 31, 35] q=8  0.9s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  65 t=6 assets=[3, 7, 41, 45] q=8  0.8s  window-opt sampled=None   cand    -1000  incumbent    -1000  gap +91.90%
+it  66 t=3 assets=[2, 3, 12, 37] q=8  0.9s  window-opt sampled=None   cand    12615  incumbent    -1000  gap +91.90%

@@ -1,0 +1,17 @@
+po_a050_t10_s00 λ=1e-2: start 409285 (starts/po_a050_t10_s00_l1e-2_from_l1e-3.sol); BKV -12340 gap +3416.73%
+it   0 moves=18 q=18 sel=1 ['transfer'] 174.5s cand 415703 incumbent 409285 gap +3416.73%
+it   1 moves=18 q=18 sel=0 [] 114.7s cand 409285 incumbent 409285 gap +3416.73%
+it   2 moves=18 q=18 sel=0 [] 150.8s cand 409285 incumbent 409285 gap +3416.73%
+it   3 moves=18 q=18 sel=3 ['drop', 'extend-left', 'flip'] 128.8s cand 398418 incumbent 398418 gap +3328.67%
+it   4 moves=18 q=18 sel=1 ['transfer'] 166.1s cand 394111 incumbent 394111 gap +3293.77%
+it   5 moves=18 q=18 sel=4 ['drop', 'shift-left', 'transfer'] 134.3s cand 421197 incumbent 394111 gap +3293.77%
+it   6 moves=18 q=18 sel=0 [] 141.1s cand 394111 incumbent 394111 gap +3293.77%
+it   7 moves=18 q=18 sel=2 ['shift-left', 'transfer'] 98.2s cand 410094 incumbent 394111 gap +3293.77%
+it   8 moves=18 q=18 sel=2 ['flip', 'shift-right'] 140.0s cand 415488 incumbent 394111 gap +3293.77%
+it   9 moves=18 q=18 sel=3 ['extend-left', 'transfer'] 136.4s cand 424202 incumbent 394111 gap +3293.77%
+it  10 moves=18 q=18 sel=2 ['extend-left', 'shift-right'] 141.5s cand 390297 incumbent 390297 gap +3262.86%
+it  11 moves=18 q=18 sel=2 ['drop', 'extend-left'] 115.9s cand 408467 incumbent 390297 gap +3262.86%
+it  12 moves=18 q=18 sel=2 ['drop', 'transfer'] 185.2s cand 394253 incumbent 390297 gap +3262.86%
+
+FINAL objective=390297 (feasible; risk=631045, return=-268928, transaction=28897, cash_interest=-950, short_cost=233, liquidation=0)  BKV -12340  gap +3262.86%  units/day [20, 20, 19, 20, 20, 20, 20, 20, 20, 0]  circuits 1053  max qubits 18  1828s
+recorded /mnt/d/Repos/Quantum_Munich_Challenges_TUM_Hackathon_PushQuantum_2026/quantum-icing-qoro/portfolio_QIcing/solutions/po_a050_t10_s00_b020_l1e-2/po_a050_t10_s00_b020_l1e-2__qmoves-qaoa__20261122-001112.sol

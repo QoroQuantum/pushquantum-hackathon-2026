@@ -1,0 +1,14 @@
+po_a050_t10_s00 λ=1e-3: start -191991 (-0.0584% vs BKV -191879) solver=exact m_max=20 | /mnt/d/Repos/Quantum_Munich_Challenges_TUM_Hackathon_PushQuantum_2026/quantum-icing-qoro/portfolio_QIcing/solutions/po_a050_t10_s00_b020_l1e-3/po_a050_t10_s00_b020_l1e-3__slotqlns-rand__20261122-030059.sol
+call    50 [0,1) m=20 best ΔE    1644 opt 0        cur -191991 (-0.0584%) [10s]
+call   100 [2,5) m=20 best ΔE       0 opt 0        cur -191991 (-0.0584%) [17s]
+call   150 [3,4) m=20 best ΔE       0 opt 0        cur -191991 (-0.0584%) [24s]
+call   200 [1,3) m=20 best ΔE    2663 opt 0        cur -191991 (-0.0584%) [31s]
+call   250 [5,8) m=20 best ΔE       0 opt 0        cur -191991 (-0.0584%) [38s]
+call   300 [4,6) m=20 best ΔE    6515 opt 0        cur -191991 (-0.0584%) [45s]
+call   350 [3,4) m=14 best ΔE       0 opt 0        cur -191991 (-0.0584%) [52s]
+call   400 [1,4) m=20 best ΔE       0 opt 0        cur -191991 (-0.0584%) [58s]
+call   450 [6,8) m=20 best ΔE    5399 opt 0        cur -191991 (-0.0584%) [66s]
+call   500 [3,5) m=20 best ΔE       0 opt 0        cur -191991 (-0.0584%) [73s]
+call   550 [2,3) m=14 best ΔE       0 opt 0        cur -191991 (-0.0584%) [79s]
+call   600 [7,9) m= 3 best ΔE       0 opt 0        cur -191991 (-0.0584%) [84s]
+FINAL {"start": -191991, "final": -191991, "bkv": -191879, "gap": "-0.0584%", "calls": 600, "accepts": 0, "circuits": 0, "max_qubits": 0, "sec": 83.8, "ref_calls": 600, "qubo_improvable": 0, "hit_opt": 476, "mean_gain_fraction": null, "start_file": "/mnt/d/Repos/Quantum_Munich_Challenges_TUM_Hackathon_PushQuantum_2026/quantum-icing-qoro/portfolio_QIcing/solutions/po_a050_t10_s00_b020_l1e-3/po_a050_t10_s00_b020_l1e-3__slotqlns-rand__20261122-030059.sol"}

@@ -1,0 +1,14 @@
+{
+"settings": "paired-transfer QAOA (p=3, local statevector, <=16 qubits, 448 shots); start=deliverables/portfolio/po_a050_t10_orig_b020_l1e-3.sol (-205672); seed=11 minutes=35.0 steps=10474 circuits=121517",
+"start": -205672,
+"final": -205699,
+"accepted": [
+{
+"step": 259,
+"day": 1,
+"obj": -205699,
+"gain": -27,
+"circuits": 3081
+}
+]
+}

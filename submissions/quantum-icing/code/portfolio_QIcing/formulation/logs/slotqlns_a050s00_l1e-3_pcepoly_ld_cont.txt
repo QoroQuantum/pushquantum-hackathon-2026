@@ -1,0 +1,17 @@
+po_a050_t10_s00 λ=1e-3 B=20: start -191991 (BKV -191879, -0.058%) | solver=pce k=6 inner_descent=True | start=/mnt/d/Repos/Quantum_Munich_Challenges_TUM_Hackathon_PushQuantum_2026/quantum-icing-qoro/portfolio_QIcing/solutions/po_a050_t10_s00_b020_l1e-3/po_a050_t10_s00_b020_l1e-3__slotqlns-rand__20261122-030059.sol
+it   25 t=2 K=5 cand   12 best -191991        cur -191991 (-0.058%) [86s]
+it   50 t=1 K=5 cand   15 best -191991        cur -191991 (-0.058%) [156s]
+it   75 t=4 K=6 cand   43 best -191991        cur -191991 (-0.058%) [228s]
+it  100 t=5 K=6 cand   29 best -191991        cur -191991 (-0.058%) [315s]
+it  125 t=6 K=5 cand    7 best -191991        cur -191991 (-0.058%) [388s]
+it  150 t=6 K=5 cand   10 best -191991        cur -191991 (-0.058%) [520s]
+it  175 t=3 K=5 cand    8 best -191991        cur -191991 (-0.058%) [672s]
+it  200 t=7 K=2 cand    1 best -191991        cur -191991 (-0.058%) [759s]
+it  225 t=4 K=6 cand   16 best -191991        cur -191991 (-0.058%) [830s]
+it  250 t=0 K=2 cand    1 best -191991        cur -191991 (-0.058%) [937s]
+it  275 t=5 K=6 cand   19 best -191991        cur -191991 (-0.058%) [1017s]
+it  300 t=8 K=6 cand   18 best -191991        cur -191991 (-0.058%) [1109s]
+it  325 t=7 K=4 cand   11 best -191991        cur -191991 (-0.058%) [1213s]
+it  350 t=8 K=1 cand    1 best -191991        cur -191991 (-0.058%) [1342s]
+it  375 t=0 K=1 cand    1 best -191991        cur -191991 (-0.058%) [1452s]
+FINAL -191991 (start -191991, BKV -191879, -0.058%), accepted 0/390, circuits 72530, ≤9 qubits, 1502s

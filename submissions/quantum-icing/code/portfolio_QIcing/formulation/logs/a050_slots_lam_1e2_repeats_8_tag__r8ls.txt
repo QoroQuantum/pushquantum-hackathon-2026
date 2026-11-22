@@ -1,0 +1,15 @@
+best held solution -17675; per-period stage energies [-6488, -100, -10996, -100, -100, -5274, -100, -8125, -100, -100]
+po_a050_t10_s00 λ=1e-2 n=50 B=20: reference -12340 (BKV) | {'instance': 'po_a050_t10_s00', 'lam': '1e-2', 'order': 'spectral', 'slots': 0, 'optimizer': 'lbfgs', 'n_layers': 6, 'pop': 40, 'iters': 200, 'alpha': 6.0, 'qubits': 0, 'code': 'multibasis2', 'cap_weight': 1.0, 'dup_weight': 0.0, 'pool': 20, 'repeats': 8, 'seed': 0, 'periods': '', 'no_ideal': False, 'tag': '_r8ls', 'polish': True, 'polish_pool': 60, 'lns_time': 120.0, 'record': True}
+  t=0 140v q=11  83.5s | samples     12208 (8u) | expect      4502 (299u) | both      4502 (307u) | rand     52201 (1688u) | ideal      9386 (42u) | best-held -6488
+  t=1 140v q=11  83.2s | samples      8181 (8u) | expect      -100 (305u) | both      -100 (313u) | rand     72789 (1681u) | ideal      -100 (27u) | best-held -100
+  t=2 140v q=11  83.7s | samples     14089 (8u) | expect      9574 (299u) | both      9574 (307u) | rand     56020 (1665u) | ideal      -100 (36u) | best-held -10996
+  t=3 140v q=11 158.5s | samples     12947 (8u) | expect      7071 (291u) | both      7071 (299u) | rand     54510 (1675u) | ideal      3451 (19u) | best-held -100
+  t=4 140v q=11 205.3s | samples     13792 (8u) | expect      8504 (304u) | both      8504 (312u) | rand     48081 (1693u) | ideal      -100 (24u) | best-held -100
+  t=5 140v q=11 205.2s | samples     12444 (8u) | expect      6602 (302u) | both      6602 (310u) | rand     43426 (1665u) | ideal      -100 (26u) | best-held -5274
+  t=6 140v q=11 204.4s | samples     21657 (8u) | expect      8487 (333u) | both      8487 (341u) | rand     39569 (1668u) | ideal      3835 (24u) | best-held -100
+  t=7 140v q=11 207.2s | samples     22078 (8u) | expect     12068 (341u) | both     12068 (349u) | rand     67732 (1669u) | ideal      -100 (30u) | best-held -8125
+  t=8 140v q=11 2445.2s | samples     20024 (8u) | expect      7865 (258u) | both      7865 (266u) | rand     57635 (1669u) | ideal      4616 (13u) | best-held -100
+== chained objective: samples -1000 (+91.896%)  expect -1000 (+91.896%)  both -1000 (+91.896%)  rand -1000 (+91.896%)  ideal -1000 (+91.896%)   [3777s, 30074 circuits, ≤11 qubits]
+== L1 (period descent on each pool state, then chain DP): samples -1000 (+91.896%)  expect -1291 (+89.538%)  both -1291 (+89.538%)  rand -3104 (+74.846%)  ideal -1000 (+91.896%)  empty -1000 (+91.896%)
+== L2 (+120s multi-period LNS from L1): both -2441 (+80.219%)  rand -3537 (+71.337%)  ideal -1000 (+91.896%)  empty -1000 (+91.896%)
+recorded /mnt/d/Repos/Quantum_Munich_Challenges_TUM_Hackathon_PushQuantum_2026/quantum-icing-qoro/portfolio_QIcing/solutions/po_a050_t10_s00_b020_l1e-2/po_a050_t10_s00_b020_l1e-2__slotpce-ls__20261122-031709.sol

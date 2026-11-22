@@ -1,0 +1,89 @@
+{
+ "args": {
+  "instance": "po_a050_t10_s00",
+  "lam": "1e-4",
+  "start": "empty",
+  "solver": "pce",
+  "k": 6,
+  "code": "multibasis2",
+  "n_layers": 6,
+  "iters": 100,
+  "alpha": 6.0,
+  "restarts": 1,
+  "inner_descent": false,
+  "p_cluster": 0.5,
+  "time_limit": 120.0,
+  "max_moves": 6,
+  "seed": 1,
+  "record": false,
+  "tag": "_smoke"
+ },
+ "start": -1000,
+ "final": -67027,
+ "bkv": -355530,
+ "accepted": 6,
+ "moves": 6,
+ "circuits": 1300,
+ "log": [
+  {
+   "it": 1,
+   "t": 4,
+   "K": 6,
+   "removed": null,
+   "n_cand": 23,
+   "cand": -10825,
+   "cur": -10825,
+   "sec": 4.31
+  },
+  {
+   "it": 2,
+   "t": 6,
+   "K": 6,
+   "removed": null,
+   "n_cand": 16,
+   "cand": -21433,
+   "cur": -21433,
+   "sec": 1.67
+  },
+  {
+   "it": 3,
+   "t": 0,
+   "K": 6,
+   "removed": null,
+   "n_cand": 9,
+   "cand": -26947,
+   "cur": -26947,
+   "sec": 1.62
+  },
+  {
+   "it": 4,
+   "t": 7,
+   "K": 6,
+   "removed": null,
+   "n_cand": 14,
+   "cand": -35131,
+   "cur": -35131,
+   "sec": 1.68
+  },
+  {
+   "it": 5,
+   "t": 2,
+   "K": 6,
+   "removed": null,
+   "n_cand": 12,
+   "cand": -64936,
+   "cur": -64936,
+   "sec": 1.65
+  },
+  {
+   "it": 6,
+   "t": 7,
+   "K": 6,
+   "removed": null,
+   "n_cand": 12,
+   "cand": -67027,
+   "cur": -67027,
+   "sec": 1.73
+  }
+ ]
+}

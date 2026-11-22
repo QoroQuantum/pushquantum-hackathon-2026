@@ -1,0 +1,185 @@
+{
+ "args": {
+  "instance": "po_a050_t10_s00",
+  "lam": "1e-2",
+  "start": "starts/po_a050_t10_s00_l1e-2_from_l1e-3.sol",
+  "moves": 18,
+  "solver": "qaoa",
+  "iters": 3000,
+  "n_layers": 2,
+  "mc_population": 20,
+  "mc_iterations": 4,
+  "cloud": true,
+  "shots": 2000,
+  "max_run": 9,
+  "seed": 34,
+  "time_limit": 1800.0,
+  "tag": ""
+ },
+ "start": "starts/po_a050_t10_s00_l1e-2_from_l1e-3.sol",
+ "start_obj": 409285,
+ "log": [
+  {
+   "it": 0,
+   "n_moves": 18,
+   "qubits": 18,
+   "n_selected": 1,
+   "kinds": [
+    "transfer"
+   ],
+   "cand": 415703,
+   "incumbent": 409285,
+   "sec": 174.5
+  },
+  {
+   "it": 1,
+   "n_moves": 18,
+   "qubits": 18,
+   "n_selected": 0,
+   "kinds": [],
+   "cand": 409285,
+   "incumbent": 409285,
+   "sec": 114.7
+  },
+  {
+   "it": 2,
+   "n_moves": 18,
+   "qubits": 18,
+   "n_selected": 0,
+   "kinds": [],
+   "cand": 409285,
+   "incumbent": 409285,
+   "sec": 150.8
+  },
+  {
+   "it": 3,
+   "n_moves": 18,
+   "qubits": 18,
+   "n_selected": 3,
+   "kinds": [
+    "drop",
+    "extend-left",
+    "flip"
+   ],
+   "cand": 398418,
+   "incumbent": 398418,
+   "sec": 128.8
+  },
+  {
+   "it": 4,
+   "n_moves": 18,
+   "qubits": 18,
+   "n_selected": 1,
+   "kinds": [
+    "transfer"
+   ],
+   "cand": 394111,
+   "incumbent": 394111,
+   "sec": 166.1
+  },
+  {
+   "it": 5,
+   "n_moves": 18,
+   "qubits": 18,
+   "n_selected": 4,
+   "kinds": [
+    "drop",
+    "shift-left",
+    "transfer"
+   ],
+   "cand": 421197,
+   "incumbent": 394111,
+   "sec": 134.3
+  },
+  {
+   "it": 6,
+   "n_moves": 18,
+   "qubits": 18,
+   "n_selected": 0,
+   "kinds": [],
+   "cand": 394111,
+   "incumbent": 394111,
+   "sec": 141.1
+  },
+  {
+   "it": 7,
+   "n_moves": 18,
+   "qubits": 18,
+   "n_selected": 2,
+   "kinds": [
+    "shift-left",
+    "transfer"
+   ],
+   "cand": 410094,
+   "incumbent": 394111,
+   "sec": 98.2
+  },
+  {
+   "it": 8,
+   "n_moves": 18,
+   "qubits": 18,
+   "n_selected": 2,
+   "kinds": [
+    "flip",
+    "shift-right"
+   ],
+   "cand": 415488,
+   "incumbent": 394111,
+   "sec": 140.0
+  },
+  {
+   "it": 9,
+   "n_moves": 18,
+   "qubits": 18,
+   "n_selected": 3,
+   "kinds": [
+    "extend-left",
+    "transfer"
+   ],
+   "cand": 424202,
+   "incumbent": 394111,
+   "sec": 136.4
+  },
+  {
+   "it": 10,
+   "n_moves": 18,
+   "qubits": 18,
+   "n_selected": 2,
+   "kinds": [
+    "extend-left",
+    "shift-right"
+   ],
+   "cand": 390297,
+   "incumbent": 390297,
+   "sec": 141.5
+  },
+  {
+   "it": 11,
+   "n_moves": 18,
+   "qubits": 18,
+   "n_selected": 2,
+   "kinds": [
+    "drop",
+    "extend-left"
+   ],
+   "cand": 408467,
+   "incumbent": 390297,
+   "sec": 115.9
+  },
+  {
+   "it": 12,
+   "n_moves": 18,
+   "qubits": 18,
+   "n_selected": 2,
+   "kinds": [
+    "drop",
+    "transfer"
+   ],
+   "cand": 394253,
+   "incumbent": 390297,
+   "sec": 185.2
+  }
+ ],
+ "final": 390297,
+ "bkv": -12340
+}

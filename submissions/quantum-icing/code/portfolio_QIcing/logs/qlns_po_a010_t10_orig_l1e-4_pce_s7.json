@@ -1,0 +1,7226 @@
+{
+ "args": {
+  "instance": "po_a010_t10_orig",
+  "lam": "1e-4",
+  "iters": 400,
+  "window_assets": 6,
+  "routine": "pce",
+  "n_layers": 3,
+  "penalty_weight": 0,
+  "mc_population": 40,
+  "mc_iterations": 8,
+  "shots": 4000,
+  "seed": 7,
+  "start": "/mnt/d/Repos/Quantum_Munich_Challenges_TUM_Hackathon_PushQuantum_2026/quantum-icing-qoro/portfolio_QIcing/solutions/po_a010_t10_orig_b004_l1e-4/po_a010_t10_orig_b004_l1e-4__qlns-pce__20261121-220547.sol",
+  "char_job": "",
+  "no_char": true,
+  "p_time": 0.6,
+  "time_window_assets": 3,
+  "time_limit": 1200.0
+ },
+ "settings": "routine=pce n_layers=3 window_assets=6 p_time=0.6 penalty_weight=5000 mc_pop=40 mc_iter=8 shots=4000 iters=400 seed=7 start=/mnt/d/Repos/Quantum_Munich_Challenges_TUM_Hackathon_PushQuantum_2026/quantum-icing-qoro/portfolio_QIcing/solutions/po_a010_t10_orig_b004_l1e-4/po_a010_t10_orig_b004_l1e-4__qlns-pce__20261121-220547.sol warm_start=none char_job= circuits=128400",
+ "log": [
+  {
+   "it": 0,
+   "period": 2,
+   "assets": [
+    1,
+    2,
+    3,
+    4,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 3.0,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 1,
+   "period": [
+    2,
+    3
+   ],
+   "assets": [
+    5,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.4,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 2,
+   "period": 3,
+   "assets": [
+    0,
+    1,
+    4,
+    5,
+    6,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 3,
+   "period": 4,
+   "assets": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.4,
+   "window_opt_sampled": null,
+   "best_candidate": -68531,
+   "incumbent": -69397
+  },
+  {
+   "it": 4,
+   "period": [
+    7,
+    8
+   ],
+   "assets": [
+    3,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -66589,
+   "incumbent": -69397
+  },
+  {
+   "it": 5,
+   "period": 0,
+   "assets": [
+    1,
+    2,
+    4,
+    5,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.4,
+   "window_opt_sampled": null,
+   "best_candidate": -68649,
+   "incumbent": -69397
+  },
+  {
+   "it": 6,
+   "period": 7,
+   "assets": [
+    0,
+    2,
+    4,
+    5,
+    6,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 7,
+   "period": [
+    5,
+    6
+   ],
+   "assets": [
+    3,
+    4,
+    6
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.4,
+   "window_opt_sampled": null,
+   "best_candidate": -68990,
+   "incumbent": -69397
+  },
+  {
+   "it": 8,
+   "period": [
+    2,
+    3
+   ],
+   "assets": [
+    3,
+    4,
+    5
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 2.0,
+   "window_opt_sampled": null,
+   "best_candidate": -69395,
+   "incumbent": -69397
+  },
+  {
+   "it": 9,
+   "period": [
+    3,
+    4
+   ],
+   "assets": [
+    5,
+    6,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.7,
+   "window_opt_sampled": null,
+   "best_candidate": -66515,
+   "incumbent": -69397
+  },
+  {
+   "it": 10,
+   "period": [
+    2,
+    3
+   ],
+   "assets": [
+    0,
+    1,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.8,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 11,
+   "period": [
+    7,
+    8
+   ],
+   "assets": [
+    0,
+    3,
+    4
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.5,
+   "window_opt_sampled": null,
+   "best_candidate": -62016,
+   "incumbent": -69397
+  },
+  {
+   "it": 12,
+   "period": 4,
+   "assets": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.4,
+   "window_opt_sampled": null,
+   "best_candidate": -68399,
+   "incumbent": -69397
+  },
+  {
+   "it": 13,
+   "period": [
+    6,
+    7
+   ],
+   "assets": [
+    0,
+    1,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -66331,
+   "incumbent": -69397
+  },
+  {
+   "it": 14,
+   "period": 7,
+   "assets": [
+    0,
+    2,
+    3,
+    4,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -68907,
+   "incumbent": -69397
+  },
+  {
+   "it": 15,
+   "period": [
+    7,
+    8
+   ],
+   "assets": [
+    3,
+    4,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.4,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 16,
+   "period": [
+    0,
+    1
+   ],
+   "assets": [
+    1,
+    4,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -59454,
+   "incumbent": -69397
+  },
+  {
+   "it": 17,
+   "period": 6,
+   "assets": [
+    0,
+    2,
+    3,
+    4,
+    6,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 18,
+   "period": 7,
+   "assets": [
+    1,
+    3,
+    4,
+    5,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -69105,
+   "incumbent": -69397
+  },
+  {
+   "it": 19,
+   "period": 6,
+   "assets": [
+    0,
+    4,
+    6,
+    7,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 20,
+   "period": [
+    6,
+    7
+   ],
+   "assets": [
+    1,
+    2,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -66331,
+   "incumbent": -69397
+  },
+  {
+   "it": 21,
+   "period": [
+    3,
+    4
+   ],
+   "assets": [
+    3,
+    5,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -65322,
+   "incumbent": -69397
+  },
+  {
+   "it": 22,
+   "period": [
+    2,
+    3
+   ],
+   "assets": [
+    2,
+    4,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.7,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 23,
+   "period": [
+    4,
+    5
+   ],
+   "assets": [
+    5,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.6,
+   "window_opt_sampled": null,
+   "best_candidate": -64274,
+   "incumbent": -69397
+  },
+  {
+   "it": 24,
+   "period": 3,
+   "assets": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 25,
+   "period": 2,
+   "assets": [
+    1,
+    2,
+    3,
+    6,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.3,
+   "window_opt_sampled": null,
+   "best_candidate": -67065,
+   "incumbent": -69397
+  },
+  {
+   "it": 26,
+   "period": [
+    3,
+    4
+   ],
+   "assets": [
+    2,
+    6,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.2,
+   "window_opt_sampled": null,
+   "best_candidate": -68399,
+   "incumbent": -69397
+  },
+  {
+   "it": 27,
+   "period": [
+    6,
+    7
+   ],
+   "assets": [
+    1,
+    4,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.4,
+   "window_opt_sampled": null,
+   "best_candidate": -66331,
+   "incumbent": -69397
+  },
+  {
+   "it": 28,
+   "period": 3,
+   "assets": [
+    0,
+    2,
+    3,
+    4,
+    6,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69395,
+   "incumbent": -69397
+  },
+  {
+   "it": 29,
+   "period": [
+    5,
+    6
+   ],
+   "assets": [
+    4,
+    6,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.4,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 30,
+   "period": [
+    5,
+    6
+   ],
+   "assets": [
+    6,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -68412,
+   "incumbent": -69397
+  },
+  {
+   "it": 31,
+   "period": [
+    6,
+    7
+   ],
+   "assets": [
+    0,
+    1,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.4,
+   "window_opt_sampled": null,
+   "best_candidate": -66331,
+   "incumbent": -69397
+  },
+  {
+   "it": 32,
+   "period": [
+    0,
+    1
+   ],
+   "assets": [
+    1,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -66640,
+   "incumbent": -69397
+  },
+  {
+   "it": 33,
+   "period": [
+    2,
+    3
+   ],
+   "assets": [
+    0,
+    1,
+    6
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.4,
+   "window_opt_sampled": null,
+   "best_candidate": -65096,
+   "incumbent": -69397
+  },
+  {
+   "it": 34,
+   "period": [
+    4,
+    5
+   ],
+   "assets": [
+    6,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -67814,
+   "incumbent": -69397
+  },
+  {
+   "it": 35,
+   "period": 5,
+   "assets": [
+    0,
+    2,
+    3,
+    5,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 36,
+   "period": 8,
+   "assets": [
+    1,
+    3,
+    4,
+    6,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.8,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 37,
+   "period": [
+    6,
+    7
+   ],
+   "assets": [
+    1,
+    4,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 38,
+   "period": 5,
+   "assets": [
+    0,
+    4,
+    6,
+    7,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.6,
+   "window_opt_sampled": null,
+   "best_candidate": -68842,
+   "incumbent": -69397
+  },
+  {
+   "it": 39,
+   "period": [
+    6,
+    7
+   ],
+   "assets": [
+    3,
+    4,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.4,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 40,
+   "period": [
+    2,
+    3
+   ],
+   "assets": [
+    0,
+    2,
+    6
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.2,
+   "window_opt_sampled": null,
+   "best_candidate": -65601,
+   "incumbent": -69397
+  },
+  {
+   "it": 41,
+   "period": 5,
+   "assets": [
+    2,
+    4,
+    5,
+    6,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.4,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 42,
+   "period": [
+    6,
+    7
+   ],
+   "assets": [
+    1,
+    6,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 43,
+   "period": [
+    3,
+    4
+   ],
+   "assets": [
+    2,
+    3,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.3,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 44,
+   "period": [
+    3,
+    4
+   ],
+   "assets": [
+    5,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.5,
+   "window_opt_sampled": null,
+   "best_candidate": -67423,
+   "incumbent": -69397
+  },
+  {
+   "it": 45,
+   "period": [
+    1,
+    2
+   ],
+   "assets": [
+    1,
+    5,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.3,
+   "window_opt_sampled": null,
+   "best_candidate": -65385,
+   "incumbent": -69397
+  },
+  {
+   "it": 46,
+   "period": [
+    1,
+    2
+   ],
+   "assets": [
+    2,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.0,
+   "window_opt_sampled": null,
+   "best_candidate": -68712,
+   "incumbent": -69397
+  },
+  {
+   "it": 47,
+   "period": 4,
+   "assets": [
+    0,
+    1,
+    3,
+    4,
+    6,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.4,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 48,
+   "period": [
+    5,
+    6
+   ],
+   "assets": [
+    0,
+    5,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.5,
+   "window_opt_sampled": null,
+   "best_candidate": -66885,
+   "incumbent": -69397
+  },
+  {
+   "it": 49,
+   "period": 3,
+   "assets": [
+    2,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.4,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 50,
+   "period": [
+    5,
+    6
+   ],
+   "assets": [
+    5,
+    6,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.4,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 51,
+   "period": [
+    1,
+    2
+   ],
+   "assets": [
+    1,
+    4,
+    6
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.3,
+   "window_opt_sampled": null,
+   "best_candidate": -65275,
+   "incumbent": -69397
+  },
+  {
+   "it": 52,
+   "period": 5,
+   "assets": [
+    0,
+    1,
+    3,
+    6,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.3,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 53,
+   "period": 5,
+   "assets": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.7,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 54,
+   "period": [
+    6,
+    7
+   ],
+   "assets": [
+    0,
+    5,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.7,
+   "window_opt_sampled": null,
+   "best_candidate": -66970,
+   "incumbent": -69397
+  },
+  {
+   "it": 55,
+   "period": [
+    0,
+    1
+   ],
+   "assets": [
+    3,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 2.0,
+   "window_opt_sampled": null,
+   "best_candidate": -65292,
+   "incumbent": -69397
+  },
+  {
+   "it": 56,
+   "period": 8,
+   "assets": [
+    1,
+    2,
+    3,
+    7,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.9,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 57,
+   "period": 0,
+   "assets": [
+    0,
+    1,
+    4,
+    5,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.9,
+   "window_opt_sampled": null,
+   "best_candidate": -68481,
+   "incumbent": -69397
+  },
+  {
+   "it": 58,
+   "period": 1,
+   "assets": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.7,
+   "window_opt_sampled": null,
+   "best_candidate": -65915,
+   "incumbent": -69397
+  },
+  {
+   "it": 59,
+   "period": 2,
+   "assets": [
+    0,
+    2,
+    3,
+    6,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.7,
+   "window_opt_sampled": null,
+   "best_candidate": -68567,
+   "incumbent": -69397
+  },
+  {
+   "it": 60,
+   "period": [
+    1,
+    2
+   ],
+   "assets": [
+    5,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 2.1,
+   "window_opt_sampled": null,
+   "best_candidate": -68053,
+   "incumbent": -69397
+  },
+  {
+   "it": 61,
+   "period": [
+    4,
+    5
+   ],
+   "assets": [
+    1,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.9,
+   "window_opt_sampled": null,
+   "best_candidate": -66996,
+   "incumbent": -69397
+  },
+  {
+   "it": 62,
+   "period": [
+    5,
+    6
+   ],
+   "assets": [
+    2,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.9,
+   "window_opt_sampled": null,
+   "best_candidate": -68334,
+   "incumbent": -69397
+  },
+  {
+   "it": 63,
+   "period": 4,
+   "assets": [
+    1,
+    3,
+    6,
+    7,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.8,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 64,
+   "period": [
+    2,
+    3
+   ],
+   "assets": [
+    1,
+    2,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.9,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 65,
+   "period": 7,
+   "assets": [
+    0,
+    3,
+    4,
+    5,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -68253,
+   "incumbent": -69397
+  },
+  {
+   "it": 66,
+   "period": [
+    4,
+    5
+   ],
+   "assets": [
+    4,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.1,
+   "window_opt_sampled": null,
+   "best_candidate": -63435,
+   "incumbent": -69397
+  },
+  {
+   "it": 67,
+   "period": 7,
+   "assets": [
+    2,
+    3,
+    6,
+    7,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -68859,
+   "incumbent": -69397
+  },
+  {
+   "it": 68,
+   "period": [
+    0,
+    1
+   ],
+   "assets": [
+    3,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.1,
+   "window_opt_sampled": null,
+   "best_candidate": -66514,
+   "incumbent": -69397
+  },
+  {
+   "it": 69,
+   "period": [
+    4,
+    5
+   ],
+   "assets": [
+    1,
+    2,
+    5
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.0,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 70,
+   "period": [
+    1,
+    2
+   ],
+   "assets": [
+    4,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.8,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 71,
+   "period": 2,
+   "assets": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.8,
+   "window_opt_sampled": null,
+   "best_candidate": -68567,
+   "incumbent": -69397
+  },
+  {
+   "it": 72,
+   "period": 6,
+   "assets": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.8,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 73,
+   "period": 7,
+   "assets": [
+    0,
+    4,
+    5,
+    6,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.7,
+   "window_opt_sampled": null,
+   "best_candidate": -68907,
+   "incumbent": -69397
+  },
+  {
+   "it": 74,
+   "period": [
+    0,
+    1
+   ],
+   "assets": [
+    0,
+    6,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.7,
+   "window_opt_sampled": null,
+   "best_candidate": -65652,
+   "incumbent": -69397
+  },
+  {
+   "it": 75,
+   "period": [
+    4,
+    5
+   ],
+   "assets": [
+    1,
+    5,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.8,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 76,
+   "period": 4,
+   "assets": [
+    0,
+    1,
+    4,
+    5,
+    6,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 77,
+   "period": 5,
+   "assets": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.2,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 78,
+   "period": [
+    3,
+    4
+   ],
+   "assets": [
+    0,
+    5,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 79,
+   "period": 7,
+   "assets": [
+    0,
+    3,
+    4,
+    7,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.2,
+   "window_opt_sampled": null,
+   "best_candidate": -68907,
+   "incumbent": -69397
+  },
+  {
+   "it": 80,
+   "period": [
+    6,
+    7
+   ],
+   "assets": [
+    4,
+    5,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.7,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 81,
+   "period": 5,
+   "assets": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.1,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 82,
+   "period": [
+    2,
+    3
+   ],
+   "assets": [
+    2,
+    3,
+    5
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.2,
+   "window_opt_sampled": null,
+   "best_candidate": -68249,
+   "incumbent": -69397
+  },
+  {
+   "it": 83,
+   "period": 8,
+   "assets": [
+    0,
+    2,
+    3,
+    4,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.2,
+   "window_opt_sampled": null,
+   "best_candidate": -66691,
+   "incumbent": -69397
+  },
+  {
+   "it": 84,
+   "period": [
+    1,
+    2
+   ],
+   "assets": [
+    4,
+    5,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.2,
+   "window_opt_sampled": null,
+   "best_candidate": -65385,
+   "incumbent": -69397
+  },
+  {
+   "it": 85,
+   "period": [
+    1,
+    2
+   ],
+   "assets": [
+    1,
+    4,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.3,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 86,
+   "period": 6,
+   "assets": [
+    2,
+    3,
+    5,
+    6,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.7,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 87,
+   "period": [
+    1,
+    2
+   ],
+   "assets": [
+    2,
+    4,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.6,
+   "window_opt_sampled": null,
+   "best_candidate": -65446,
+   "incumbent": -69397
+  },
+  {
+   "it": 88,
+   "period": 5,
+   "assets": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 89,
+   "period": 1,
+   "assets": [
+    0,
+    2,
+    3,
+    4,
+    6,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.7,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 90,
+   "period": 6,
+   "assets": [
+    0,
+    1,
+    3,
+    4,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69362,
+   "incumbent": -69397
+  },
+  {
+   "it": 91,
+   "period": 5,
+   "assets": [
+    0,
+    2,
+    3,
+    4,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.9,
+   "window_opt_sampled": null,
+   "best_candidate": -67870,
+   "incumbent": -69397
+  },
+  {
+   "it": 92,
+   "period": [
+    3,
+    4
+   ],
+   "assets": [
+    4,
+    5,
+    6
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.9,
+   "window_opt_sampled": null,
+   "best_candidate": -65270,
+   "incumbent": -69397
+  },
+  {
+   "it": 93,
+   "period": [
+    2,
+    3
+   ],
+   "assets": [
+    1,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.7,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 94,
+   "period": [
+    0,
+    1
+   ],
+   "assets": [
+    4,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.7,
+   "window_opt_sampled": null,
+   "best_candidate": -63748,
+   "incumbent": -69397
+  },
+  {
+   "it": 95,
+   "period": [
+    1,
+    2
+   ],
+   "assets": [
+    1,
+    5,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.8,
+   "window_opt_sampled": null,
+   "best_candidate": -65385,
+   "incumbent": -69397
+  },
+  {
+   "it": 96,
+   "period": 1,
+   "assets": [
+    1,
+    2,
+    4,
+    6,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.8,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 97,
+   "period": 2,
+   "assets": [
+    1,
+    2,
+    3,
+    6,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -67065,
+   "incumbent": -69397
+  },
+  {
+   "it": 98,
+   "period": 8,
+   "assets": [
+    0,
+    3,
+    6,
+    7,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.0,
+   "window_opt_sampled": null,
+   "best_candidate": -68290,
+   "incumbent": -69397
+  },
+  {
+   "it": 99,
+   "period": 3,
+   "assets": [
+    2,
+    3,
+    5,
+    6,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.1,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 100,
+   "period": 2,
+   "assets": [
+    0,
+    3,
+    6,
+    7,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69330,
+   "incumbent": -69397
+  },
+  {
+   "it": 101,
+   "period": [
+    0,
+    1
+   ],
+   "assets": [
+    3,
+    4,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.2,
+   "window_opt_sampled": null,
+   "best_candidate": -69152,
+   "incumbent": -69397
+  },
+  {
+   "it": 102,
+   "period": 0,
+   "assets": [
+    1,
+    2,
+    3,
+    6,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.7,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 103,
+   "period": [
+    0,
+    1
+   ],
+   "assets": [
+    0,
+    1,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.2,
+   "window_opt_sampled": null,
+   "best_candidate": -65890,
+   "incumbent": -69397
+  },
+  {
+   "it": 104,
+   "period": 7,
+   "assets": [
+    1,
+    2,
+    3,
+    4,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.8,
+   "window_opt_sampled": null,
+   "best_candidate": -69105,
+   "incumbent": -69397
+  },
+  {
+   "it": 105,
+   "period": [
+    7,
+    8
+   ],
+   "assets": [
+    1,
+    5,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.9,
+   "window_opt_sampled": null,
+   "best_candidate": -69146,
+   "incumbent": -69397
+  },
+  {
+   "it": 106,
+   "period": [
+    1,
+    2
+   ],
+   "assets": [
+    2,
+    6,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.9,
+   "window_opt_sampled": null,
+   "best_candidate": -64038,
+   "incumbent": -69397
+  },
+  {
+   "it": 107,
+   "period": 2,
+   "assets": [
+    1,
+    2,
+    6,
+    7,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69330,
+   "incumbent": -69397
+  },
+  {
+   "it": 108,
+   "period": 1,
+   "assets": [
+    0,
+    1,
+    3,
+    5,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.7,
+   "window_opt_sampled": null,
+   "best_candidate": -69304,
+   "incumbent": -69397
+  },
+  {
+   "it": 109,
+   "period": [
+    7,
+    8
+   ],
+   "assets": [
+    0,
+    4,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.5,
+   "window_opt_sampled": null,
+   "best_candidate": -58273,
+   "incumbent": -69397
+  },
+  {
+   "it": 110,
+   "period": [
+    3,
+    4
+   ],
+   "assets": [
+    0,
+    5,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.3,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 111,
+   "period": [
+    1,
+    2
+   ],
+   "assets": [
+    1,
+    4,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.7,
+   "window_opt_sampled": null,
+   "best_candidate": -65446,
+   "incumbent": -69397
+  },
+  {
+   "it": 112,
+   "period": 1,
+   "assets": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.3,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 113,
+   "period": [
+    7,
+    8
+   ],
+   "assets": [
+    0,
+    3,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.8,
+   "window_opt_sampled": null,
+   "best_candidate": -54662,
+   "incumbent": -69397
+  },
+  {
+   "it": 114,
+   "period": 8,
+   "assets": [
+    2,
+    3,
+    4,
+    5,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.3,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 115,
+   "period": [
+    0,
+    1
+   ],
+   "assets": [
+    4,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.8,
+   "window_opt_sampled": null,
+   "best_candidate": -63540,
+   "incumbent": -69397
+  },
+  {
+   "it": 116,
+   "period": [
+    3,
+    4
+   ],
+   "assets": [
+    0,
+    1,
+    3
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.8,
+   "window_opt_sampled": null,
+   "best_candidate": -68985,
+   "incumbent": -69397
+  },
+  {
+   "it": 117,
+   "period": [
+    0,
+    1
+   ],
+   "assets": [
+    5,
+    6,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 2.1,
+   "window_opt_sampled": null,
+   "best_candidate": -68832,
+   "incumbent": -69397
+  },
+  {
+   "it": 118,
+   "period": [
+    5,
+    6
+   ],
+   "assets": [
+    0,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.5,
+   "window_opt_sampled": null,
+   "best_candidate": -68412,
+   "incumbent": -69397
+  },
+  {
+   "it": 119,
+   "period": [
+    4,
+    5
+   ],
+   "assets": [
+    1,
+    4,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.7,
+   "window_opt_sampled": null,
+   "best_candidate": -61904,
+   "incumbent": -69397
+  },
+  {
+   "it": 120,
+   "period": 7,
+   "assets": [
+    3,
+    4,
+    5,
+    7,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.4,
+   "window_opt_sampled": null,
+   "best_candidate": -68253,
+   "incumbent": -69397
+  },
+  {
+   "it": 121,
+   "period": [
+    2,
+    3
+   ],
+   "assets": [
+    1,
+    4,
+    6
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.8,
+   "window_opt_sampled": null,
+   "best_candidate": -68268,
+   "incumbent": -69397
+  },
+  {
+   "it": 122,
+   "period": [
+    6,
+    7
+   ],
+   "assets": [
+    1,
+    6,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.8,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 123,
+   "period": [
+    1,
+    2
+   ],
+   "assets": [
+    1,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.2,
+   "window_opt_sampled": null,
+   "best_candidate": -66508,
+   "incumbent": -69397
+  },
+  {
+   "it": 124,
+   "period": [
+    5,
+    6
+   ],
+   "assets": [
+    1,
+    4,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 125,
+   "period": [
+    0,
+    1
+   ],
+   "assets": [
+    4,
+    5,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.1,
+   "window_opt_sampled": null,
+   "best_candidate": -61253,
+   "incumbent": -69397
+  },
+  {
+   "it": 126,
+   "period": [
+    7,
+    8
+   ],
+   "assets": [
+    3,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.7,
+   "window_opt_sampled": null,
+   "best_candidate": -66589,
+   "incumbent": -69397
+  },
+  {
+   "it": 127,
+   "period": 2,
+   "assets": [
+    0,
+    2,
+    3,
+    4,
+    5,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.2,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 128,
+   "period": [
+    4,
+    5
+   ],
+   "assets": [
+    1,
+    4,
+    6
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.9,
+   "window_opt_sampled": null,
+   "best_candidate": -67422,
+   "incumbent": -69397
+  },
+  {
+   "it": 129,
+   "period": [
+    1,
+    2
+   ],
+   "assets": [
+    2,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.1,
+   "window_opt_sampled": null,
+   "best_candidate": -68712,
+   "incumbent": -69397
+  },
+  {
+   "it": 130,
+   "period": [
+    1,
+    2
+   ],
+   "assets": [
+    2,
+    3,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.0,
+   "window_opt_sampled": null,
+   "best_candidate": -67813,
+   "incumbent": -69397
+  },
+  {
+   "it": 131,
+   "period": [
+    0,
+    1
+   ],
+   "assets": [
+    2,
+    4,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.0,
+   "window_opt_sampled": null,
+   "best_candidate": -63319,
+   "incumbent": -69397
+  },
+  {
+   "it": 132,
+   "period": [
+    6,
+    7
+   ],
+   "assets": [
+    3,
+    5,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.4,
+   "window_opt_sampled": null,
+   "best_candidate": -66331,
+   "incumbent": -69397
+  },
+  {
+   "it": 133,
+   "period": 4,
+   "assets": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.9,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 134,
+   "period": [
+    3,
+    4
+   ],
+   "assets": [
+    1,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.5,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 135,
+   "period": 8,
+   "assets": [
+    0,
+    1,
+    3,
+    7,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.7,
+   "window_opt_sampled": null,
+   "best_candidate": -69146,
+   "incumbent": -69397
+  },
+  {
+   "it": 136,
+   "period": [
+    7,
+    8
+   ],
+   "assets": [
+    3,
+    6,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.5,
+   "window_opt_sampled": null,
+   "best_candidate": -66589,
+   "incumbent": -69397
+  },
+  {
+   "it": 137,
+   "period": [
+    7,
+    8
+   ],
+   "assets": [
+    4,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.8,
+   "window_opt_sampled": null,
+   "best_candidate": -66691,
+   "incumbent": -69397
+  },
+  {
+   "it": 138,
+   "period": 5,
+   "assets": [
+    1,
+    3,
+    4,
+    6,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.3,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 139,
+   "period": [
+    7,
+    8
+   ],
+   "assets": [
+    4,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.9,
+   "window_opt_sampled": null,
+   "best_candidate": -67681,
+   "incumbent": -69397
+  },
+  {
+   "it": 140,
+   "period": [
+    3,
+    4
+   ],
+   "assets": [
+    3,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.2,
+   "window_opt_sampled": null,
+   "best_candidate": -67126,
+   "incumbent": -69397
+  },
+  {
+   "it": 141,
+   "period": [
+    6,
+    7
+   ],
+   "assets": [
+    1,
+    2,
+    3
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.3,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 142,
+   "period": [
+    1,
+    2
+   ],
+   "assets": [
+    0,
+    4,
+    5
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.1,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 143,
+   "period": 4,
+   "assets": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.3,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 144,
+   "period": [
+    2,
+    3
+   ],
+   "assets": [
+    1,
+    2,
+    6
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.8,
+   "window_opt_sampled": null,
+   "best_candidate": -65883,
+   "incumbent": -69397
+  },
+  {
+   "it": 145,
+   "period": 6,
+   "assets": [
+    0,
+    2,
+    4,
+    6,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.7,
+   "window_opt_sampled": null,
+   "best_candidate": -69370,
+   "incumbent": -69397
+  },
+  {
+   "it": 146,
+   "period": [
+    5,
+    6
+   ],
+   "assets": [
+    3,
+    5,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.7,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 147,
+   "period": 1,
+   "assets": [
+    1,
+    2,
+    3,
+    5,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.9,
+   "window_opt_sampled": null,
+   "best_candidate": -69304,
+   "incumbent": -69397
+  },
+  {
+   "it": 148,
+   "period": 0,
+   "assets": [
+    0,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.9,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 149,
+   "period": [
+    5,
+    6
+   ],
+   "assets": [
+    0,
+    3,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.8,
+   "window_opt_sampled": null,
+   "best_candidate": -66885,
+   "incumbent": -69397
+  },
+  {
+   "it": 150,
+   "period": [
+    1,
+    2
+   ],
+   "assets": [
+    1,
+    3,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.7,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 151,
+   "period": [
+    0,
+    1
+   ],
+   "assets": [
+    2,
+    4,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.4,
+   "window_opt_sampled": null,
+   "best_candidate": -68248,
+   "incumbent": -69397
+  },
+  {
+   "it": 152,
+   "period": [
+    5,
+    6
+   ],
+   "assets": [
+    2,
+    6,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.4,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 153,
+   "period": 8,
+   "assets": [
+    0,
+    1,
+    2,
+    4,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.0,
+   "window_opt_sampled": null,
+   "best_candidate": -69146,
+   "incumbent": -69397
+  },
+  {
+   "it": 154,
+   "period": 1,
+   "assets": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.4,
+   "window_opt_sampled": null,
+   "best_candidate": -69304,
+   "incumbent": -69397
+  },
+  {
+   "it": 155,
+   "period": [
+    5,
+    6
+   ],
+   "assets": [
+    1,
+    5,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.7,
+   "window_opt_sampled": null,
+   "best_candidate": -65964,
+   "incumbent": -69397
+  },
+  {
+   "it": 156,
+   "period": [
+    4,
+    5
+   ],
+   "assets": [
+    4,
+    5,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.3,
+   "window_opt_sampled": null,
+   "best_candidate": -64203,
+   "incumbent": -69397
+  },
+  {
+   "it": 157,
+   "period": 8,
+   "assets": [
+    0,
+    1,
+    2,
+    3,
+    6,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.7,
+   "window_opt_sampled": null,
+   "best_candidate": -69146,
+   "incumbent": -69397
+  },
+  {
+   "it": 158,
+   "period": 7,
+   "assets": [
+    0,
+    1,
+    2,
+    6,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.2,
+   "window_opt_sampled": null,
+   "best_candidate": -69105,
+   "incumbent": -69397
+  },
+  {
+   "it": 159,
+   "period": [
+    7,
+    8
+   ],
+   "assets": [
+    3,
+    4,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.9,
+   "window_opt_sampled": null,
+   "best_candidate": -67275,
+   "incumbent": -69397
+  },
+  {
+   "it": 160,
+   "period": [
+    4,
+    5
+   ],
+   "assets": [
+    1,
+    2,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 2.0,
+   "window_opt_sampled": null,
+   "best_candidate": -63289,
+   "incumbent": -69397
+  },
+  {
+   "it": 161,
+   "period": [
+    4,
+    5
+   ],
+   "assets": [
+    3,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 2.2,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 162,
+   "period": 2,
+   "assets": [
+    0,
+    1,
+    3,
+    5,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.8,
+   "window_opt_sampled": null,
+   "best_candidate": -69397,
+   "incumbent": -69397
+  },
+  {
+   "it": 163,
+   "period": [
+    0,
+    1
+   ],
+   "assets": [
+    4,
+    6,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.8,
+   "window_opt_sampled": null,
+   "best_candidate": -67836,
+   "incumbent": -69397
+  },
+  {
+   "it": 164,
+   "period": 2,
+   "assets": [
+    1,
+    3,
+    4,
+    6,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.7,
+   "window_opt_sampled": null,
+   "best_candidate": -66518,
+   "incumbent": -69397
+  },
+  {
+   "it": 165,
+   "period": [
+    0,
+    1
+   ],
+   "assets": [
+    0,
+    2,
+    4
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.8,
+   "window_opt_sampled": null,
+   "best_candidate": -66770,
+   "incumbent": -69397
+  },
+  {
+   "it": 166,
+   "period": [
+    5,
+    6
+   ],
+   "assets": [
+    3,
+    4,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": -0.1,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 167,
+   "period": [
+    3,
+    4
+   ],
+   "assets": [
+    0,
+    3,
+    4
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 168,
+   "period": [
+    2,
+    3
+   ],
+   "assets": [
+    3,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.6,
+   "window_opt_sampled": null,
+   "best_candidate": -68563,
+   "incumbent": -69482
+  },
+  {
+   "it": 169,
+   "period": [
+    6,
+    7
+   ],
+   "assets": [
+    5,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.4,
+   "window_opt_sampled": null,
+   "best_candidate": -64693,
+   "incumbent": -69482
+  },
+  {
+   "it": 170,
+   "period": [
+    7,
+    8
+   ],
+   "assets": [
+    2,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.7,
+   "window_opt_sampled": null,
+   "best_candidate": -66146,
+   "incumbent": -69482
+  },
+  {
+   "it": 171,
+   "period": [
+    6,
+    7
+   ],
+   "assets": [
+    3,
+    5,
+    6
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.7,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 172,
+   "period": 5,
+   "assets": [
+    0,
+    3,
+    4,
+    5,
+    6,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.7,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 173,
+   "period": [
+    4,
+    5
+   ],
+   "assets": [
+    0,
+    2,
+    5
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.3,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 174,
+   "period": 3,
+   "assets": [
+    1,
+    2,
+    4,
+    6,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.9,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 175,
+   "period": 7,
+   "assets": [
+    0,
+    2,
+    5,
+    6,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.4,
+   "window_opt_sampled": null,
+   "best_candidate": -68992,
+   "incumbent": -69482
+  },
+  {
+   "it": 176,
+   "period": [
+    2,
+    3
+   ],
+   "assets": [
+    1,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 1.0,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 177,
+   "period": [
+    2,
+    3
+   ],
+   "assets": [
+    1,
+    3,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.7,
+   "window_opt_sampled": null,
+   "best_candidate": -69070,
+   "incumbent": -69482
+  },
+  {
+   "it": 178,
+   "period": [
+    4,
+    5
+   ],
+   "assets": [
+    2,
+    6,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 179,
+   "period": [
+    6,
+    7
+   ],
+   "assets": [
+    2,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -64576,
+   "incumbent": -69482
+  },
+  {
+   "it": 180,
+   "period": 2,
+   "assets": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69073,
+   "incumbent": -69482
+  },
+  {
+   "it": 181,
+   "period": 7,
+   "assets": [
+    0,
+    1,
+    2,
+    3,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69190,
+   "incumbent": -69482
+  },
+  {
+   "it": 182,
+   "period": [
+    7,
+    8
+   ],
+   "assets": [
+    2,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -67536,
+   "incumbent": -69482
+  },
+  {
+   "it": 183,
+   "period": [
+    4,
+    5
+   ],
+   "assets": [
+    1,
+    5,
+    6
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69334,
+   "incumbent": -69482
+  },
+  {
+   "it": 184,
+   "period": 7,
+   "assets": [
+    0,
+    1,
+    3,
+    5,
+    6,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.7,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 185,
+   "period": 4,
+   "assets": [
+    1,
+    2,
+    5,
+    6,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 186,
+   "period": 4,
+   "assets": [
+    1,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.7,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 187,
+   "period": [
+    5,
+    6
+   ],
+   "assets": [
+    1,
+    4,
+    6
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 188,
+   "period": [
+    7,
+    8
+   ],
+   "assets": [
+    6,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -67790,
+   "incumbent": -69482
+  },
+  {
+   "it": 189,
+   "period": 3,
+   "assets": [
+    0,
+    1,
+    3,
+    4,
+    6,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.7,
+   "window_opt_sampled": null,
+   "best_candidate": -69480,
+   "incumbent": -69482
+  },
+  {
+   "it": 190,
+   "period": [
+    6,
+    7
+   ],
+   "assets": [
+    1,
+    3,
+    6
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 191,
+   "period": 5,
+   "assets": [
+    0,
+    3,
+    4,
+    5,
+    6,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 192,
+   "period": 3,
+   "assets": [
+    2,
+    3,
+    6,
+    7,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -67657,
+   "incumbent": -69482
+  },
+  {
+   "it": 193,
+   "period": [
+    2,
+    3
+   ],
+   "assets": [
+    1,
+    2,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 194,
+   "period": [
+    4,
+    5
+   ],
+   "assets": [
+    1,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -66846,
+   "incumbent": -69482
+  },
+  {
+   "it": 195,
+   "period": [
+    0,
+    1
+   ],
+   "assets": [
+    0,
+    4,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -61411,
+   "incumbent": -69482
+  },
+  {
+   "it": 196,
+   "period": 0,
+   "assets": [
+    0,
+    1,
+    2,
+    4,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -67222,
+   "incumbent": -69482
+  },
+  {
+   "it": 197,
+   "period": [
+    5,
+    6
+   ],
+   "assets": [
+    2,
+    5,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 198,
+   "period": [
+    0,
+    1
+   ],
+   "assets": [
+    2,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -65736,
+   "incumbent": -69482
+  },
+  {
+   "it": 199,
+   "period": [
+    7,
+    8
+   ],
+   "assets": [
+    0,
+    2,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -59639,
+   "incumbent": -69482
+  },
+  {
+   "it": 200,
+   "period": 4,
+   "assets": [
+    0,
+    1,
+    3,
+    4,
+    5,
+    6
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 201,
+   "period": [
+    0,
+    1
+   ],
+   "assets": [
+    2,
+    4,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -63404,
+   "incumbent": -69482
+  },
+  {
+   "it": 202,
+   "period": 1,
+   "assets": [
+    0,
+    1,
+    4,
+    6,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -68917,
+   "incumbent": -69482
+  },
+  {
+   "it": 203,
+   "period": [
+    0,
+    1
+   ],
+   "assets": [
+    1,
+    2,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 204,
+   "period": 7,
+   "assets": [
+    0,
+    2,
+    3,
+    4,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -68180,
+   "incumbent": -69482
+  },
+  {
+   "it": 205,
+   "period": 2,
+   "assets": [
+    1,
+    2,
+    4,
+    6,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -68590,
+   "incumbent": -69482
+  },
+  {
+   "it": 206,
+   "period": [
+    0,
+    1
+   ],
+   "assets": [
+    5,
+    6,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 207,
+   "period": [
+    1,
+    2
+   ],
+   "assets": [
+    0,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -68195,
+   "incumbent": -69482
+  },
+  {
+   "it": 208,
+   "period": 4,
+   "assets": [
+    1,
+    2,
+    3,
+    5,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 209,
+   "period": [
+    0,
+    1
+   ],
+   "assets": [
+    0,
+    1,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -65975,
+   "incumbent": -69482
+  },
+  {
+   "it": 210,
+   "period": 2,
+   "assets": [
+    0,
+    2,
+    3,
+    6,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -68652,
+   "incumbent": -69482
+  },
+  {
+   "it": 211,
+   "period": 8,
+   "assets": [
+    0,
+    4,
+    6,
+    7,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -68375,
+   "incumbent": -69482
+  },
+  {
+   "it": 212,
+   "period": [
+    6,
+    7
+   ],
+   "assets": [
+    2,
+    6,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 213,
+   "period": [
+    6,
+    7
+   ],
+   "assets": [
+    0,
+    5,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -66416,
+   "incumbent": -69482
+  },
+  {
+   "it": 214,
+   "period": [
+    7,
+    8
+   ],
+   "assets": [
+    2,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -67916,
+   "incumbent": -69482
+  },
+  {
+   "it": 215,
+   "period": [
+    6,
+    7
+   ],
+   "assets": [
+    1,
+    2,
+    3
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 216,
+   "period": 0,
+   "assets": [
+    0,
+    3,
+    4,
+    5,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -68990,
+   "incumbent": -69482
+  },
+  {
+   "it": 217,
+   "period": [
+    0,
+    1
+   ],
+   "assets": [
+    6,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -65515,
+   "incumbent": -69482
+  },
+  {
+   "it": 218,
+   "period": [
+    0,
+    1
+   ],
+   "assets": [
+    1,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.8,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 219,
+   "period": [
+    7,
+    8
+   ],
+   "assets": [
+    4,
+    5,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -67536,
+   "incumbent": -69482
+  },
+  {
+   "it": 220,
+   "period": 4,
+   "assets": [
+    0,
+    2,
+    3,
+    4,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 221,
+   "period": 3,
+   "assets": [
+    0,
+    1,
+    4,
+    5,
+    6,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 222,
+   "period": [
+    5,
+    6
+   ],
+   "assets": [
+    4,
+    5,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 223,
+   "period": [
+    7,
+    8
+   ],
+   "assets": [
+    1,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -68112,
+   "incumbent": -69482
+  },
+  {
+   "it": 224,
+   "period": [
+    3,
+    4
+   ],
+   "assets": [
+    1,
+    4,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 225,
+   "period": 1,
+   "assets": [
+    1,
+    4,
+    5,
+    6,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -69389,
+   "incumbent": -69482
+  },
+  {
+   "it": 226,
+   "period": 1,
+   "assets": [
+    1,
+    2,
+    3,
+    6,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -65736,
+   "incumbent": -69482
+  },
+  {
+   "it": 227,
+   "period": [
+    2,
+    3
+   ],
+   "assets": [
+    0,
+    6,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -66872,
+   "incumbent": -69482
+  },
+  {
+   "it": 228,
+   "period": 7,
+   "assets": [
+    0,
+    2,
+    3,
+    5,
+    6,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 229,
+   "period": [
+    1,
+    2
+   ],
+   "assets": [
+    2,
+    4,
+    6
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -64123,
+   "incumbent": -69482
+  },
+  {
+   "it": 230,
+   "period": [
+    5,
+    6
+   ],
+   "assets": [
+    0,
+    2,
+    3
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -68704,
+   "incumbent": -69482
+  },
+  {
+   "it": 231,
+   "period": 4,
+   "assets": [
+    0,
+    2,
+    3,
+    6,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 232,
+   "period": [
+    5,
+    6
+   ],
+   "assets": [
+    2,
+    3,
+    4
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 233,
+   "period": 0,
+   "assets": [
+    0,
+    1,
+    3,
+    4,
+    6,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -68990,
+   "incumbent": -69482
+  },
+  {
+   "it": 234,
+   "period": [
+    5,
+    6
+   ],
+   "assets": [
+    1,
+    2,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 235,
+   "period": [
+    3,
+    4
+   ],
+   "assets": [
+    6,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.4,
+   "window_opt_sampled": null,
+   "best_candidate": -63290,
+   "incumbent": -69482
+  },
+  {
+   "it": 236,
+   "period": [
+    2,
+    3
+   ],
+   "assets": [
+    2,
+    6,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -67471,
+   "incumbent": -69482
+  },
+  {
+   "it": 237,
+   "period": [
+    0,
+    1
+   ],
+   "assets": [
+    0,
+    1,
+    2
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 238,
+   "period": [
+    2,
+    3
+   ],
+   "assets": [
+    3,
+    4,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -69480,
+   "incumbent": -69482
+  },
+  {
+   "it": 239,
+   "period": [
+    6,
+    7
+   ],
+   "assets": [
+    2,
+    3,
+    4
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 240,
+   "period": 3,
+   "assets": [
+    0,
+    2,
+    6,
+    7,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 241,
+   "period": 8,
+   "assets": [
+    0,
+    3,
+    6,
+    7,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -68375,
+   "incumbent": -69482
+  },
+  {
+   "it": 242,
+   "period": [
+    2,
+    3
+   ],
+   "assets": [
+    1,
+    4,
+    6
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -65792,
+   "incumbent": -69482
+  },
+  {
+   "it": 243,
+   "period": 1,
+   "assets": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -67091,
+   "incumbent": -69482
+  },
+  {
+   "it": 244,
+   "period": [
+    1,
+    2
+   ],
+   "assets": [
+    1,
+    2,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -66085,
+   "incumbent": -69482
+  },
+  {
+   "it": 245,
+   "period": 0,
+   "assets": [
+    1,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 246,
+   "period": 6,
+   "assets": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 247,
+   "period": [
+    6,
+    7
+   ],
+   "assets": [
+    2,
+    4,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 248,
+   "period": 6,
+   "assets": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -69447,
+   "incumbent": -69482
+  },
+  {
+   "it": 249,
+   "period": 0,
+   "assets": [
+    1,
+    3,
+    4,
+    5,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -67612,
+   "incumbent": -69482
+  },
+  {
+   "it": 250,
+   "period": [
+    2,
+    3
+   ],
+   "assets": [
+    0,
+    1,
+    3
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -69070,
+   "incumbent": -69482
+  },
+  {
+   "it": 251,
+   "period": 5,
+   "assets": [
+    1,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 252,
+   "period": [
+    1,
+    2
+   ],
+   "assets": [
+    0,
+    6,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -66026,
+   "incumbent": -69482
+  },
+  {
+   "it": 253,
+   "period": [
+    7,
+    8
+   ],
+   "assets": [
+    0,
+    6,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -54711,
+   "incumbent": -69482
+  },
+  {
+   "it": 254,
+   "period": [
+    7,
+    8
+   ],
+   "assets": [
+    1,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -68112,
+   "incumbent": -69482
+  },
+  {
+   "it": 255,
+   "period": [
+    3,
+    4
+   ],
+   "assets": [
+    0,
+    2,
+    6
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -68484,
+   "incumbent": -69482
+  },
+  {
+   "it": 256,
+   "period": [
+    6,
+    7
+   ],
+   "assets": [
+    0,
+    2,
+    4
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 257,
+   "period": 5,
+   "assets": [
+    1,
+    2,
+    4,
+    6,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 258,
+   "period": 6,
+   "assets": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 259,
+   "period": 3,
+   "assets": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -69480,
+   "incumbent": -69482
+  },
+  {
+   "it": 260,
+   "period": 5,
+   "assets": [
+    1,
+    2,
+    3,
+    7,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 261,
+   "period": 7,
+   "assets": [
+    1,
+    2,
+    3,
+    7,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -68944,
+   "incumbent": -69482
+  },
+  {
+   "it": 262,
+   "period": [
+    6,
+    7
+   ],
+   "assets": [
+    2,
+    3,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 263,
+   "period": [
+    7,
+    8
+   ],
+   "assets": [
+    0,
+    6,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -54711,
+   "incumbent": -69482
+  },
+  {
+   "it": 264,
+   "period": 5,
+   "assets": [
+    0,
+    1,
+    3,
+    5,
+    6,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 265,
+   "period": 3,
+   "assets": [
+    0,
+    1,
+    4,
+    6,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 266,
+   "period": 4,
+   "assets": [
+    0,
+    1,
+    2,
+    5,
+    6,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 267,
+   "period": [
+    1,
+    2
+   ],
+   "assets": [
+    3,
+    6,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -64123,
+   "incumbent": -69482
+  },
+  {
+   "it": 268,
+   "period": [
+    0,
+    1
+   ],
+   "assets": [
+    2,
+    4,
+    5
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -68333,
+   "incumbent": -69482
+  },
+  {
+   "it": 269,
+   "period": [
+    4,
+    5
+   ],
+   "assets": [
+    6,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -67923,
+   "incumbent": -69482
+  },
+  {
+   "it": 270,
+   "period": [
+    6,
+    7
+   ],
+   "assets": [
+    1,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 271,
+   "period": 2,
+   "assets": [
+    0,
+    4,
+    6,
+    7,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69415,
+   "incumbent": -69482
+  },
+  {
+   "it": 272,
+   "period": [
+    4,
+    5
+   ],
+   "assets": [
+    3,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -63545,
+   "incumbent": -69482
+  },
+  {
+   "it": 273,
+   "period": [
+    1,
+    2
+   ],
+   "assets": [
+    4,
+    5,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -65470,
+   "incumbent": -69482
+  },
+  {
+   "it": 274,
+   "period": 2,
+   "assets": [
+    0,
+    1,
+    2,
+    6,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -68652,
+   "incumbent": -69482
+  },
+  {
+   "it": 275,
+   "period": [
+    3,
+    4
+   ],
+   "assets": [
+    0,
+    2,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 276,
+   "period": [
+    2,
+    3
+   ],
+   "assets": [
+    0,
+    2,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 277,
+   "period": 7,
+   "assets": [
+    1,
+    2,
+    6,
+    7,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -68944,
+   "incumbent": -69482
+  },
+  {
+   "it": 278,
+   "period": [
+    4,
+    5
+   ],
+   "assets": [
+    3,
+    4,
+    5
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 279,
+   "period": [
+    7,
+    8
+   ],
+   "assets": [
+    3,
+    4,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 280,
+   "period": [
+    2,
+    3
+   ],
+   "assets": [
+    1,
+    4,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 281,
+   "period": [
+    6,
+    7
+   ],
+   "assets": [
+    2,
+    3,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 282,
+   "period": 7,
+   "assets": [
+    1,
+    3,
+    6,
+    7,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -68355,
+   "incumbent": -69482
+  },
+  {
+   "it": 283,
+   "period": [
+    4,
+    5
+   ],
+   "assets": [
+    0,
+    3,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -67929,
+   "incumbent": -69482
+  },
+  {
+   "it": 284,
+   "period": 5,
+   "assets": [
+    0,
+    1,
+    3,
+    5,
+    6,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 285,
+   "period": [
+    7,
+    8
+   ],
+   "assets": [
+    1,
+    3,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 286,
+   "period": [
+    4,
+    5
+   ],
+   "assets": [
+    5,
+    6,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 287,
+   "period": 2,
+   "assets": [
+    0,
+    3,
+    4,
+    6,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -68451,
+   "incumbent": -69482
+  },
+  {
+   "it": 288,
+   "period": [
+    2,
+    3
+   ],
+   "assets": [
+    2,
+    4,
+    5
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 289,
+   "period": [
+    1,
+    2
+   ],
+   "assets": [
+    4,
+    6,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -60172,
+   "incumbent": -69482
+  },
+  {
+   "it": 290,
+   "period": [
+    0,
+    1
+   ],
+   "assets": [
+    0,
+    6,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 291,
+   "period": [
+    2,
+    3
+   ],
+   "assets": [
+    0,
+    4,
+    6
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -65845,
+   "incumbent": -69482
+  },
+  {
+   "it": 292,
+   "period": 8,
+   "assets": [
+    0,
+    1,
+    3,
+    4,
+    6,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 293,
+   "period": 5,
+   "assets": [
+    0,
+    1,
+    2,
+    5,
+    6,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 294,
+   "period": [
+    5,
+    6
+   ],
+   "assets": [
+    0,
+    3,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 295,
+   "period": [
+    6,
+    7
+   ],
+   "assets": [
+    2,
+    5,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -67922,
+   "incumbent": -69482
+  },
+  {
+   "it": 296,
+   "period": [
+    0,
+    1
+   ],
+   "assets": [
+    6,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 297,
+   "period": 7,
+   "assets": [
+    0,
+    1,
+    2,
+    5,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 298,
+   "period": [
+    2,
+    3
+   ],
+   "assets": [
+    3,
+    4,
+    6
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -60711,
+   "incumbent": -69482
+  },
+  {
+   "it": 299,
+   "period": 6,
+   "assets": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69145,
+   "incumbent": -69482
+  },
+  {
+   "it": 300,
+   "period": [
+    7,
+    8
+   ],
+   "assets": [
+    0,
+    1,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -61736,
+   "incumbent": -69482
+  },
+  {
+   "it": 301,
+   "period": [
+    4,
+    5
+   ],
+   "assets": [
+    2,
+    6,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -58740,
+   "incumbent": -69482
+  },
+  {
+   "it": 302,
+   "period": [
+    6,
+    7
+   ],
+   "assets": [
+    4,
+    6,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 303,
+   "period": [
+    3,
+    4
+   ],
+   "assets": [
+    2,
+    6,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -68484,
+   "incumbent": -69482
+  },
+  {
+   "it": 304,
+   "period": [
+    0,
+    1
+   ],
+   "assets": [
+    1,
+    5,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 305,
+   "period": 7,
+   "assets": [
+    0,
+    1,
+    3,
+    7,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69190,
+   "incumbent": -69482
+  },
+  {
+   "it": 306,
+   "period": 3,
+   "assets": [
+    0,
+    1,
+    2,
+    7,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 307,
+   "period": [
+    2,
+    3
+   ],
+   "assets": [
+    2,
+    3,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -67557,
+   "incumbent": -69482
+  },
+  {
+   "it": 308,
+   "period": [
+    1,
+    2
+   ],
+   "assets": [
+    0,
+    1,
+    6
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -65360,
+   "incumbent": -69482
+  },
+  {
+   "it": 309,
+   "period": 1,
+   "assets": [
+    1,
+    2,
+    3,
+    7,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -67260,
+   "incumbent": -69482
+  },
+  {
+   "it": 310,
+   "period": [
+    3,
+    4
+   ],
+   "assets": [
+    3,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -68822,
+   "incumbent": -69482
+  },
+  {
+   "it": 311,
+   "period": 0,
+   "assets": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69237,
+   "incumbent": -69482
+  },
+  {
+   "it": 312,
+   "period": [
+    7,
+    8
+   ],
+   "assets": [
+    0,
+    2,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": -0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -54711,
+   "incumbent": -69482
+  },
+  {
+   "it": 313,
+   "period": 1,
+   "assets": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 314,
+   "period": 5,
+   "assets": [
+    0,
+    1,
+    4,
+    5,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 315,
+   "period": 3,
+   "assets": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.7,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 316,
+   "period": [
+    3,
+    4
+   ],
+   "assets": [
+    0,
+    2,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 317,
+   "period": 3,
+   "assets": [
+    0,
+    2,
+    3,
+    5,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 318,
+   "period": 7,
+   "assets": [
+    0,
+    3,
+    5,
+    7,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.4,
+   "window_opt_sampled": null,
+   "best_candidate": -68992,
+   "incumbent": -69482
+  },
+  {
+   "it": 319,
+   "period": [
+    1,
+    2
+   ],
+   "assets": [
+    1,
+    4,
+    5
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 320,
+   "period": 6,
+   "assets": [
+    2,
+    3,
+    5,
+    7,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 321,
+   "period": 8,
+   "assets": [
+    0,
+    3,
+    4,
+    7,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -66776,
+   "incumbent": -69482
+  },
+  {
+   "it": 322,
+   "period": 7,
+   "assets": [
+    0,
+    2,
+    3,
+    7,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.4,
+   "window_opt_sampled": null,
+   "best_candidate": -68992,
+   "incumbent": -69482
+  },
+  {
+   "it": 323,
+   "period": [
+    5,
+    6
+   ],
+   "assets": [
+    0,
+    5,
+    6
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 324,
+   "period": 0,
+   "assets": [
+    0,
+    1,
+    2,
+    5,
+    6,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 325,
+   "period": 0,
+   "assets": [
+    0,
+    3,
+    4,
+    5,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.4,
+   "window_opt_sampled": null,
+   "best_candidate": -68486,
+   "incumbent": -69482
+  },
+  {
+   "it": 326,
+   "period": 4,
+   "assets": [
+    0,
+    3,
+    4,
+    5,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 327,
+   "period": [
+    3,
+    4
+   ],
+   "assets": [
+    1,
+    4,
+    6
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -66847,
+   "incumbent": -69482
+  },
+  {
+   "it": 328,
+   "period": [
+    4,
+    5
+   ],
+   "assets": [
+    3,
+    5,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -62075,
+   "incumbent": -69482
+  },
+  {
+   "it": 329,
+   "period": [
+    6,
+    7
+   ],
+   "assets": [
+    4,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -66416,
+   "incumbent": -69482
+  },
+  {
+   "it": 330,
+   "period": [
+    0,
+    1
+   ],
+   "assets": [
+    2,
+    6,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 331,
+   "period": [
+    3,
+    4
+   ],
+   "assets": [
+    0,
+    4,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 332,
+   "period": 3,
+   "assets": [
+    0,
+    3,
+    5,
+    6,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69186,
+   "incumbent": -69482
+  },
+  {
+   "it": 333,
+   "period": [
+    4,
+    5
+   ],
+   "assets": [
+    2,
+    3,
+    5
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 334,
+   "period": 2,
+   "assets": [
+    0,
+    1,
+    3,
+    4,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 335,
+   "period": [
+    6,
+    7
+   ],
+   "assets": [
+    2,
+    3,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 336,
+   "period": [
+    2,
+    3
+   ],
+   "assets": [
+    2,
+    4,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 337,
+   "period": [
+    6,
+    7
+   ],
+   "assets": [
+    1,
+    5,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -69447,
+   "incumbent": -69482
+  },
+  {
+   "it": 338,
+   "period": 2,
+   "assets": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -68149,
+   "incumbent": -69482
+  },
+  {
+   "it": 339,
+   "period": [
+    2,
+    3
+   ],
+   "assets": [
+    1,
+    6,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": -0.7,
+   "window_opt_sampled": null,
+   "best_candidate": -66878,
+   "incumbent": -69482
+  },
+  {
+   "it": 340,
+   "period": [
+    6,
+    7
+   ],
+   "assets": [
+    0,
+    1,
+    4
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 341,
+   "period": 6,
+   "assets": [
+    1,
+    2,
+    3,
+    7,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 342,
+   "period": [
+    5,
+    6
+   ],
+   "assets": [
+    2,
+    3,
+    4
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 343,
+   "period": [
+    6,
+    7
+   ],
+   "assets": [
+    2,
+    4,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 344,
+   "period": 6,
+   "assets": [
+    1,
+    3,
+    5,
+    6,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 345,
+   "period": 1,
+   "assets": [
+    3,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -69389,
+   "incumbent": -69482
+  },
+  {
+   "it": 346,
+   "period": 3,
+   "assets": [
+    0,
+    1,
+    2,
+    3,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.8,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 347,
+   "period": 2,
+   "assets": [
+    2,
+    3,
+    5,
+    6,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69073,
+   "incumbent": -69482
+  },
+  {
+   "it": 348,
+   "period": [
+    1,
+    2
+   ],
+   "assets": [
+    1,
+    2,
+    4
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 349,
+   "period": [
+    0,
+    1
+   ],
+   "assets": [
+    4,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -63625,
+   "incumbent": -69482
+  },
+  {
+   "it": 350,
+   "period": [
+    4,
+    5
+   ],
+   "assets": [
+    4,
+    6,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -58431,
+   "incumbent": -69482
+  },
+  {
+   "it": 351,
+   "period": [
+    4,
+    5
+   ],
+   "assets": [
+    2,
+    4,
+    6
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -68484,
+   "incumbent": -69482
+  },
+  {
+   "it": 352,
+   "period": [
+    6,
+    7
+   ],
+   "assets": [
+    0,
+    3,
+    4
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 353,
+   "period": [
+    3,
+    4
+   ],
+   "assets": [
+    1,
+    5,
+    6
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -62087,
+   "incumbent": -69482
+  },
+  {
+   "it": 354,
+   "period": [
+    5,
+    6
+   ],
+   "assets": [
+    3,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -67231,
+   "incumbent": -69482
+  },
+  {
+   "it": 355,
+   "period": [
+    5,
+    6
+   ],
+   "assets": [
+    1,
+    3,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -62621,
+   "incumbent": -69482
+  },
+  {
+   "it": 356,
+   "period": [
+    0,
+    1
+   ],
+   "assets": [
+    3,
+    4,
+    6
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -67331,
+   "incumbent": -69482
+  },
+  {
+   "it": 357,
+   "period": [
+    3,
+    4
+   ],
+   "assets": [
+    5,
+    6,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -67507,
+   "incumbent": -69482
+  },
+  {
+   "it": 358,
+   "period": 0,
+   "assets": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69237,
+   "incumbent": -69482
+  },
+  {
+   "it": 359,
+   "period": [
+    1,
+    2
+   ],
+   "assets": [
+    2,
+    6,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -60726,
+   "incumbent": -69482
+  },
+  {
+   "it": 360,
+   "period": [
+    0,
+    1
+   ],
+   "assets": [
+    1,
+    3,
+    6
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -67777,
+   "incumbent": -69482
+  },
+  {
+   "it": 361,
+   "period": [
+    6,
+    7
+   ],
+   "assets": [
+    1,
+    3,
+    6
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 362,
+   "period": [
+    1,
+    2
+   ],
+   "assets": [
+    1,
+    2,
+    5
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 363,
+   "period": 5,
+   "assets": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 364,
+   "period": [
+    4,
+    5
+   ],
+   "assets": [
+    1,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -66846,
+   "incumbent": -69482
+  },
+  {
+   "it": 365,
+   "period": [
+    2,
+    3
+   ],
+   "assets": [
+    2,
+    5,
+    6
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -66851,
+   "incumbent": -69482
+  },
+  {
+   "it": 366,
+   "period": 0,
+   "assets": [
+    0,
+    1,
+    2,
+    3,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 367,
+   "period": 7,
+   "assets": [
+    0,
+    1,
+    4,
+    6,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -68992,
+   "incumbent": -69482
+  },
+  {
+   "it": 368,
+   "period": 7,
+   "assets": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 369,
+   "period": [
+    0,
+    1
+   ],
+   "assets": [
+    2,
+    5,
+    6
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -68024,
+   "incumbent": -69482
+  },
+  {
+   "it": 370,
+   "period": [
+    4,
+    5
+   ],
+   "assets": [
+    4,
+    6,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 371,
+   "period": 2,
+   "assets": [
+    0,
+    2,
+    3,
+    5,
+    6,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -69073,
+   "incumbent": -69482
+  },
+  {
+   "it": 372,
+   "period": [
+    6,
+    7
+   ],
+   "assets": [
+    0,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 373,
+   "period": [
+    0,
+    1
+   ],
+   "assets": [
+    4,
+    5,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -62921,
+   "incumbent": -69482
+  },
+  {
+   "it": 374,
+   "period": [
+    0,
+    1
+   ],
+   "assets": [
+    2,
+    5,
+    6
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -68024,
+   "incumbent": -69482
+  },
+  {
+   "it": 375,
+   "period": [
+    1,
+    2
+   ],
+   "assets": [
+    1,
+    2,
+    4
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 376,
+   "period": [
+    2,
+    3
+   ],
+   "assets": [
+    0,
+    3,
+    5
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.7,
+   "window_opt_sampled": null,
+   "best_candidate": -68334,
+   "incumbent": -69482
+  },
+  {
+   "it": 377,
+   "period": 2,
+   "assets": [
+    3,
+    4,
+    6,
+    7,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.9,
+   "window_opt_sampled": null,
+   "best_candidate": -69415,
+   "incumbent": -69482
+  },
+  {
+   "it": 378,
+   "period": [
+    5,
+    6
+   ],
+   "assets": [
+    3,
+    5,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 379,
+   "period": 8,
+   "assets": [
+    0,
+    1,
+    4,
+    5,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 380,
+   "period": [
+    6,
+    7
+   ],
+   "assets": [
+    0,
+    5,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -66416,
+   "incumbent": -69482
+  },
+  {
+   "it": 381,
+   "period": [
+    4,
+    5
+   ],
+   "assets": [
+    6,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -62552,
+   "incumbent": -69482
+  },
+  {
+   "it": 382,
+   "period": [
+    6,
+    7
+   ],
+   "assets": [
+    0,
+    1,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -66416,
+   "incumbent": -69482
+  },
+  {
+   "it": 383,
+   "period": 3,
+   "assets": [
+    0,
+    2,
+    3,
+    7,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.7,
+   "window_opt_sampled": null,
+   "best_candidate": -68822,
+   "incumbent": -69482
+  },
+  {
+   "it": 384,
+   "period": 8,
+   "assets": [
+    0,
+    1,
+    5,
+    6,
+    7,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.7,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 385,
+   "period": [
+    4,
+    5
+   ],
+   "assets": [
+    0,
+    5,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 386,
+   "period": 8,
+   "assets": [
+    0,
+    1,
+    5,
+    6,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 387,
+   "period": [
+    1,
+    2
+   ],
+   "assets": [
+    1,
+    3,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -65434,
+   "incumbent": -69482
+  },
+  {
+   "it": 388,
+   "period": [
+    5,
+    6
+   ],
+   "assets": [
+    2,
+    3,
+    6
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -68610,
+   "incumbent": -69482
+  },
+  {
+   "it": 389,
+   "period": 8,
+   "assets": [
+    1,
+    2,
+    3,
+    4,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.7,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 390,
+   "period": [
+    0,
+    1
+   ],
+   "assets": [
+    3,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -66599,
+   "incumbent": -69482
+  },
+  {
+   "it": 391,
+   "period": 0,
+   "assets": [
+    2,
+    4,
+    5,
+    6,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -68613,
+   "incumbent": -69482
+  },
+  {
+   "it": 392,
+   "period": [
+    7,
+    8
+   ],
+   "assets": [
+    2,
+    4,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 393,
+   "period": [
+    0,
+    1
+   ],
+   "assets": [
+    0,
+    3,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -65415,
+   "incumbent": -69482
+  },
+  {
+   "it": 394,
+   "period": 1,
+   "assets": [
+    0,
+    1,
+    2,
+    4,
+    6,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -66834,
+   "incumbent": -69482
+  },
+  {
+   "it": 395,
+   "period": [
+    5,
+    6
+   ],
+   "assets": [
+    2,
+    6,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 396,
+   "period": 3,
+   "assets": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 397,
+   "period": [
+    0,
+    1
+   ],
+   "assets": [
+    1,
+    3,
+    7
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.6,
+   "window_opt_sampled": null,
+   "best_candidate": -65574,
+   "incumbent": -69482
+  },
+  {
+   "it": 398,
+   "period": [
+    5,
+    6
+   ],
+   "assets": [
+    2,
+    6,
+    8
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -69482,
+   "incumbent": -69482
+  },
+  {
+   "it": 399,
+   "period": [
+    0,
+    1
+   ],
+   "assets": [
+    6,
+    7,
+    9
+   ],
+   "qubits": 9,
+   "circuits": 321,
+   "sec": 0.5,
+   "window_opt_sampled": null,
+   "best_candidate": -66593,
+   "incumbent": -69482
+  }
+ ],
+ "final": -69482,
+ "bkv": -69482
+}

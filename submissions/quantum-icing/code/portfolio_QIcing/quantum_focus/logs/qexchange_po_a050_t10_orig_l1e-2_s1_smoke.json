@@ -1,0 +1,105 @@
+{
+ "args": {
+  "instance": "po_a050_t10_orig",
+  "lam": "1e-2",
+  "start": "best",
+  "iters": 4,
+  "assets": 4,
+  "days": 1,
+  "time_edges": false,
+  "max_qubits": 12,
+  "n_layers": 2,
+  "mc_population": 20,
+  "mc_iterations": 4,
+  "shots": 2000,
+  "cloud_from": 99,
+  "seed": 1,
+  "time_limit": 1800,
+  "tag": "_smoke"
+ },
+ "start": "/mnt/d/Repos/Quantum_Munich_Challenges_TUM_Hackathon_PushQuantum_2026/quantum-icing-qoro/portfolio_QIcing/solutions/po_a050_t10_orig_b020_l1e-2/po_a050_t10_orig_b020_l1e-2__lns__20261121-221136.sol",
+ "log": [
+  {
+   "it": 0,
+   "days": [
+    4
+   ],
+   "assets": [
+    22,
+    29,
+    46,
+    49
+   ],
+   "qubits": 9,
+   "edges": 36,
+   "backend": "local",
+   "sec": 0.6,
+   "weight_kept": 3,
+   "n_cands": 3,
+   "cand": -34520,
+   "incumbent": -34520
+  },
+  {
+   "it": 1,
+   "days": [
+    7
+   ],
+   "assets": [
+    10,
+    18,
+    22,
+    29
+   ],
+   "qubits": 10,
+   "edges": 45,
+   "backend": "local",
+   "sec": 0.6,
+   "weight_kept": 4,
+   "n_cands": 4,
+   "cand": -34520,
+   "incumbent": -34520
+  },
+  {
+   "it": 2,
+   "days": [
+    7
+   ],
+   "assets": [
+    2,
+    12,
+    18,
+    24
+   ],
+   "qubits": 9,
+   "edges": 36,
+   "backend": "local",
+   "sec": 0.5,
+   "weight_kept": 5,
+   "n_cands": 5,
+   "cand": -34520,
+   "incumbent": -34520
+  },
+  {
+   "it": 3,
+   "days": [
+    3
+   ],
+   "assets": [
+    19,
+    21,
+    26,
+    47
+   ],
+   "qubits": 11,
+   "edges": 55,
+   "backend": "local",
+   "sec": 0.9,
+   "weight_kept": 31,
+   "n_cands": 31,
+   "cand": -34520,
+   "incumbent": -34520
+  }
+ ],
+ "final": -34520,
+ "bkv": -37107
+}

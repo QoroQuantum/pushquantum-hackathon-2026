@@ -1,0 +1,11 @@
+po_a010_t10_orig B=4 λ=1e-4: compact QUBO 630 vars; BKV -69482 (best known)
+start objective -1000
+characterization 12s, job c3a51b2e-ad3f-4cae-924b-b4ce2c013196
+CharacterizationResult(job_id='c3a51b2e-ad3f-4cae-924b-b4ce2c013196', status='COMPLETED')
+  The exact optimum is already known classically; use QAOA here to tune or benchmark it before scaling up.
+  [action] Use p = 5 layers: the deeper layer counts computed gain little over it.
+  [action] Use a penalty weight λ ≈ 0.1: the ground state is feasible there with the widest gap to the next energy level.
+  [info] At the requested p = 2 layers QAOA's mean energy closes 91.2% of the gap from random guessing to the optimum.
+  [info] This report's QAOA results are at the submitted QUBO's λ = 5000; rebuild the QUBO with λ ≈ 0.1 and resubmit to see QAOA there.
+penalty: {'exact': True, 'qaoa_lambda': 5000.0, 'safe_lambda': 0.0, 'search_range': [0.01, 100.0], 'penalty_to_cost': 56.15013566475731, 'recommended_lambda': 0.1, 'min_feasible_lambda': 0.01}
+penalty weight 5000, n_layers 4, warm start yes

@@ -1,0 +1,8 @@
+# inst lam start minutes [qlns args]   (all: QAOA sub-solver, Maestro simulator)
+po_a050_t10_s01 1e-3 best 12 --seed 11 --kround 16 --kmove 7 --p-round 0.7 --p-block 0 --check-oracle 0.05 --angles portfolio_quantum/angles/a050_l1e-3.json
+po_a050_t15_s00 1e-3 best 12 --seed 11 --kround 16 --kmove 7 --p-round 0.7 --p-block 0 --check-oracle 0.05 --angles portfolio_quantum/angles/a050_l1e-3.json
+po_a050_t15_s01 1e-3 best 12 --seed 11 --kround 16 --kmove 7 --p-round 0.7 --p-block 0 --check-oracle 0.05 --angles portfolio_quantum/angles/a050_l1e-3.json
+po_a050_t15_s02 1e-3 best 12 --seed 11 --kround 16 --kmove 7 --p-round 0.7 --p-block 0 --check-oracle 0.05 --angles portfolio_quantum/angles/a050_l1e-3.json
+po_a050_t15_orig 1e-3 best 12 --seed 11 --kround 16 --kmove 7 --p-round 0.7 --p-block 0 --check-oracle 0.05 --angles portfolio_quantum/angles/a050_l1e-3.json
+po_a050_t10_orig 1e-3 best 12 --seed 11 --kround 16 --kmove 7 --p-round 0.7 --p-block 0 --check-oracle 0.05 --angles portfolio_quantum/angles/a050_l1e-3.json
+po_a050_t10_s02 1e-3 best 12 --seed 11 --kround 16 --kmove 7 --p-round 0.7 --p-block 0 --check-oracle 0.05 --angles portfolio_quantum/angles/a050_l1e-3.json

@@ -1,0 +1,2 @@
+sa_po_a050_t15_s01_l1e-2_best_s0: BKV -13706 (best known), our previous best -12983 (po_a050_t15_s01_b020_l1e-2__lns__20261121-222306.sol)
+RESULT sa_po_a050_t15_s01_l1e-2_best_s0: raw -12983 (+5.28%) -> polished -12983 (+5.28%) BKV -13706 prev -12983 recorded=True [150.5s]

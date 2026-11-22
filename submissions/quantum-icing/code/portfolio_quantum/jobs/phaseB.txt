@@ -1,0 +1,9 @@
+# λ = 5e-4 from the earlier classical best (QAOA sub-solver)
+po_a050_t15_s01 5e-4 qbest 12 --seed 21 --kround 16 --kmove 7 --p-round 0.7 --p-block 0 --check-oracle 0.05 --angles portfolio_quantum/angles/a050_l5e-4.json
+po_a050_t15_orig 5e-4 qbest 12 --seed 21 --kround 16 --kmove 7 --p-round 0.7 --p-block 0 --check-oracle 0.05 --angles portfolio_quantum/angles/a050_l5e-4.json
+po_a050_t10_orig 5e-4 qbest 12 --seed 21 --kround 16 --kmove 7 --p-round 0.7 --p-block 0 --check-oracle 0.05 --angles portfolio_quantum/angles/a050_l5e-4.json
+po_a050_t15_s00 5e-4 qbest 12 --seed 21 --kround 16 --kmove 7 --p-round 0.7 --p-block 0 --check-oracle 0.05 --angles portfolio_quantum/angles/a050_l5e-4.json
+po_a050_t10_s01 5e-4 qbest 12 --seed 21 --kround 16 --kmove 7 --p-round 0.7 --p-block 0 --check-oracle 0.05 --angles portfolio_quantum/angles/a050_l5e-4.json
+po_a050_t10_s00 5e-4 qbest 12 --seed 21 --kround 16 --kmove 7 --p-round 0.7 --p-block 0 --check-oracle 0.05 --angles portfolio_quantum/angles/a050_l5e-4.json
+po_a050_t15_s02 5e-4 qbest 12 --seed 21 --kround 16 --kmove 7 --p-round 0.7 --p-block 0 --check-oracle 0.05 --angles portfolio_quantum/angles/a050_l5e-4.json
+po_a050_t10_s02 5e-4 qbest 12 --seed 21 --kround 16 --kmove 7 --p-round 0.7 --p-block 0 --check-oracle 0.05 --angles portfolio_quantum/angles/a050_l5e-4.json

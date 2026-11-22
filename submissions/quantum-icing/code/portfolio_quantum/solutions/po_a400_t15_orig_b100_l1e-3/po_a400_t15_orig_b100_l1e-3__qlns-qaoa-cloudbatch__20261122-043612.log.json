@@ -1,0 +1,1 @@
+{"settings": "start=qbest kround=28 band=0.2 variants=3 grouped=True cloud=True circuits=42 max_qubits=28", "start": -3015526, "final": -3061607, "rounds": [{"round": 0, "programs": 21, "max_qubits": 28, "improved": 7, "obj": -3061607, "seconds": 245}]}

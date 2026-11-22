@@ -1,0 +1,383 @@
+PushQuantum-2026.pdf
+Slide-by-slide transcription. Bracketed notes describe visual elements.
+
+01 | Qoro Quantum
+
+The execution layer for heterogeneous quantum-classical computing
+PushQuantum Hackathon; Qoro Quantum Challenge.
+
+Munich · Nov 2026 | qoroquantum.net
+
+02 | Qoro Quantum: Who are we?
+
+Company Profile — Seed Stage | ~10 Team Members
+- Stage: Seed-stage quantum infrastructure & software company.
+- Team: ~10 employees.
+- Presence: Deeply integrated across Munich & UK quantum ecosystems.
+
+Software Stack — Application & Simulation Layer
+- Divi: Open-source Python SDK for building composable hybrid workflows,
+  automated circuit partitioning, and parallelization.
+- Maestro: High-performance GPU-accelerated multi-simulator for quantum circuits.
+- Solo & Dedicato: Cloud and on-premise orchestration layer automating CPU, GPU,
+  and QPU resource allocation.
+
+Vision & Mission — Build once, run everywhere.
+- Network OS: Building the network operating system for quantum & HPC data centers.
+- Eliminating Complexity: Offloading infrastructure so researchers focus on algorithms.
+- Distributed Scale: Enabling seamless execution across multiple QPUs, GPUs, and
+  classical clusters simultaneously.
+
+Qoro: qoroquantum.net / Enterprise Products: enterprise.qoroquantum.net
+
+03 | What we build
+
+Divi — Open-source Python SDK
+Build composable hybrid quantum-classical applications and run them distributed
+across QPUs and CPUs.
+It handles problem partitioning, batch serialization, backend abstraction, and
+error mitigation.
+In this hackathon: QUBOs, QAOA, PCE and partitioning.
+
+Maestro — Open-source simulator, CPU and GPU
+Many simulation methods behind one interface, with noisy simulation and MPI across
+GPUs for distributed runs.
+Simulation methods: Statevector, MPS / MPO, Pauli propagation, density matrix.
+Also handles mid-circuit measurement, MPS qubit routing and efficient sampling.
+
+Divi: github.com/QoroQuantum/divi / Maestro: github.com/QoroQuantum/maestro
+
+04 | Our stack: start local, scale in the cloud
+
+THE QORO STACK
+
+Application layer
+- qiskit-maestro (Qiskit users): Swap AerSimulator for MaestroBackend. One line,
+  same circuits. 1.8–1,002× faster than Qiskit Aer.
+- pennylane-maestro (PennyLane users): Switch to the maestro.qubit device. One
+  line, same circuits. 11–638× faster than PennyLane.
+- qoro-divi (Hybrid workflows): Partitioning, batching and error mitigation for
+  hybrid pipelines. Local or cloud, same code, either way.
+
+Work locally with boosted simulation, or send jobs straight to the cloud ↓
+
+Execution layer
+Qoro execution layer: HPC in the cloud
+CPU and GPU simulation, noisy and noise-free. Instant access: dash.qoroquantum.net
+
+Speed-ups from qoroquantum.github.io/maestro/benchmarks.html: competitor's time
+over Maestro's across seven workloads, same circuits, CPU only.
+
+05 | An optimization run, end to end
+
+QUANTUM OPTIMIZATION WITH DIVI
+
+01. Formulate. Objective plus penalties as a QUBO, with constraints added in Divi.
+02. Check and split. Characterize the QUBO, then partition it into blocks that fit
+    your qubits.
+03. Solve. QAOA, blind or warm-started, or PCE on each block, run in parallel.
+04. Stitch and repair. Recombine the blocks, fix broken constraints, polish with
+    local search.
+05. Score. Official QOBLIB objective with qoblib_tools.py, then write the .sol file.
+
+[The diagram groups steps 01–03 under Divi and steps 04–05 under Classical.]
+
+Every step is shown in notebook 00. Circuits run on the local simulator, or in
+Qoro's cloud with USE_CLOUD = True.
+
+06 | Scaling Quantum Optimization
+
+Section 01
+Bringing standard computer science methods to quantum computing
+
+07 | Why partition
+
+SCALING QUANTUM OPTIMIZATION
+
+- 16 GiB: Memory for one 30-qubit statevector. Every extra qubit doubles it.
+- ~36,000: Binary variables in the largest portfolio instance of the challenge.
+- 552: Binary variables in the largest network-design instance.
+
+Two ways to fit a large problem onto small hardware
+- Compress: Pauli Correlation Encoding (PCE) stores many binary variables in
+  correlations between fewer qubits.
+- Partition: Split the QUBO into blocks, solve each block, then stitch the results
+  together. This is the focus of the challenge.
+
+Statevector memory assumes 16-byte complex amplitudes: 2^30 × 16 bytes = 16 GiB.
+
+08 | Partitioning a QUBO
+
+SCALING QUANTUM OPTIMIZATION
+
+1. QUBO as a graph or a binary quadratic model. Each variable is a node; each
+   non-zero coupling is an edge.
+2. Cut it into blocks that fit. Keep every block within your qubit budget, and
+   keep strong couplings inside blocks.
+3. Solve the blocks in parallel. The blocks are independent, so they run side by
+   side on CPUs, GPUs and QPUs.
+
+[The coupling matrix shows three diagonal squares labeled Block 1, Block 2 and
+Block 3. The legend identifies diagonal squares as “Coupling inside a block” and
+off-diagonal marks as “Cut coupling.”]
+
+Every cut coupling is an interaction no block sees. Fewer, weaker cuts leave less
+for stitching to repair.
+Ways to cut: problem structure, spectral or METIS graph partitioning, community
+detection, overlapping blocks.
+
+09 | Stitching block solutions back together
+
+SCALING QUANTUM OPTIMIZATION
+
+Four approaches, from cheapest to most thorough. They combine well.
+
+01. Concatenate. Join the block solutions as they are. Fast, but every cut
+    coupling is ignored.
+02. Clamp and iterate. Fix the other blocks, fold the cut couplings into this
+    block's linear terms and re-solve. Repeat until stable.
+03. Combine samples. Keep several samples per block and search their combinations
+    on the full objective.
+04. Repair and polish. Restore any broken constraints, then run classical local
+    search on the full problem.
+
+Score on the official objective, not the QUBO energy. A low energy does not
+guarantee a feasible, high-scoring solution, because penalty weights distort the
+objective. Score with qoblib_tools.py and compare every result with the notebooks'
+classical baselines.
+
+10 | The Challenge
+
+Section 02
+Two QOBLIB problems. Reach the largest instance you can, at the best quality you can.
+
+11 | QOBLIB: the benchmark behind the challenge
+
+THE CHALLENGE
+
+The Quantum Optimization Benchmarking Library: ten problem classes that
+state-of-the-art classical solvers find hard, with open instances and results.
+Any classical, quantum or hybrid method can compete.
+
+- 10 problem classes, the “Intractable Decathlon”.
+- 1,264 instances across the ten classes.
+- 100–10k variables where the classes turn hard for classical solvers.
+
+Each class includes
+- Instances of growing size.
+- Model descriptions, such as LP and QUBO files.
+- Optimal or best-known solutions.
+- A checker for feasibility and objective.
+
+Who built it: the Quantum Optimization Working Group, started by IBM Quantum
+and partners in 2023, led with Zuse Institute Berlin and Purdue. Published in
+Nature Computational Science (2026).
+
+What it means for you: your result is judged against QOBLIB's best published
+results, and a better one can be submitted as a new record.
+
+Sources: QOBLIB repository, github.com/ZIB-AOPT/QOBLIB; Koch et al., Nature
+Computational Science 6, 653–671 (2026); instance count from Quantum Computing Report.
+
+12 | 06 Portfolio Optimization
+
+[Leaderboard screenshot. Six rows are visible.]
+
+129 records | ★ 128
+
+Instance | Best objective | Status | Holder | Type | Date | Runtime (s) | Subs
+a003_t02_orig | 1,595 | Best known | Danel Arias [1], Manuel Martín Cordero [1], Daniel García [1], Álvaro Nodar [1] | Classical | 2026-08-05 | 131 | 1
+a010_t10_orig_b004_l0 | -110,541 ★ | Optimal | Maximilian Schicker | Classical | 2025-08-19 | 0.11 | 1
+a010_t10_orig_b004_l1e-02 | -1,000 ★ | Best known | Maximilian Schicker | Classical | 2025-08-19 | 3,600.02 | 1
+a010_t10_orig_b004_l1e-03 | -8,397 ★ | Best known | Maximilian Schicker | Classical | 2025-08-19 | 3,600.03 | 1
+a010_t10_orig_b004_l1e-04 | -69,482 ★ | Best known | Maximilian Schicker | Classical | 2025-08-19 | 3,600.02 | 1
+a010_t10_orig_b004_l1e-05 | -103,821 ★ | Optimal | Maximilian Schicker | Classical | 2025-08-19 | 0.87 | 1
+
+13 | Two problems, judged on scale and quality
+
+THE CHALLENGE
+
+QOBLIB 06 · Notebook 01 — Portfolio optimisation
+Multi-period, with transaction costs.
+58 to ~36,000 binary variables across the instances.
+
+QOBLIB 08 · Notebook 02 — Network design
+Degree-constrained topology with traffic routing.
+20 to 552 binary variables across the instances.
+
+How the winner is chosen
+- Scale: the largest instance you reach.
+- Quality: QOBLIB's official objective, compared with the best published results.
+
+Run notebook 00 first, then one of 01 or 02. The Handing in section of notebook 00
+says what to submit.
+
+14 | Multi-period portfolio optimisation
+
+PROBLEM A · QOBLIB 06
+
+- You decide: How many units of each asset to hold, long or short, in each period.
+- Objective: Balance expected return against risk, net of the transaction costs
+  of changing positions.
+- Constraints: 0 to 3 units per asset and direction, plus capital and budget
+  limits each period.
+- Size: Integer holdings become groups of binaries: 58 to ~36,000 variables.
+
+Where the couplings are
+- Risk links assets within the same period.
+- Transaction costs link each asset to itself in the next period.
+- Cutting by period drops transaction-cost links; cutting by asset group drops
+  risk links. Measure which loses less.
+
+Notebook 01: official model → QUBO → classical baseline → PCE and partitioned
+QAOA → solution file
+
+15 | Network design
+
+PROBLEM B · QOBLIB 08
+
+- You decide: Which directed links to build between n nodes: exactly 2 out and
+  2 in per node.
+- Then: Route the traffic demand between every pair of nodes over the links you built.
+- Objective: Minimise the load on the busiest link.
+- Size: One binary per possible link, n(n−1): 20 at 5 nodes, 552 at 24 nodes.
+
+How the work is split
+- Quantum: a topology QUBO, with the degree rules as Divi LinearConstraints.
+- Classical: an exact routing LP scores each sampled topology.
+- Each degree rule ties together one node's row or column of links. A cut through
+  a row leaves that rule for stitching to enforce.
+
+Notebook 02: topology QUBO → sample → route with LP → score → solution file
+
+16 | How solutions are scored
+
+THE CHALLENGE
+
+PROBLEM A · PORTFOLIO OPTIMISATION
+- Rules the referee checks: 0 to 3 units per asset and direction; capital and
+  budget limits in every period.
+- Score: Risk minus return, plus transaction, short-selling and liquidation costs,
+  minus interest on cash.
+
+PROBLEM B · NETWORK DESIGN
+- Rules the referee checks: Every node has exactly 2 links out and 2 in; flows
+  deliver all the demand over chosen links only.
+- Score: The largest total flow on any link, in units of 1/1000.
+
+Quality: your gap to the best-known value
+gap = (score − best) / |best|
+0% matches the best-known value; below 0% beats it. Example: −69,169 against
+−69,482 is a 0.45% gap.
+
+Scale
+The binary variables in the instance you solve, and the qubits in your largest
+quantum program.
+
+Lower is better for both problems. A solution that breaks a rule doesn't count,
+and the referee recomputes the objective from your .sol file.
+
+17 | Prizes
+
+THE CHALLENGE
+
+- 1st place: 2 months, 50,000 platform credits, a guided project of your choice
+  with support from the Qoro team, and Qoro T-shirts.
+- 2nd place: 20,000 platform credits and Qoro T-shirts.
+- 3rd place: 5,000 platform credits and Qoro T-shirts.
+
+18 | Getting started
+
+THE CHALLENGE
+
+01. Sign up at dash.qoroquantum.net. Get your API key and hackathon credits.
+02. Open the challenge template at aqora.io/qoro/pushquantum-2026-template.
+    The notebooks, setup and how to hand in. Or on GitHub:
+    github.com/QoroQuantum/pushquantum-hackathon-2026
+03. Join #pushquantumhack-26 on Slack for help, Q&A and announcements.
+
+[Slack QR code and embedded invite link]
+https://join.slack.com/t/qoroq/shared_invite/zt-3bpzfatnb-4QS4u2nwEAFRiXN3RAIf~g
+
+Using an AI coding assistant? Give it Divi's docs: context7.com/qoroquantum/divi
+
+Setup for Colab and local runs is on the next slide.
+
+19 | Setup: Colab or your own machine
+
+THE CHALLENGE
+
+In Google Colab
+1. Open a notebook with its Open in Colab badge.
+2. Add a Colab secret named QORO_API_KEY and switch on notebook access.
+3. Run the first setup cell. If it installs Divi 0.16.2, restart the session and
+   run again.
+4. File › Save a copy in Drive to keep your changes.
+
+On your own machine
+
+    git clone https://github.com/QoroQuantum/pushquantum-hackathon-2026.git
+    cd pushquantum-hackathon-2026
+    pip install "qoro-divi[qubo-decompose,jupyter]==0.16.2"
+
+Python 3.11 or newer. Put QORO_API_KEY="your key" in a .env file next to the
+notebooks; .gitignore keeps it out of commits.
+Optional: pip install qiskit-maestro or pennylane-maestro for your own Qiskit or
+PennyLane code.
+
+No API key yet? Everything runs on the local simulator, and cloud-only cells
+(the Characterization Service) print Skipped.
+
+20 | The starter kit: three notebooks and a referee
+
+THE CHALLENGE
+
+- Start here — Notebook 00: Setup, QUBO 101 with Divi, picking a problem and
+  handing in. About 1–4 min.
+- Problem A — Notebook 01: Portfolio optimisation: official model, QUBO,
+  classical baseline, then PCE and partitioned QAOA. About 6 min.
+- Problem B — Notebook 02: Network design: topology QUBO with Divi
+  LinearConstraints and an exact routing LP, then sample and score. About 7 min.
+- The referee — qoblib_tools.py: Instance loaders, official scorers, QUBO
+  builders and .sol writers. Don't edit it. Referee for 01 and 02.
+
+Run order: notebook 00 first, then one of 01 or 02. Times are for one run on a
+12-core Mac; most of it is the Characterization Service calls, and Colab is slower.
+
+Classical repair and local search are strong: compare every quantum result with
+the notebooks' baselines before claiming a quantum contribution.
+
+github.com/QoroQuantum/pushquantum-hackathon-2026
+
+21 | Notebook 00: QUBO 101 with Divi
+
+THE CHALLENGE
+
+Part 0 — Setup
+API key, install, and backend: the local simulator, or Qoro's cloud with
+USE_CLOUD = True.
+
+Part 1 — QUBO 101 with Divi
+1. Build a QUBO.
+2. Characterize and validate it.
+3. QAOA, blind and warm-started.
+4. Pauli Correlation Encoding (PCE).
+5. Partitioning.
+
+Part 2 — Your problem
+Choose portfolio or network design, run it in Colab, and see exactly what to hand in.
+
+Setup is explained only in notebook 00 and the README; notebooks 01 and 02 repeat
+the setup code without the explanations.
+
+22 | Let's build
+
+PUSHQUANTUM 2026
+
+Sign up: dash.qoroquantum.net
+Notebooks: github.com/QoroQuantum/pushquantum-hackathon-2026
+Divi docs for AI assistants: context7.com/qoroquantum/divi
+Slack: #pushquantumhack-26
+
+[Slack QR code captioned “Scan to join our Slack” and embedded invite link]
+https://join.slack.com/t/qoroq/shared_invite/zt-3bpzfatnb-4QS4u2nwEAFRiXN3RAIf~g

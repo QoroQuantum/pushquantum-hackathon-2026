@@ -1,0 +1,7 @@
+# ablation: uniform sampling in the same subspaces, same settings as the QAOA run from empty
+po_a050_t10_s01 1e-3 empty 12 --solver random --seed 3 --kround 16 --kmove 7 --p-round 0.7 --p-block 0
+# largest instances, local QAOA windows (16 qubits), chained on the best file so far
+po_a200_t15_orig 1e-3 qbest 15 --seed 31 --kround 16 --kmove 7 --p-round 0.8 --p-block 0 --warm 0.5 --angles portfolio_quantum/angles/a050_l1e-3.json
+# independent quantum runs from the empty portfolio
+po_a050_t15_s01 1e-3 empty 12 --seed 41 --kround 16 --kmove 7 --p-round 0.7 --p-block 0 --angles portfolio_quantum/angles/a050_l1e-3.json
+po_a050_t10_orig 1e-3 empty 12 --seed 41 --kround 16 --kmove 7 --p-round 0.7 --p-block 0 --angles portfolio_quantum/angles/a050_l1e-3.json

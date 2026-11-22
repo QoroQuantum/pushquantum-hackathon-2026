@@ -1,0 +1,117 @@
+{
+ "args": {
+  "instance": "po_a010_t10_orig",
+  "lam": "1e-4",
+  "variants": "signmag/slack/rc,unary/slack/rc",
+  "code": "poly",
+  "n_layers": 3,
+  "pop": 40,
+  "iters": 8,
+  "alpha": 2.0,
+  "pool": 20,
+  "seed": 0,
+  "periods": "0",
+  "tag": "_smoke"
+ },
+ "reference": -69482,
+ "results": {
+  "signmag/slack/rc": {
+   "per_period": [
+    {
+     "t": 0,
+     "qubits": 8,
+     "vars": 33,
+     "sec": 1.1,
+     "samples": {
+      "best": -2865.0,
+      "rank": 551,
+      "n_feas": 3,
+      "n": 172
+     },
+     "expect": {
+      "best": -4867.0,
+      "rank": 108,
+      "n_feas": 16,
+      "n": 214
+     },
+     "rand_code": {
+      "best": Infinity,
+      "rank": null,
+      "n_feas": 0,
+      "n": 125
+     },
+     "rand_sign": {
+      "best": Infinity,
+      "rank": null,
+      "n_feas": 0,
+      "n": 320
+     }
+    }
+   ],
+   "final": {
+    "samples": -3461,
+    "expect": -5460,
+    "both": -5460,
+    "rand_code": -1000,
+    "rand_sign": -1000
+   },
+   "gap": {
+    "samples": "+95.02%",
+    "expect": "+92.14%",
+    "both": "+92.14%",
+    "rand_code": "+98.56%",
+    "rand_sign": "+98.56%"
+   },
+   "circuits": 321
+  },
+  "unary/slack/rc": {
+   "per_period": [
+    {
+     "t": 0,
+     "qubits": 11,
+     "vars": 63,
+     "sec": 0.4,
+     "samples": {
+      "best": -3789.0,
+      "rank": 281,
+      "n_feas": 25,
+      "n": 239
+     },
+     "expect": {
+      "best": -2645.0,
+      "rank": 642,
+      "n_feas": 56,
+      "n": 285
+     },
+     "rand_code": {
+      "best": -3457.0,
+      "rank": 356,
+      "n_feas": 15,
+      "n": 233
+     },
+     "rand_sign": {
+      "best": -1067.0,
+      "rank": 1381,
+      "n_feas": 4,
+      "n": 320
+     }
+    }
+   ],
+   "final": {
+    "samples": -4288,
+    "expect": -3241,
+    "both": -4288,
+    "rand_code": -3951,
+    "rand_sign": -1561
+   },
+   "gap": {
+    "samples": "+93.83%",
+    "expect": "+95.34%",
+    "both": "+93.83%",
+    "rand_code": "+94.31%",
+    "rand_sign": "+97.75%"
+   },
+   "circuits": 321
+  }
+ }
+}
