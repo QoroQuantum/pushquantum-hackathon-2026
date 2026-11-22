@@ -1,0 +1,28 @@
+{
+"settings": "paired-transfer QAOA (p=3, local statevector, <=16 qubits, 448 shots); start=portfolio_QIcing/solutions/po_a050_t15_orig_b020_l1e-3/po_a050_t15_orig_b020_l1e-3__lns__20261121-222627.sol (-321070); seed=11 minutes=35.0 steps=6990 circuits=123749",
+"start": -321070,
+"final": -321183,
+"accepted": [
+{
+"step": 0,
+"day": 4,
+"obj": -321106,
+"gain": -36,
+"circuits": 1
+},
+{
+"step": 3,
+"day": 3,
+"obj": -321156,
+"gain": -50,
+"circuits": 65
+},
+{
+"step": 304,
+"day": 1,
+"obj": -321183,
+"gain": -27,
+"circuits": 5434
+}
+]
+}

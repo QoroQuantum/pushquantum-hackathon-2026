@@ -1,0 +1,235 @@
+{
+ "args": {
+  "instance": "po_a050_t10_s00",
+  "lam": "1e-2",
+  "start": "starts/po_a050_t10_s00_l1e-2_from_l1e-3.sol",
+  "moves": 60,
+  "solver": "sa",
+  "iters": 15,
+  "n_layers": 3,
+  "mc_population": 40,
+  "mc_iterations": 8,
+  "cloud": false,
+  "shots": 4000,
+  "max_run": 9,
+  "seed": 32,
+  "time_limit": 1800,
+  "tag": "_probe"
+ },
+ "start": "starts/po_a050_t10_s00_l1e-2_from_l1e-3.sol",
+ "start_obj": 409285,
+ "log": [
+  {
+   "it": 0,
+   "n_moves": 60,
+   "qubits": 0,
+   "n_selected": 5,
+   "kinds": [
+    "drop",
+    "extend-left",
+    "extend-right",
+    "transfer"
+   ],
+   "cand": 554019,
+   "incumbent": 409285,
+   "sec": 0.5
+  },
+  {
+   "it": 1,
+   "n_moves": 60,
+   "qubits": 0,
+   "n_selected": 5,
+   "kinds": [
+    "drop",
+    "extend-left"
+   ],
+   "cand": 392066,
+   "incumbent": 392066,
+   "sec": 0.0
+  },
+  {
+   "it": 2,
+   "n_moves": 60,
+   "qubits": 0,
+   "n_selected": 8,
+   "kinds": [
+    "drop",
+    "extend-left",
+    "extend-right",
+    "flip",
+    "shift-right",
+    "shrink-left",
+    "transfer"
+   ],
+   "cand": 478490,
+   "incumbent": 392066,
+   "sec": 0.0
+  },
+  {
+   "it": 3,
+   "n_moves": 60,
+   "qubits": 0,
+   "n_selected": 5,
+   "kinds": [
+    "drop",
+    "extend-left",
+    "shift-right"
+   ],
+   "cand": 357092,
+   "incumbent": 357092,
+   "sec": 0.0
+  },
+  {
+   "it": 4,
+   "n_moves": 60,
+   "qubits": 0,
+   "n_selected": 7,
+   "kinds": [
+    "drop",
+    "extend-right",
+    "flip",
+    "shift-right",
+    "transfer"
+   ],
+   "cand": 458733,
+   "incumbent": 357092,
+   "sec": 0.0
+  },
+  {
+   "it": 5,
+   "n_moves": 60,
+   "qubits": 0,
+   "n_selected": 6,
+   "kinds": [
+    "drop",
+    "extend-right"
+   ],
+   "cand": 452479,
+   "incumbent": 357092,
+   "sec": 0.0
+  },
+  {
+   "it": 6,
+   "n_moves": 60,
+   "qubits": 0,
+   "n_selected": 6,
+   "kinds": [
+    "extend-right",
+    "shift-right",
+    "transfer"
+   ],
+   "cand": 477957,
+   "incumbent": 357092,
+   "sec": 0.0
+  },
+  {
+   "it": 7,
+   "n_moves": 60,
+   "qubits": 0,
+   "n_selected": 5,
+   "kinds": [
+    "drop",
+    "extend-left",
+    "transfer"
+   ],
+   "cand": 314442,
+   "incumbent": 314442,
+   "sec": 0.0
+  },
+  {
+   "it": 8,
+   "n_moves": 60,
+   "qubits": 0,
+   "n_selected": 5,
+   "kinds": [
+    "drop",
+    "extend-right",
+    "shrink-right"
+   ],
+   "cand": 303502,
+   "incumbent": 303502,
+   "sec": 0.0
+  },
+  {
+   "it": 9,
+   "n_moves": 60,
+   "qubits": 0,
+   "n_selected": 2,
+   "kinds": [
+    "drop",
+    "shift-right"
+   ],
+   "cand": 306624,
+   "incumbent": 303502,
+   "sec": 0.0
+  },
+  {
+   "it": 10,
+   "n_moves": 60,
+   "qubits": 0,
+   "n_selected": 4,
+   "kinds": [
+    "drop",
+    "shift-left",
+    "shift-right"
+   ],
+   "cand": 296486,
+   "incumbent": 296486,
+   "sec": 0.0
+  },
+  {
+   "it": 11,
+   "n_moves": 60,
+   "qubits": 0,
+   "n_selected": 9,
+   "kinds": [
+    "drop",
+    "extend-right",
+    "shift-left",
+    "transfer"
+   ],
+   "cand": 276240,
+   "incumbent": 276240,
+   "sec": 0.0
+  },
+  {
+   "it": 12,
+   "n_moves": 60,
+   "qubits": 0,
+   "n_selected": 2,
+   "kinds": [
+    "drop"
+   ],
+   "cand": 271348,
+   "incumbent": 271348,
+   "sec": 0.0
+  },
+  {
+   "it": 13,
+   "n_moves": 60,
+   "qubits": 0,
+   "n_selected": 1,
+   "kinds": [
+    "extend-left"
+   ],
+   "cand": 259336,
+   "incumbent": 259336,
+   "sec": 0.0
+  },
+  {
+   "it": 14,
+   "n_moves": 60,
+   "qubits": 0,
+   "n_selected": 2,
+   "kinds": [
+    "drop",
+    "extend-left"
+   ],
+   "cand": 256613,
+   "incumbent": 256613,
+   "sec": 0.0
+  }
+ ],
+ "final": 256613,
+ "bkv": -12340
+}

@@ -1,0 +1,75 @@
+t=0 unary/slack  63v poly (Divi default)                q=11 feas   6.8% best raw      -3506 (rank   340)  repaired      -7252 (rank    0)  opt -7252
+t=0 unary/slack  63v poly, re-centred on empty          q=11 feas   6.8% best raw      -6511 (rank     5)  repaired      -7252 (rank    0)  opt -7252
+t=0 unary/slack  63v poly, structured+re-centred        q=11 feas   9.0% best raw      -5141 (rank    74)  repaired      -7252 (rank    0)  opt -7252
+t=0 unary/slack  63v poly q+3, structured+re-centred    q=14 feas   6.4% best raw      -5924 (rank    23)  repaired      -7252 (rank    0)  opt -7252
+t=0 unary/slack  63v dense, re-centred                  q= 6 feas  25.0% best raw      -1971 (rank   907)  repaired      -7252 (rank    0)  opt -7252
+t=0 signmag/slack  33v poly (Divi default)                q= 8 feas   0.0% best raw        inf (rank    -1)  repaired      -7252 (rank    0)  opt -7252
+t=0 signmag/slack  33v poly, re-centred on empty          q= 8 feas   1.2% best raw      -2865 (rank   551)  repaired      -7252 (rank    0)  opt -7252
+t=0 signmag/slack  33v poly, structured+re-centred        q= 8 feas   1.2% best raw       -576 (rank  1737)  repaired      -7252 (rank    0)  opt -7252
+t=0 signmag/slack  33v poly q+3, structured+re-centred    q=11 feas   0.6% best raw      -4190 (rank   201)  repaired      -7252 (rank    0)  opt -7252
+t=0 signmag/slack  33v dense, re-centred                  q= 6 feas   3.1% best raw       -100 (rank  2102)  repaired      -7007 (rank    1)  opt -7252
+t=0 signmag/none   30v poly (Divi default)                q= 8 feas   0.0% best raw        inf (rank    -1)  repaired      -7252 (rank    0)  opt -7252
+t=0 signmag/none   30v poly, re-centred on empty          q= 8 feas   1.2% best raw      -2865 (rank   551)  repaired      -7252 (rank    0)  opt -7252
+t=0 signmag/none   30v poly, structured+re-centred        q= 8 feas   1.2% best raw       -576 (rank  1737)  repaired      -7252 (rank    0)  opt -7252
+t=0 signmag/none   30v poly q+3, structured+re-centred    q=11 feas   0.6% best raw      -4190 (rank   201)  repaired      -7252 (rank    0)  opt -7252
+t=0 signmag/none   30v dense, re-centred                  q= 5 feas   3.1% best raw       -100 (rank  2102)  repaired      -7007 (rank    1)  opt -7252
+t=0 ternary/slack  23v poly (Divi default)                q= 7 feas  45.3% best raw      -3799 (rank   277)  repaired      -5862 (rank   25)  opt -7252
+t=0 ternary/slack  23v poly, re-centred on empty          q= 7 feas  45.3% best raw      -3700 (rank   297)  repaired      -5465 (rank   46)  opt -7252
+t=0 ternary/slack  23v poly, structured+re-centred        q= 7 feas  34.4% best raw      -5962 (rank    22)  repaired      -6280 (rank   10)  opt -7252
+t=0 ternary/slack  23v poly q+3, structured+re-centred    q=10 feas  38.3% best raw      -6280 (rank    10)  repaired      -6280 (rank   10)  opt -7252
+t=0 ternary/slack  23v dense, re-centred                  q= 5 feas  43.8% best raw       -100 (rank  2102)  repaired      -5229 (rank   68)  opt -7252
+t=0 ternsm/none   20v poly (Divi default)                q= 6 feas  39.1% best raw      -4163 (rank   203)  repaired      -4491 (rank  153)  opt -7252
+t=0 ternsm/none   20v poly, re-centred on empty          q= 6 feas  31.2% best raw      -3263 (rank   412)  repaired      -6280 (rank   10)  opt -7252
+t=0 ternsm/none   20v poly, structured+re-centred        q= 6 feas  28.1% best raw      -5081 (rank    85)  repaired      -5140 (rank   75)  opt -7252
+t=0 ternsm/none   20v poly q+3, structured+re-centred    q= 9 feas  34.4% best raw      -4087 (rank   217)  repaired      -6280 (rank   10)  opt -7252
+t=0 ternsm/none   20v dense, re-centred                  q= 5 feas  18.8% best raw       -555 (rank  1752)  repaired      -5229 (rank   68)  opt -7252
+t=3 unary/slack  63v poly (Divi default)                q=11 feas   6.8% best raw      -5863 (rank   225)  repaired      -8790 (rank    0)  opt -8790
+t=3 unary/slack  63v poly, re-centred on empty          q=11 feas   6.8% best raw      -7526 (rank    38)  repaired      -8790 (rank    0)  opt -8790
+t=3 unary/slack  63v poly, structured+re-centred        q=11 feas   8.2% best raw      -6998 (rank    72)  repaired      -8790 (rank    0)  opt -8790
+t=3 unary/slack  63v poly q+3, structured+re-centred    q=14 feas   6.4% best raw      -7924 (rank    21)  repaired      -8790 (rank    0)  opt -8790
+t=3 unary/slack  63v dense, re-centred                  q= 6 feas  25.0% best raw      -5384 (rank   336)  repaired      -8682 (rank    4)  opt -8790
+t=3 signmag/slack  33v poly (Divi default)                q= 8 feas   0.0% best raw        inf (rank    -1)  repaired      -8790 (rank    0)  opt -8790
+t=3 signmag/slack  33v poly, re-centred on empty          q= 8 feas   1.2% best raw       -100 (rank  2962)  repaired      -8790 (rank    0)  opt -8790
+t=3 signmag/slack  33v poly, structured+re-centred        q= 8 feas   1.2% best raw      -7140 (rank    52)  repaired      -8790 (rank    0)  opt -8790
+t=3 signmag/slack  33v poly q+3, structured+re-centred    q=11 feas   0.4% best raw       -100 (rank  2962)  repaired      -8790 (rank    0)  opt -8790
+t=3 signmag/slack  33v dense, re-centred                  q= 6 feas   3.1% best raw       -100 (rank  2962)  repaired      -8790 (rank    0)  opt -8790
+t=3 signmag/none   30v poly (Divi default)                q= 8 feas   0.0% best raw        inf (rank    -1)  repaired      -8790 (rank    0)  opt -8790
+t=3 signmag/none   30v poly, re-centred on empty          q= 8 feas   1.2% best raw       -100 (rank  2962)  repaired      -8790 (rank    0)  opt -8790
+t=3 signmag/none   30v poly, structured+re-centred        q= 8 feas   1.2% best raw      -7140 (rank    52)  repaired      -8790 (rank    0)  opt -8790
+t=3 signmag/none   30v poly q+3, structured+re-centred    q=11 feas   0.4% best raw       -100 (rank  2962)  repaired      -8790 (rank    0)  opt -8790
+t=3 signmag/none   30v dense, re-centred                  q= 5 feas   3.1% best raw       -100 (rank  2962)  repaired      -8790 (rank    0)  opt -8790
+t=3 ternary/slack  23v poly (Divi default)                q= 7 feas  45.3% best raw      -6587 (rank   115)  repaired      -8788 (rank    1)  opt -8790
+t=3 ternary/slack  23v poly, re-centred on empty          q= 7 feas  45.3% best raw      -5855 (rank   229)  repaired      -8028 (rank   14)  opt -8790
+t=3 ternary/slack  23v poly, structured+re-centred        q= 7 feas  38.3% best raw      -6566 (rank   121)  repaired      -8682 (rank    4)  opt -8790
+t=3 ternary/slack  23v poly q+3, structured+re-centred    q=10 feas  34.4% best raw      -6586 (rank   116)  repaired      -8788 (rank    1)  opt -8790
+t=3 ternary/slack  23v dense, re-centred                  q= 5 feas  43.8% best raw      -3707 (rank   901)  repaired      -8682 (rank    4)  opt -8790
+t=3 ternsm/none   20v poly (Divi default)                q= 6 feas  39.1% best raw      -4391 (rank   633)  repaired      -7967 (rank   18)  opt -8790
+t=3 ternsm/none   20v poly, re-centred on empty          q= 6 feas  31.2% best raw      -7332 (rank    44)  repaired      -8066 (rank   13)  opt -8790
+t=3 ternsm/none   20v poly, structured+re-centred        q= 6 feas  32.8% best raw      -2691 (rank  1389)  repaired      -7779 (rank   27)  opt -8790
+t=3 ternsm/none   20v poly q+3, structured+re-centred    q= 9 feas  32.8% best raw      -8028 (rank    14)  repaired      -8788 (rank    1)  opt -8790
+t=3 ternsm/none   20v dense, re-centred                  q= 5 feas  18.8% best raw      -3693 (rank   907)  repaired      -8788 (rank    1)  opt -8790
+t=6 unary/slack  63v poly (Divi default)                q=11 feas   6.8% best raw      -3615 (rank     1)  repaired      -3646 (rank    0)  opt -3646
+t=6 unary/slack  63v poly, re-centred on empty          q=11 feas   6.8% best raw      -3413 (rank     4)  repaired      -3646 (rank    0)  opt -3646
+t=6 unary/slack  63v poly, structured+re-centred        q=11 feas   7.8% best raw      -3052 (rank    23)  repaired      -3646 (rank    0)  opt -3646
+t=6 unary/slack  63v poly q+3, structured+re-centred    q=14 feas   6.0% best raw      -2633 (rank    65)  repaired      -3646 (rank    0)  opt -3646
+t=6 unary/slack  63v dense, re-centred                  q= 6 feas  25.0% best raw      -2016 (rank   314)  repaired      -3615 (rank    1)  opt -3646
+t=6 signmag/slack  33v poly (Divi default)                q= 8 feas   0.0% best raw        inf (rank    -1)  repaired      -3646 (rank    0)  opt -3646
+t=6 signmag/slack  33v poly, re-centred on empty          q= 8 feas   1.2% best raw       -100 (rank  2296)  repaired      -3646 (rank    0)  opt -3646
+t=6 signmag/slack  33v poly, structured+re-centred        q= 8 feas   0.8% best raw       -100 (rank  2296)  repaired      -3646 (rank    0)  opt -3646
+t=6 signmag/slack  33v poly q+3, structured+re-centred    q=11 feas   0.5% best raw      -1298 (rank   825)  repaired      -3646 (rank    0)  opt -3646
+t=6 signmag/slack  33v dense, re-centred                  q= 6 feas   3.1% best raw       -100 (rank  2296)  repaired      -3646 (rank    0)  opt -3646
+t=6 signmag/none   30v poly (Divi default)                q= 8 feas   0.0% best raw        inf (rank    -1)  repaired      -3646 (rank    0)  opt -3646
+t=6 signmag/none   30v poly, re-centred on empty          q= 8 feas   1.2% best raw       -100 (rank  2296)  repaired      -3646 (rank    0)  opt -3646
+t=6 signmag/none   30v poly, structured+re-centred        q= 8 feas   0.8% best raw       -100 (rank  2296)  repaired      -3646 (rank    0)  opt -3646
+t=6 signmag/none   30v poly q+3, structured+re-centred    q=11 feas   0.5% best raw      -1298 (rank   825)  repaired      -3646 (rank    0)  opt -3646
+t=6 signmag/none   30v dense, re-centred                  q= 5 feas   3.1% best raw       -100 (rank  2296)  repaired      -3646 (rank    0)  opt -3646
+t=6 ternary/slack  23v poly (Divi default)                q= 7 feas  45.3% best raw      -2304 (rank   164)  repaired      -3615 (rank    1)  opt -3646
+t=6 ternary/slack  23v poly, re-centred on empty          q= 7 feas  45.3% best raw      -2422 (rank   126)  repaired      -3446 (rank    3)  opt -3646
+t=6 ternary/slack  23v poly, structured+re-centred        q= 7 feas  36.7% best raw      -2397 (rank   138)  repaired      -3646 (rank    0)  opt -3646
+t=6 ternary/slack  23v poly q+3, structured+re-centred    q=10 feas  36.3% best raw      -3276 (rank     7)  repaired      -3646 (rank    0)  opt -3646
+t=6 ternary/slack  23v dense, re-centred                  q= 5 feas  43.8% best raw      -1897 (rank   376)  repaired      -3133 (rank   15)  opt -3646
+t=6 ternsm/none   20v poly (Divi default)                q= 6 feas  39.1% best raw      -1626 (rank   584)  repaired      -3646 (rank    0)  opt -3646
+t=6 ternsm/none   20v poly, re-centred on empty          q= 6 feas  31.2% best raw      -2472 (rank   110)  repaired      -2728 (rank   53)  opt -3646
+t=6 ternsm/none   20v poly, structured+re-centred        q= 6 feas  32.8% best raw      -3204 (rank    11)  repaired      -3204 (rank   11)  opt -3646
+t=6 ternsm/none   20v poly q+3, structured+re-centred    q= 9 feas  32.8% best raw      -3052 (rank    23)  repaired      -3646 (rank    0)  opt -3646
+t=6 ternsm/none   20v dense, re-centred                  q= 5 feas  18.8% best raw       -968 (rank  1166)  repaired      -3109 (rank   19)  opt -3646

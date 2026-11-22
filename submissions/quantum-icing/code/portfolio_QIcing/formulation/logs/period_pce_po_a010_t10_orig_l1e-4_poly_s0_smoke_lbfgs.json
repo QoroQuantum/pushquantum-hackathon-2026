@@ -1,0 +1,300 @@
+{
+ "args": {
+  "instance": "po_a010_t10_orig",
+  "lam": "1e-4",
+  "variants": "signmag/slack/rc,signmag/unbal/rc,unary/slack/rc",
+  "code": "poly",
+  "n_layers": 3,
+  "pop": 40,
+  "iters": 200,
+  "alpha": 2.0,
+  "optimizer": "lbfgs",
+  "penalty_scale": 1.0,
+  "pool": 20,
+  "seed": 0,
+  "periods": "0,3",
+  "tag": "_smoke_lbfgs"
+ },
+ "reference": -69482,
+ "results": {
+  "signmag/slack/rc": {
+   "per_period": [
+    {
+     "t": 0,
+     "qubits": 8,
+     "vars": 33,
+     "sec": 1.8,
+     "samples": {
+      "best": -100.0,
+      "rank": 2102,
+      "n_feas": 1,
+      "n": 1
+     },
+     "expect": {
+      "best": -100.0,
+      "rank": 2102,
+      "n_feas": 1,
+      "n": 8
+     },
+     "rand_code": {
+      "best": Infinity,
+      "rank": null,
+      "n_feas": 0,
+      "n": 1
+     },
+     "rand_sign": {
+      "best": Infinity,
+      "rank": null,
+      "n_feas": 0,
+      "n": 28
+     },
+     "ideal": {
+      "best": -4433.0,
+      "rank": 161,
+      "n_feas": 41,
+      "n": 41
+     }
+    },
+    {
+     "t": 3,
+     "qubits": 8,
+     "vars": 33,
+     "sec": 0.3,
+     "samples": {
+      "best": Infinity,
+      "rank": null,
+      "n_feas": 0,
+      "n": 1
+     },
+     "expect": {
+      "best": -419.0,
+      "rank": 2734,
+      "n_feas": 1,
+      "n": 5
+     },
+     "rand_code": {
+      "best": Infinity,
+      "rank": null,
+      "n_feas": 0,
+      "n": 1
+     },
+     "rand_sign": {
+      "best": Infinity,
+      "rank": null,
+      "n_feas": 0,
+      "n": 36
+     },
+     "ideal": {
+      "best": -6587.0,
+      "rank": 115,
+      "n_feas": 38,
+      "n": 38
+     }
+    }
+   ],
+   "final": {
+    "samples": -1000,
+    "expect": -1000,
+    "both": -1000,
+    "rand_code": -1000,
+    "rand_sign": -1000,
+    "ideal": -11000
+   },
+   "gap": {
+    "samples": "+98.56%",
+    "expect": "+98.56%",
+    "both": "+98.56%",
+    "rand_code": "+98.56%",
+    "rand_sign": "+98.56%",
+    "ideal": "+84.17%"
+   },
+   "circuits": 130
+  },
+  "signmag/unbal/rc": {
+   "per_period": [
+    {
+     "t": 0,
+     "qubits": 8,
+     "vars": 30,
+     "sec": 0.7,
+     "samples": {
+      "best": -100.0,
+      "rank": 2102,
+      "n_feas": 1,
+      "n": 3
+     },
+     "expect": {
+      "best": -100.0,
+      "rank": 2102,
+      "n_feas": 3,
+      "n": 6
+     },
+     "rand_code": {
+      "best": Infinity,
+      "rank": null,
+      "n_feas": 0,
+      "n": 3
+     },
+     "rand_sign": {
+      "best": Infinity,
+      "rank": null,
+      "n_feas": 0,
+      "n": 103
+     },
+     "ideal": {
+      "best": -2699.0,
+      "rank": 619,
+      "n_feas": 5,
+      "n": 5
+     }
+    },
+    {
+     "t": 3,
+     "qubits": 8,
+     "vars": 30,
+     "sec": 0.3,
+     "samples": {
+      "best": -100.0,
+      "rank": 2962,
+      "n_feas": 1,
+      "n": 2
+     },
+     "expect": {
+      "best": -914.0,
+      "rank": 2426,
+      "n_feas": 4,
+      "n": 7
+     },
+     "rand_code": {
+      "best": Infinity,
+      "rank": null,
+      "n_feas": 0,
+      "n": 2
+     },
+     "rand_sign": {
+      "best": Infinity,
+      "rank": null,
+      "n_feas": 0,
+      "n": 45
+     },
+     "ideal": {
+      "best": -4630.0,
+      "rank": 543,
+      "n_feas": 9,
+      "n": 9
+     }
+    }
+   ],
+   "final": {
+    "samples": -1000,
+    "expect": -1621,
+    "both": -1621,
+    "rand_code": -1000,
+    "rand_sign": -1000,
+    "ideal": -7620
+   },
+   "gap": {
+    "samples": "+98.56%",
+    "expect": "+97.67%",
+    "both": "+97.67%",
+    "rand_code": "+98.56%",
+    "rand_sign": "+98.56%",
+    "ideal": "+89.03%"
+   },
+   "circuits": 298
+  },
+  "unary/slack/rc": {
+   "per_period": [
+    {
+     "t": 0,
+     "qubits": 11,
+     "vars": 63,
+     "sec": 0.9,
+     "samples": {
+      "best": -100.0,
+      "rank": 2102,
+      "n_feas": 1,
+      "n": 1
+     },
+     "expect": {
+      "best": -100.0,
+      "rank": 2102,
+      "n_feas": 1,
+      "n": 5
+     },
+     "rand_code": {
+      "best": Infinity,
+      "rank": null,
+      "n_feas": 0,
+      "n": 1
+     },
+     "rand_sign": {
+      "best": 3647.0,
+      "rank": 5180,
+      "n_feas": 1,
+      "n": 37
+     },
+     "ideal": {
+      "best": -100.0,
+      "rank": 2102,
+      "n_feas": 1,
+      "n": 1
+     }
+    },
+    {
+     "t": 3,
+     "qubits": 11,
+     "vars": 63,
+     "sec": 0.9,
+     "samples": {
+      "best": -100.0,
+      "rank": 2962,
+      "n_feas": 1,
+      "n": 1
+     },
+     "expect": {
+      "best": -4468.0,
+      "rank": 614,
+      "n_feas": 3,
+      "n": 8
+     },
+     "rand_code": {
+      "best": Infinity,
+      "rank": null,
+      "n_feas": 0,
+      "n": 1
+     },
+     "rand_sign": {
+      "best": 6146.0,
+      "rank": 6649,
+      "n_feas": 1,
+      "n": 36
+     },
+     "ideal": {
+      "best": -100.0,
+      "rank": 2962,
+      "n_feas": 1,
+      "n": 1
+     }
+    }
+   ],
+   "final": {
+    "samples": -1000,
+    "expect": -4773,
+    "both": -4773,
+    "rand_code": -1000,
+    "rand_sign": -1000,
+    "ideal": -1000
+   },
+   "gap": {
+    "samples": "+98.56%",
+    "expect": "+93.13%",
+    "both": "+93.13%",
+    "rand_code": "+98.56%",
+    "rand_sign": "+98.56%",
+    "ideal": "+98.56%"
+   },
+   "circuits": 148
+  }
+ }
+}

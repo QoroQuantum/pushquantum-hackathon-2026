@@ -1,0 +1,20 @@
+# po_a050_t10_orig_b020_l0
+
+- **Instance:** `po_a050_t10_orig` (50 assets × 10 days), budget B = 20, λ = 0
+- **Official objective (referee re-score):** **-501737**, feasible: True
+- **Breakdown:** risk=0, return=-530389, transaction=29309, cash_interest=-860, short_cost=203, liquidation=0
+- **Status:** **proven optimal** (MILP solved to zero gap)
+- **Size:** 3110 binary variables in the official QUBO; 0 qubits (classical)
+
+## Method
+
+**Exact MILP, proven optimal.** With λ = 0 the risk term vanishes, so the official model is a linear integer
+program: integer long/short units L, S ∈ {0..3} per asset and day, auxiliary |ΔL| and |ΔS| variables for the
+transaction costs, and the per-day budget (Σ(L+S) ≤ B) and capital rules. Solved to optimality with HiGHS via
+`scipy.optimize.milp` in about 1 s.
+
+## Reproduce
+
+```bash
+cd opus_lab && ~/.venvs/opus_pf/bin/python milp_l0.py po_a050_t10_orig 20
+```

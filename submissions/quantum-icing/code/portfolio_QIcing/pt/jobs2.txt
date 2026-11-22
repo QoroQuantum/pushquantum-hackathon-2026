@@ -1,0 +1,14 @@
+--instance po_a050_t10_orig --algo pt --start mix --tmin 10 --tmax 100000 --replicas 24 --adapt 0 --reseed 200 --label ptwide_po_a050_t10_orig_mix
+--instance po_a050_t10_s02 --algo pt --start mix --tmin 10 --tmax 100000 --replicas 24 --adapt 0 --reseed 200 --label ptwide_po_a050_t10_s02_mix
+--instance po_a050_t10_s01 --algo pt --start mix --tmin 10 --tmax 100000 --replicas 24 --adapt 0 --reseed 200 --label ptwide_po_a050_t10_s01_mix
+--instance po_a050_t15_s00 --algo pt --start mix --tmin 10 --tmax 100000 --replicas 24 --adapt 0 --reseed 200 --label ptwide_po_a050_t15_s00_mix
+--instance po_a050_t15_s01 --algo pt --start mix --tmin 10 --tmax 100000 --replicas 24 --adapt 0 --reseed 200 --label ptwide_po_a050_t15_s01_mix
+--instance po_a050_t10_orig --algo pooldp --seed 1
+--instance po_a050_t10_orig --algo sa --start best
+--instance po_a050_t10_s02 --algo pooldp --seed 1
+--instance po_a050_t10_s02 --algo sa --start best
+--instance po_a050_t10_s01 --algo pooldp --seed 1
+--instance po_a050_t15_s00 --algo pooldp --seed 1
+--instance po_a050_t15_s01 --algo pooldp --seed 1
+--instance po_a050_t15_s00 --algo sa --start best
+--instance po_a050_t15_s01 --algo sa --start best

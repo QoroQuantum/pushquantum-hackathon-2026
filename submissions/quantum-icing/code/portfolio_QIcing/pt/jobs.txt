@@ -1,0 +1,19 @@
+--instance po_a050_t10_orig --algo pt --start best --tmin 10 --tmax 3000 --replicas 16
+--instance po_a050_t10_orig --algo pt --start overfull --smin 0.1 --tmin 10 --tmax 300 --replicas 24
+--instance po_a050_t10_orig --algo pt --start empty --tmin 10 --tmax 3000 --replicas 16
+--instance po_a050_t10_s02 --algo pt --start best --tmin 10 --tmax 3000 --replicas 16
+--instance po_a050_t10_s02 --algo pt --start overfull --smin 0.1 --tmin 10 --tmax 300 --replicas 24
+--instance po_a050_t10_s01 --algo pt --start overfull --smin 0.1 --tmin 10 --tmax 300 --replicas 24
+--instance po_a050_t15_s00 --algo pt --start best --tmin 10 --tmax 3000 --replicas 16
+--instance po_a050_t15_s00 --algo pt --start overfull --smin 0.1 --tmin 10 --tmax 300 --replicas 24
+--instance po_a050_t15_s01 --algo pt --start best --tmin 10 --tmax 3000 --replicas 16
+--instance po_a050_t15_s01 --algo pt --start overfull --smin 0.1 --tmin 10 --tmax 300 --replicas 24
+--instance po_a050_t10_orig --algo sa --start best
+--instance po_a050_t10_orig --algo pooldp
+--instance po_a050_t10_s02 --algo sa --start best
+--instance po_a050_t10_s02 --algo pooldp
+--instance po_a050_t10_s01 --algo pooldp
+--instance po_a050_t15_s00 --algo sa --start best
+--instance po_a050_t15_s01 --algo sa --start best
+--instance po_a050_t10_s00 --algo pt --start overfull --smin 0.1 --tmin 10 --tmax 300 --replicas 24
+--instance po_a050_t10_s00 --algo pt --start best --tmin 10 --tmax 3000 --replicas 16

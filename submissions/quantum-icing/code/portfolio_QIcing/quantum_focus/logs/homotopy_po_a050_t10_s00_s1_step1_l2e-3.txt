@@ -1,0 +1,946 @@
+po_a050_t10_s00 B=20 λ=2e-3: compact QUBO 3090 vars; BKV 0 (none (homotopy step))
+start objective -107662
+penalty weight 5000, n_layers 3, warm start no
+it   0 t=4 assets=[5, 18, 31, 43, 48] q=9  3.2s  window-opt sampled=None   cand  -107662  incumbent  -107662  gap +0.00%
+it   1 t=4 assets=[6, 12, 22, 33, 45] q=9  1.1s  window-opt sampled=None   cand  -107828  incumbent  -107828  gap +0.00%
+it   2 t=7 assets=[0, 11, 27, 37, 49] q=9  0.6s  window-opt sampled=None   cand  -104812  incumbent  -107828  gap +0.00%
+it   3 t=(0, 1) assets=[38, 42] q=9  0.5s  window-opt sampled=None   cand  -105407  incumbent  -107828  gap +0.00%
+it   4 t=(1, 2) assets=[12, 28] q=9  0.5s  window-opt sampled=None   cand  -107072  incumbent  -107828  gap +0.00%
+it   5 t=(7, 8) assets=[20, 28] q=9  0.7s  window-opt sampled=None   cand  -108069  incumbent  -108069  gap +0.00%
+it   6 t=(5, 6) assets=[26, 40] q=9  0.8s  window-opt sampled=None   cand  -108069  incumbent  -108069  gap +0.00%
+it   7 t=0 assets=[20, 24, 32, 40, 44] q=9  0.5s  window-opt sampled=None   cand  -104231  incumbent  -108069  gap +0.00%
+it   8 t=0 assets=[0, 4, 19, 22, 41] q=9  0.5s  window-opt sampled=None   cand  -108069  incumbent  -108069  gap +0.00%
+it   9 t=7 assets=[2, 3, 4, 30, 31] q=9  0.5s  window-opt sampled=None   cand  -105467  incumbent  -108069  gap +0.00%
+it  10 t=5 assets=[35, 38, 39, 42, 47] q=9  0.8s  window-opt sampled=None   cand  -108069  incumbent  -108069  gap +0.00%
+it  11 t=6 assets=[18, 31, 36, 44, 45] q=9  0.6s  window-opt sampled=None   cand  -103274  incumbent  -108069  gap +0.00%
+it  12 t=(6, 7) assets=[17, 32] q=9  0.9s  window-opt sampled=None   cand  -108069  incumbent  -108069  gap +0.00%
+it  13 t=7 assets=[0, 11, 27, 37, 49] q=9  0.6s  window-opt sampled=None   cand  -105053  incumbent  -108069  gap +0.00%
+it  14 t=(4, 5) assets=[26, 47] q=9  0.7s  window-opt sampled=None   cand  -108069  incumbent  -108069  gap +0.00%
+it  15 t=7 assets=[13, 21, 25, 36, 44] q=9  0.7s  window-opt sampled=None   cand  -108069  incumbent  -108069  gap +0.00%
+it  16 t=1 assets=[16, 26, 30, 35, 47] q=9  0.5s  window-opt sampled=None   cand  -108025  incumbent  -108069  gap +0.00%
+it  17 t=4 assets=[2, 3, 18, 31, 36] q=9 -0.6s  window-opt sampled=None   cand  -105199  incumbent  -108069  gap +0.00%
+it  18 t=(2, 3) assets=[24, 34] q=9  0.6s  window-opt sampled=None   cand  -108069  incumbent  -108069  gap +0.00%
+it  19 t=(1, 2) assets=[1, 23] q=9  0.7s  window-opt sampled=None   cand  -106678  incumbent  -108069  gap +0.00%
+it  20 t=1 assets=[1, 11, 14, 23, 27] q=9  0.5s  window-opt sampled=None   cand  -104041  incumbent  -108069  gap +0.00%
+it  21 t=6 assets=[2, 12, 24, 34, 48] q=9  0.8s  window-opt sampled=None   cand  -108069  incumbent  -108069  gap +0.00%
+it  22 t=1 assets=[22, 33, 36, 40, 45] q=9  0.4s  window-opt sampled=None   cand  -105637  incumbent  -108069  gap +0.00%
+it  23 t=1 assets=[13, 26, 33, 40, 46] q=9  0.5s  window-opt sampled=None   cand  -105149  incumbent  -108069  gap +0.00%
+it  24 t=5 assets=[8, 14, 19, 22, 39] q=9  0.6s  window-opt sampled=None   cand  -108069  incumbent  -108069  gap +0.00%
+it  25 t=4 assets=[5, 11, 16, 17, 32] q=9  0.6s  window-opt sampled=None   cand  -101117  incumbent  -108069  gap +0.00%
+it  26 t=(3, 4) assets=[30, 47] q=9  0.5s  window-opt sampled=None   cand  -102445  incumbent  -108069  gap +0.00%
+it  27 t=5 assets=[1, 5, 8, 29, 43] q=9  0.8s  window-opt sampled=None   cand  -108069  incumbent  -108069  gap +0.00%
+it  28 t=6 assets=[1, 8, 11, 23, 32] q=9  1.0s  window-opt sampled=None   cand  -108069  incumbent  -108069  gap +0.00%
+it  29 t=(5, 6) assets=[19, 20] q=9  1.3s  window-opt sampled=None   cand  -108069  incumbent  -108069  gap +0.00%
+it  30 t=5 assets=[1, 15, 35, 39, 45] q=9  1.1s  window-opt sampled=None   cand  -108069  incumbent  -108069  gap +0.00%
+it  31 t=2 assets=[2, 16, 34, 37, 49] q=9  0.6s  window-opt sampled=None   cand   -98371  incumbent  -108069  gap +0.00%
+it  32 t=1 assets=[1, 11, 14, 23, 27] q=9  0.5s  window-opt sampled=None   cand  -100991  incumbent  -108069  gap +0.00%
+it  33 t=(0, 1) assets=[4, 23] q=9  0.5s  window-opt sampled=None   cand  -100991  incumbent  -108069  gap +0.00%
+it  34 t=(2, 3) assets=[26, 47] q=9  0.5s  window-opt sampled=None   cand  -106115  incumbent  -108069  gap +0.00%
+it  35 t=(1, 2) assets=[2, 34] q=9  0.4s  window-opt sampled=None   cand   -87523  incumbent  -108069  gap +0.00%
+it  36 t=0 assets=[2, 3, 4, 30, 34] q=9  0.5s  window-opt sampled=None   cand   -95450  incumbent  -108069  gap +0.00%
+it  37 t=8 assets=[2, 16, 17, 34, 37] q=9  0.5s  window-opt sampled=None   cand   -82406  incumbent  -108069  gap +0.00%
+it  38 t=7 assets=[25, 29, 31, 42, 45] q=9  0.9s  window-opt sampled=None   cand  -108069  incumbent  -108069  gap +0.00%
+it  39 t=0 assets=[2, 3, 5, 16, 34] q=9  0.5s  window-opt sampled=None   cand  -105955  incumbent  -108069  gap +0.00%
+it  40 t=(3, 4) assets=[19, 47] q=9  0.5s  window-opt sampled=None   cand  -101111  incumbent  -108069  gap +0.00%
+it  41 t=(6, 7) assets=[22, 33] q=9  0.9s  window-opt sampled=None   cand  -108069  incumbent  -108069  gap +0.00%
+it  42 t=5 assets=[20, 23, 28, 38, 39] q=9  1.0s  window-opt sampled=None   cand  -108069  incumbent  -108069  gap +0.00%
+it  43 t=6 assets=[2, 16, 17, 34, 37] q=9  0.9s  window-opt sampled=None   cand  -108069  incumbent  -108069  gap +0.00%
+it  44 t=6 assets=[2, 22, 36, 46, 47] q=9  0.6s  window-opt sampled=None   cand  -108212  incumbent  -108212  gap +0.00%
+it  45 t=7 assets=[1, 4, 11, 43, 49] q=9  0.7s  window-opt sampled=None   cand  -108212  incumbent  -108212  gap +0.00%
+it  46 t=(7, 8) assets=[12, 40] q=9  0.8s  window-opt sampled=None   cand  -108212  incumbent  -108212  gap +0.00%
+it  47 t=5 assets=[0, 11, 18, 27, 32] q=9  0.6s  window-opt sampled=None   cand  -105742  incumbent  -108212  gap +0.00%
+it  48 t=(6, 7) assets=[38, 42] q=9  0.8s  window-opt sampled=None   cand  -108212  incumbent  -108212  gap +0.00%
+it  49 t=2 assets=[18, 21, 38, 41, 42] q=9  0.9s  window-opt sampled=None   cand  -111410  incumbent  -111410  gap +0.00%
+it  50 t=5 assets=[2, 3, 18, 31, 36] q=9  0.9s  window-opt sampled=None   cand  -111719  incumbent  -111719  gap +0.00%
+it  51 t=(0, 1) assets=[9, 30] q=9  0.5s  window-opt sampled=None   cand  -108649  incumbent  -111719  gap +0.00%
+it  52 t=(1, 2) assets=[1, 36] q=9  0.7s  window-opt sampled=None   cand  -111719  incumbent  -111719  gap +0.00%
+it  53 t=0 assets=[1, 11, 14, 23, 27] q=9  0.5s  window-opt sampled=None   cand  -109979  incumbent  -111719  gap +0.00%
+it  54 t=0 assets=[15, 26, 28, 30, 33] q=9  0.5s  window-opt sampled=None   cand  -104952  incumbent  -111719  gap +0.00%
+it  55 t=(2, 3) assets=[1, 46] q=9  0.8s  window-opt sampled=None   cand  -111719  incumbent  -111719  gap +0.00%
+it  56 t=0 assets=[1, 5, 8, 23, 46] q=9  0.5s  window-opt sampled=None   cand  -111613  incumbent  -111719  gap +0.00%
+it  57 t=2 assets=[7, 21, 41, 42, 45] q=9  0.9s  window-opt sampled=None   cand  -112100  incumbent  -112100  gap +0.00%
+it  58 t=(0, 1) assets=[12, 14] q=9  0.4s  window-opt sampled=None   cand  -110751  incumbent  -112100  gap +0.00%
+it  59 t=1 assets=[1, 5, 6, 8, 46] q=9  0.4s  window-opt sampled=None   cand  -112100  incumbent  -112100  gap +0.00%
+it  60 t=3 assets=[7, 18, 21, 41, 42] q=9  0.8s  window-opt sampled=None   cand  -112100  incumbent  -112100  gap +0.00%
+it  61 t=(6, 7) assets=[9, 26] q=9 -0.6s  window-opt sampled=None   cand  -112257  incumbent  -112257  gap +0.00%
+it  62 t=(1, 2) assets=[22, 33] q=9  0.7s  window-opt sampled=None   cand  -112257  incumbent  -112257  gap +0.00%
+it  63 t=(7, 8) assets=[12, 38] q=9  0.6s  window-opt sampled=None   cand  -112711  incumbent  -112711  gap +0.00%
+it  64 t=8 assets=[1, 11, 12, 14, 23] q=9  0.5s  window-opt sampled=None   cand  -112711  incumbent  -112711  gap +0.00%
+it  65 t=0 assets=[0, 5, 15, 24, 33] q=9  0.6s  window-opt sampled=None   cand  -110577  incumbent  -112711  gap +0.00%
+it  66 t=(4, 5) assets=[16, 34] q=9  0.7s  window-opt sampled=None   cand  -112711  incumbent  -112711  gap +0.00%
+it  67 t=(5, 6) assets=[3, 16] q=9  0.8s  window-opt sampled=None   cand  -112711  incumbent  -112711  gap +0.00%
+it  68 t=4 assets=[5, 11, 16, 17, 32] q=9  0.6s  window-opt sampled=None   cand  -106433  incumbent  -112711  gap +0.00%
+it  69 t=8 assets=[1, 11, 17, 32, 37] q=9  0.5s  window-opt sampled=None   cand  -108740  incumbent  -112711  gap +0.00%
+it  70 t=(1, 2) assets=[2, 5] q=9  0.4s  window-opt sampled=None   cand  -106508  incumbent  -112711  gap +0.00%
+it  71 t=(1, 2) assets=[10, 29] q=9  0.6s  window-opt sampled=None   cand  -112711  incumbent  -112711  gap +0.00%
+it  72 t=2 assets=[31, 35, 37, 43, 49] q=9  0.8s  window-opt sampled=None   cand  -112711  incumbent  -112711  gap +0.00%
+it  73 t=(2, 3) assets=[35, 49] q=9  0.7s  window-opt sampled=None   cand  -112711  incumbent  -112711  gap +0.00%
+it  74 t=6 assets=[16, 24, 37, 38, 45] q=9  0.9s  window-opt sampled=None   cand  -112711  incumbent  -112711  gap +0.00%
+it  75 t=(0, 1) assets=[24, 41] q=9  0.4s  window-opt sampled=None   cand  -111387  incumbent  -112711  gap +0.00%
+it  76 t=1 assets=[0, 2, 18, 27, 37] q=9  0.4s  window-opt sampled=None   cand  -104133  incumbent  -112711  gap +0.00%
+it  77 t=5 assets=[15, 28, 39, 42, 47] q=9  0.7s  window-opt sampled=None   cand  -112711  incumbent  -112711  gap +0.00%
+it  78 t=4 assets=[1, 7, 15, 28, 41] q=9  0.5s  window-opt sampled=None   cand  -112260  incumbent  -112711  gap +0.00%
+it  79 t=5 assets=[8, 17, 19, 38, 42] q=9  0.6s  window-opt sampled=None   cand  -112711  incumbent  -112711  gap +0.00%
+it  80 t=(4, 5) assets=[13, 25] q=9  0.6s  window-opt sampled=None   cand  -112711  incumbent  -112711  gap +0.00%
+it  81 t=5 assets=[21, 35, 38, 42, 45] q=9  0.7s  window-opt sampled=None   cand  -112711  incumbent  -112711  gap +0.00%
+it  82 t=(3, 4) assets=[1, 8] q=9  0.7s  window-opt sampled=None   cand  -112711  incumbent  -112711  gap +0.00%
+it  83 t=(5, 6) assets=[15, 31] q=9  0.5s  window-opt sampled=None   cand  -112711  incumbent  -112711  gap +0.00%
+it  84 t=2 assets=[8, 12, 26, 33, 40] q=9  0.7s  window-opt sampled=None   cand  -112711  incumbent  -112711  gap +0.00%
+it  85 t=(3, 4) assets=[1, 46] q=9  0.6s  window-opt sampled=None   cand  -112711  incumbent  -112711  gap +0.00%
+it  86 t=(2, 3) assets=[9, 26] q=9  0.8s  window-opt sampled=None   cand  -112711  incumbent  -112711  gap +0.00%
+it  87 t=6 assets=[5, 12, 36, 42, 48] q=9  0.6s  window-opt sampled=None   cand  -112711  incumbent  -112711  gap +0.00%
+it  88 t=(1, 2) assets=[3, 4] q=9  0.5s  window-opt sampled=None   cand  -112711  incumbent  -112711  gap +0.00%
+it  89 t=3 assets=[2, 12, 24, 34, 36] q=9  0.7s  window-opt sampled=None   cand  -112711  incumbent  -112711  gap +0.00%
+it  90 t=(2, 3) assets=[19, 23] q=9  0.7s  window-opt sampled=None   cand  -112711  incumbent  -112711  gap +0.00%
+it  91 t=6 assets=[18, 31, 36, 44, 45] q=9  0.7s  window-opt sampled=None   cand  -110210  incumbent  -112711  gap +0.00%
+it  92 t=6 assets=[9, 13, 20, 31, 45] q=9  0.7s  window-opt sampled=None   cand  -112711  incumbent  -112711  gap +0.00%
+it  93 t=(6, 7) assets=[15, 24] q=9  0.6s  window-opt sampled=None   cand  -112711  incumbent  -112711  gap +0.00%
+it  94 t=(2, 3) assets=[38, 42] q=9  0.8s  window-opt sampled=None   cand  -112711  incumbent  -112711  gap +0.00%
+it  95 t=2 assets=[2, 3, 4, 30, 34] q=9  0.5s  window-opt sampled=None   cand  -106991  incumbent  -112711  gap +0.00%
+it  96 t=3 assets=[2, 12, 24, 34, 36] q=9  0.7s  window-opt sampled=None   cand  -112711  incumbent  -112711  gap +0.00%
+it  97 t=7 assets=[2, 3, 4, 30, 31] q=9  0.6s  window-opt sampled=None   cand  -110109  incumbent  -112711  gap +0.00%
+it  98 t=(2, 3) assets=[29, 39] q=9  0.8s  window-opt sampled=None   cand  -112711  incumbent  -112711  gap +0.00%
+it  99 t=(2, 3) assets=[18, 31] q=9  0.7s  window-opt sampled=None   cand  -112711  incumbent  -112711  gap +0.00%
+it 100 t=(1, 2) assets=[20, 35] q=9  0.6s  window-opt sampled=None   cand  -112990  incumbent  -112990  gap +0.00%
+it 101 t=3 assets=[11, 16, 17, 32, 37] q=9  0.5s  window-opt sampled=None   cand  -106068  incumbent  -112990  gap +0.00%
+it 102 t=0 assets=[26, 30, 40, 42, 47] q=9  0.4s  window-opt sampled=None   cand  -109000  incumbent  -112990  gap +0.00%
+it 103 t=5 assets=[10, 22, 29, 33, 45] q=9  0.7s  window-opt sampled=None   cand  -112990  incumbent  -112990  gap +0.00%
+it 104 t=(6, 7) assets=[21, 23] q=9  0.6s  window-opt sampled=None   cand  -112990  incumbent  -112990  gap +0.00%
+it 105 t=(2, 3) assets=[15, 28] q=9  0.7s  window-opt sampled=None   cand  -112990  incumbent  -112990  gap +0.00%
+it 106 t=4 assets=[2, 5, 24, 34, 48] q=9  0.7s  window-opt sampled=None   cand  -110835  incumbent  -112990  gap +0.00%
+it 107 t=6 assets=[7, 22, 32, 39, 47] q=9 -0.8s  window-opt sampled=None   cand  -112990  incumbent  -112990  gap +0.00%
+it 108 t=(7, 8) assets=[3, 10] q=9  0.7s  window-opt sampled=None   cand  -112990  incumbent  -112990  gap +0.00%
+it 109 t=7 assets=[9, 35, 38, 39, 42] q=9  0.7s  window-opt sampled=None   cand  -112990  incumbent  -112990  gap +0.00%
+it 110 t=7 assets=[24, 31, 36, 44, 45] q=9  0.5s  window-opt sampled=None   cand  -101053  incumbent  -112990  gap +0.00%
+it 111 t=4 assets=[13, 25, 43, 44, 49] q=9  0.7s  window-opt sampled=None   cand  -113165  incumbent  -113165  gap +0.00%
+it 112 t=7 assets=[2, 3, 4, 30, 31] q=9  0.5s  window-opt sampled=None   cand  -105048  incumbent  -113165  gap +0.00%
+it 113 t=3 assets=[2, 11, 12, 26, 36] q=9  0.8s  window-opt sampled=None   cand  -113165  incumbent  -113165  gap +0.00%
+it 114 t=3 assets=[2, 23, 32, 42, 43] q=9  0.5s  window-opt sampled=None   cand  -113165  incumbent  -113165  gap +0.00%
+it 115 t=0 assets=[7, 26, 40, 41, 47] q=9  0.5s  window-opt sampled=None   cand  -111343  incumbent  -113165  gap +0.00%
+it 116 t=0 assets=[12, 15, 26, 32, 33] q=9  0.5s  window-opt sampled=None   cand  -110237  incumbent  -113165  gap +0.00%
+it 117 t=2 assets=[18, 21, 38, 41, 42] q=9  0.7s  window-opt sampled=None   cand  -113522  incumbent  -113522  gap +0.00%
+it 118 t=7 assets=[0, 11, 18, 27, 32] q=9  0.5s  window-opt sampled=None   cand  -110506  incumbent  -113522  gap +0.00%
+it 119 t=(1, 2) assets=[1, 23] q=9  0.6s  window-opt sampled=None   cand  -111283  incumbent  -113522  gap +0.00%
+it 120 t=7 assets=[2, 12, 24, 34, 48] q=9  0.7s  window-opt sampled=None   cand  -113522  incumbent  -113522  gap +0.00%
+it 121 t=7 assets=[9, 35, 38, 39, 42] q=9  0.8s  window-opt sampled=None   cand  -113522  incumbent  -113522  gap +0.00%
+it 122 t=(4, 5) assets=[8, 38] q=9  0.8s  window-opt sampled=None   cand  -113522  incumbent  -113522  gap +0.00%
+it 123 t=5 assets=[19, 27, 39, 42, 47] q=9  0.7s  window-opt sampled=None   cand  -113522  incumbent  -113522  gap +0.00%
+it 124 t=2 assets=[11, 16, 17, 27, 32] q=9  0.7s  window-opt sampled=None   cand  -109501  incumbent  -113522  gap +0.00%
+it 125 t=(5, 6) assets=[9, 26] q=9  0.9s  window-opt sampled=None   cand  -113522  incumbent  -113522  gap +0.00%
+it 126 t=2 assets=[31, 35, 37, 43, 49] q=9  0.8s  window-opt sampled=None   cand  -113522  incumbent  -113522  gap +0.00%
+it 127 t=1 assets=[2, 5, 16, 24, 34] q=9  0.5s  window-opt sampled=None   cand  -113522  incumbent  -113522  gap +0.00%
+it 128 t=7 assets=[0, 18, 22, 32, 47] q=9  0.5s  window-opt sampled=None   cand  -111306  incumbent  -113522  gap +0.00%
+it 129 t=(1, 2) assets=[26, 47] q=9  0.6s  window-opt sampled=None   cand  -113522  incumbent  -113522  gap +0.00%
+it 130 t=(3, 4) assets=[43, 49] q=9  0.6s  window-opt sampled=None   cand  -113522  incumbent  -113522  gap +0.00%
+it 131 t=0 assets=[4, 13, 23, 26, 42] q=9  0.5s  window-opt sampled=None   cand  -111455  incumbent  -113522  gap +0.00%
+it 132 t=(3, 4) assets=[13, 25] q=9  0.7s  window-opt sampled=None   cand  -113724  incumbent  -113724  gap +0.00%
+it 133 t=3 assets=[18, 21, 38, 41, 42] q=9  0.7s  window-opt sampled=None   cand  -113724  incumbent  -113724  gap +0.00%
+it 134 t=6 assets=[2, 12, 24, 34, 48] q=9  0.8s  window-opt sampled=None   cand  -113724  incumbent  -113724  gap +0.00%
+it 135 t=(6, 7) assets=[22, 33] q=9  0.9s  window-opt sampled=None   cand  -113724  incumbent  -113724  gap +0.00%
+it 136 t=6 assets=[7, 11, 21, 23, 24] q=9  0.7s  window-opt sampled=None   cand  -113724  incumbent  -113724  gap +0.00%
+it 137 t=7 assets=[9, 26, 28, 30, 38] q=9  0.6s  window-opt sampled=None   cand  -113724  incumbent  -113724  gap +0.00%
+it 138 t=(0, 1) assets=[38, 41] q=9  0.5s  window-opt sampled=None   cand  -111303  incumbent  -113724  gap +0.00%
+it 139 t=(2, 3) assets=[17, 36] q=9  0.8s  window-opt sampled=None   cand  -113724  incumbent  -113724  gap +0.00%
+it 140 t=(3, 4) assets=[2, 15] q=9  0.7s  window-opt sampled=None   cand  -113724  incumbent  -113724  gap +0.00%
+it 141 t=8 assets=[1, 5, 8, 23, 46] q=9  0.5s  window-opt sampled=None   cand  -113724  incumbent  -113724  gap +0.00%
+it 142 t=(0, 1) assets=[16, 36] q=9  0.5s  window-opt sampled=None   cand  -110720  incumbent  -113724  gap +0.00%
+it 143 t=7 assets=[17, 22, 28, 30, 33] q=9  0.7s  window-opt sampled=None   cand  -113724  incumbent  -113724  gap +0.00%
+it 144 t=2 assets=[15, 25, 41, 45, 46] q=9  0.7s  window-opt sampled=None   cand  -113724  incumbent  -113724  gap +0.00%
+it 145 t=0 assets=[10, 22, 29, 33, 45] q=9  0.5s  window-opt sampled=None   cand  -113716  incumbent  -113724  gap +0.00%
+it 146 t=1 assets=[19, 28, 36, 37, 41] q=9  0.5s  window-opt sampled=None   cand  -111994  incumbent  -113724  gap +0.00%
+it 147 t=(6, 7) assets=[17, 32] q=9  0.9s  window-opt sampled=None   cand  -113724  incumbent  -113724  gap +0.00%
+it 148 t=2 assets=[11, 16, 17, 27, 32] q=9  0.6s  window-opt sampled=None   cand  -109703  incumbent  -113724  gap +0.00%
+it 149 t=(7, 8) assets=[35, 43] q=9  0.8s  window-opt sampled=None   cand  -113724  incumbent  -113724  gap +0.00%
+it 150 t=(2, 3) assets=[13, 25] q=9  0.8s  window-opt sampled=None   cand  -113724  incumbent  -113724  gap +0.00%
+it 151 t=5 assets=[2, 5, 24, 34, 48] q=9  0.9s  window-opt sampled=None   cand  -113724  incumbent  -113724  gap +0.00%
+it 152 t=3 assets=[2, 3, 18, 31, 36] q=9 -0.4s  window-opt sampled=None   cand  -113724  incumbent  -113724  gap +0.00%
+it 153 t=6 assets=[6, 26, 30, 38, 39] q=9  0.8s  window-opt sampled=None   cand  -113724  incumbent  -113724  gap +0.00%
+it 154 t=8 assets=[4, 29, 36, 48, 49] q=9  0.8s  window-opt sampled=None   cand  -113724  incumbent  -113724  gap +0.00%
+it 155 t=(4, 5) assets=[32, 44] q=9  0.8s  window-opt sampled=None   cand  -113724  incumbent  -113724  gap +0.00%
+it 156 t=(1, 2) assets=[22, 33] q=9  0.7s  window-opt sampled=None   cand  -113724  incumbent  -113724  gap +0.00%
+it 157 t=1 assets=[15, 26, 28, 30, 43] q=9  0.5s  window-opt sampled=None   cand  -111511  incumbent  -113724  gap +0.00%
+it 158 t=3 assets=[8, 12, 13, 26, 33] q=9  0.8s  window-opt sampled=None   cand  -113724  incumbent  -113724  gap +0.00%
+it 159 t=8 assets=[9, 35, 38, 39, 42] q=9  0.8s  window-opt sampled=None   cand  -113724  incumbent  -113724  gap +0.00%
+it 160 t=(0, 1) assets=[6, 16] q=9  0.5s  window-opt sampled=None   cand  -113724  incumbent  -113724  gap +0.00%
+it 161 t=(0, 1) assets=[17, 32] q=9  0.5s  window-opt sampled=None   cand  -108674  incumbent  -113724  gap +0.00%
+it 162 t=7 assets=[21, 23, 38, 44, 46] q=9  0.7s  window-opt sampled=None   cand  -113724  incumbent  -113724  gap +0.00%
+it 163 t=3 assets=[19, 38, 39, 42, 47] q=9  0.7s  window-opt sampled=None   cand  -103916  incumbent  -113724  gap +0.00%
+it 164 t=1 assets=[18, 31, 36, 44, 45] q=9  0.5s  window-opt sampled=None   cand  -111589  incumbent  -113724  gap +0.00%
+it 165 t=(3, 4) assets=[35, 47] q=9  0.5s  window-opt sampled=None   cand  -111768  incumbent  -113724  gap +0.00%
+it 166 t=(1, 2) assets=[14, 41] q=9  0.5s  window-opt sampled=None   cand  -112643  incumbent  -113724  gap +0.00%
+it 167 t=6 assets=[1, 8, 11, 23, 32] q=9  0.9s  window-opt sampled=None   cand  -113724  incumbent  -113724  gap +0.00%
+it 168 t=3 assets=[1, 6, 8, 11, 37] q=9  0.8s  window-opt sampled=None   cand  -113724  incumbent  -113724  gap +0.00%
+it 169 t=(3, 4) assets=[21, 42] q=9  0.8s  window-opt sampled=None   cand  -113907  incumbent  -113907  gap +0.00%
+it 170 t=7 assets=[9, 26, 28, 30, 38] q=9  0.6s  window-opt sampled=None   cand  -113907  incumbent  -113907  gap +0.00%
+it 171 t=1 assets=[7, 13, 26, 36, 42] q=9  0.5s  window-opt sampled=None   cand  -112127  incumbent  -113907  gap +0.00%
+it 172 t=3 assets=[1, 13, 17, 39, 46] q=9  0.7s  window-opt sampled=None   cand  -113907  incumbent  -113907  gap +0.00%
+it 173 t=(0, 1) assets=[18, 37] q=9  0.5s  window-opt sampled=None   cand  -113907  incumbent  -113907  gap +0.00%
+it 174 t=(1, 2) assets=[34, 48] q=9  0.6s  window-opt sampled=None   cand  -107692  incumbent  -113907  gap +0.00%
+it 175 t=8 assets=[1, 11, 16, 17, 32] q=9  0.6s  window-opt sampled=None   cand  -113907  incumbent  -113907  gap +0.00%
+it 176 t=(7, 8) assets=[35, 38] q=9  0.6s  window-opt sampled=None   cand  -113907  incumbent  -113907  gap +0.00%
+it 177 t=7 assets=[14, 15, 16, 22, 30] q=9  0.8s  window-opt sampled=None   cand  -113907  incumbent  -113907  gap +0.00%
+it 178 t=(7, 8) assets=[2, 34] q=9  0.7s  window-opt sampled=None   cand  -113907  incumbent  -113907  gap +0.00%
+it 179 t=0 assets=[26, 30, 40, 42, 47] q=9  0.5s  window-opt sampled=None   cand  -109917  incumbent  -113907  gap +0.00%
+it 180 t=(5, 6) assets=[27, 37] q=9  0.6s  window-opt sampled=None   cand  -108471  incumbent  -113907  gap +0.00%
+it 181 t=(7, 8) assets=[1, 46] q=9  0.7s  window-opt sampled=None   cand  -100837  incumbent  -113907  gap +0.00%
+it 182 t=(5, 6) assets=[9, 26] q=9  0.8s  window-opt sampled=None   cand  -113907  incumbent  -113907  gap +0.00%
+it 183 t=2 assets=[2, 18, 24, 34, 36] q=9  0.8s  window-opt sampled=None   cand  -110406  incumbent  -113907  gap +0.00%
+it 184 t=7 assets=[5, 8, 12, 31, 37] q=9  0.6s  window-opt sampled=None   cand  -113907  incumbent  -113907  gap +0.00%
+it 185 t=(3, 4) assets=[26, 28] q=9  0.5s  window-opt sampled=None   cand  -112452  incumbent  -113907  gap +0.00%
+it 186 t=(6, 7) assets=[24, 34] q=9  0.7s  window-opt sampled=None   cand  -113907  incumbent  -113907  gap +0.00%
+it 187 t=(4, 5) assets=[43, 49] q=9  0.7s  window-opt sampled=None   cand  -110748  incumbent  -113907  gap +0.00%
+it 188 t=0 assets=[2, 3, 5, 16, 34] q=9  0.5s  window-opt sampled=None   cand  -111793  incumbent  -113907  gap +0.00%
+it 189 t=5 assets=[6, 15, 19, 35, 45] q=9  0.7s  window-opt sampled=None   cand  -113907  incumbent  -113907  gap +0.00%
+it 190 t=8 assets=[17, 18, 32, 36, 42] q=9  0.6s  window-opt sampled=None   cand  -110726  incumbent  -113907  gap +0.00%
+it 191 t=6 assets=[38, 39, 42, 45, 49] q=9  0.9s  window-opt sampled=None   cand  -113907  incumbent  -113907  gap +0.00%
+it 192 t=(2, 3) assets=[26, 49] q=9  0.7s  window-opt sampled=None   cand  -112147  incumbent  -113907  gap +0.00%
+it 193 t=(5, 6) assets=[33, 45] q=9  0.8s  window-opt sampled=None   cand  -113907  incumbent  -113907  gap +0.00%
+it 194 t=(2, 3) assets=[3, 4] q=9  0.7s  window-opt sampled=None   cand  -113907  incumbent  -113907  gap +0.00%
+it 195 t=8 assets=[1, 11, 16, 17, 32] q=9  0.6s  window-opt sampled=None   cand  -113907  incumbent  -113907  gap +0.00%
+it 196 t=0 assets=[11, 27, 35, 43, 49] q=9 -0.9s  window-opt sampled=None   cand  -113907  incumbent  -113907  gap +0.00%
+it 197 t=(0, 1) assets=[22, 33] q=9  0.5s  window-opt sampled=None   cand  -112482  incumbent  -113907  gap +0.00%
+it 198 t=2 assets=[2, 3, 4, 30, 34] q=9  0.6s  window-opt sampled=None   cand  -105655  incumbent  -113907  gap +0.00%
+it 199 t=6 assets=[1, 11, 14, 23, 32] q=9  0.9s  window-opt sampled=None   cand  -113907  incumbent  -113907  gap +0.00%
+it 200 t=0 assets=[15, 26, 28, 30, 33] q=9  0.5s  window-opt sampled=None   cand  -107140  incumbent  -113907  gap +0.00%
+it 201 t=5 assets=[9, 26, 28, 30, 38] q=9  1.0s  window-opt sampled=None   cand  -113907  incumbent  -113907  gap +0.00%
+it 202 t=(3, 4) assets=[22, 33] q=9  0.7s  window-opt sampled=None   cand  -113907  incumbent  -113907  gap +0.00%
+it 203 t=6 assets=[7, 8, 21, 42, 45] q=9  0.8s  window-opt sampled=None   cand  -113907  incumbent  -113907  gap +0.00%
+it 204 t=3 assets=[7, 28, 43, 44, 47] q=9  0.4s  window-opt sampled=None   cand  -101705  incumbent  -113907  gap +0.00%
+it 205 t=(1, 2) assets=[16, 46] q=9  0.4s  window-opt sampled=None   cand  -102536  incumbent  -113907  gap +0.00%
+it 206 t=2 assets=[2, 18, 24, 34, 36] q=9  0.4s  window-opt sampled=None   cand  -110406  incumbent  -113907  gap +0.00%
+it 207 t=5 assets=[17, 22, 24, 35, 46] q=9  0.5s  window-opt sampled=None   cand  -113907  incumbent  -113907  gap +0.00%
+it 208 t=(4, 5) assets=[11, 32] q=9  0.5s  window-opt sampled=None   cand  -113907  incumbent  -113907  gap +0.00%
+it 209 t=0 assets=[13, 19, 22, 23, 29] q=9  0.4s  window-opt sampled=None   cand  -111885  incumbent  -113907  gap +0.00%
+it 210 t=6 assets=[10, 13, 33, 40, 43] q=9  0.6s  window-opt sampled=None   cand  -113907  incumbent  -113907  gap +0.00%
+it 211 t=(1, 2) assets=[17, 32] q=9  0.5s  window-opt sampled=None   cand  -113907  incumbent  -113907  gap +0.00%
+it 212 t=1 assets=[18, 31, 36, 44, 45] q=9  0.4s  window-opt sampled=None   cand  -111772  incumbent  -113907  gap +0.00%
+it 213 t=7 assets=[1, 11, 12, 14, 23] q=9  0.5s  window-opt sampled=None   cand  -113907  incumbent  -113907  gap +0.00%
+it 214 t=0 assets=[1, 4, 16, 35, 36] q=9  0.4s  window-opt sampled=None   cand  -113907  incumbent  -113907  gap +0.00%
+it 215 t=6 assets=[12, 22, 32, 36, 40] q=9  0.5s  window-opt sampled=None   cand  -113907  incumbent  -113907  gap +0.00%
+it 216 t=3 assets=[0, 15, 21, 32, 44] q=9  0.5s  window-opt sampled=None   cand  -113176  incumbent  -113907  gap +0.00%
+it 217 t=6 assets=[18, 40, 44, 45, 47] q=9  0.5s  window-opt sampled=None   cand  -112089  incumbent  -113907  gap +0.00%
+it 218 t=(7, 8) assets=[4, 12] q=9  0.5s  window-opt sampled=None   cand  -113907  incumbent  -113907  gap +0.00%
+it 219 t=(4, 5) assets=[13, 41] q=9  0.5s  window-opt sampled=None   cand  -113907  incumbent  -113907  gap +0.00%
+it 220 t=1 assets=[0, 2, 18, 27, 37] q=9  0.4s  window-opt sampled=None   cand  -112249  incumbent  -113907  gap +0.00%
+it 221 t=(1, 2) assets=[32, 48] q=9  0.4s  window-opt sampled=None   cand  -113907  incumbent  -113907  gap +0.00%
+it 222 t=(0, 1) assets=[24, 34] q=9  0.3s  window-opt sampled=None   cand  -113907  incumbent  -113907  gap +0.00%
+it 223 t=7 assets=[13, 21, 25, 36, 44] q=9  0.5s  window-opt sampled=None   cand  -113907  incumbent  -113907  gap +0.00%
+it 224 t=(0, 1) assets=[18, 31] q=9  0.4s  window-opt sampled=None   cand  -113907  incumbent  -113907  gap +0.00%
+it 225 t=4 assets=[19, 26, 35, 38, 47] q=9  0.4s  window-opt sampled=None   cand  -110053  incumbent  -113907  gap +0.00%
+it 226 t=5 assets=[2, 15, 20, 34, 45] q=9  0.6s  window-opt sampled=None   cand  -113907  incumbent  -113907  gap +0.00%
+it 227 t=(6, 7) assets=[36, 45] q=9  0.4s  window-opt sampled=None   cand  -111406  incumbent  -113907  gap +0.00%
+it 228 t=(6, 7) assets=[31, 40] q=9  0.5s  window-opt sampled=None   cand  -113907  incumbent  -113907  gap +0.00%
+it 229 t=3 assets=[10, 13, 19, 22, 41] q=9  0.5s  window-opt sampled=None   cand  -114099  incumbent  -114099  gap +0.00%
+it 230 t=2 assets=[0, 8, 21, 24, 48] q=9  0.5s  window-opt sampled=None   cand  -114099  incumbent  -114099  gap +0.00%
+it 231 t=0 assets=[8, 10, 11, 14, 48] q=9  0.4s  window-opt sampled=None   cand  -114091  incumbent  -114099  gap +0.00%
+it 232 t=6 assets=[6, 15, 19, 26, 41] q=9  0.6s  window-opt sampled=None   cand  -114099  incumbent  -114099  gap +0.00%
+it 233 t=2 assets=[8, 10, 16, 37, 39] q=9  0.5s  window-opt sampled=None   cand  -114099  incumbent  -114099  gap +0.00%
+it 234 t=8 assets=[1, 11, 16, 17, 32] q=9  0.4s  window-opt sampled=None   cand  -114099  incumbent  -114099  gap +0.00%
+it 235 t=6 assets=[2, 16, 17, 34, 37] q=9  0.8s  window-opt sampled=None   cand  -114099  incumbent  -114099  gap +0.00%
+it 236 t=(3, 4) assets=[7, 34] q=9  0.7s  window-opt sampled=None   cand  -114099  incumbent  -114099  gap +0.00%
+it 237 t=(6, 7) assets=[7, 23] q=9  0.5s  window-opt sampled=None   cand  -114099  incumbent  -114099  gap +0.00%
+it 238 t=4 assets=[2, 5, 24, 34, 48] q=9  0.6s  window-opt sampled=None   cand  -114099  incumbent  -114099  gap +0.00%
+it 239 t=(4, 5) assets=[0, 27] q=9  0.5s  window-opt sampled=None   cand  -112783  incumbent  -114099  gap +0.00%
+it 240 t=(4, 5) assets=[39, 47] q=9  0.7s  window-opt sampled=None   cand  -114684  incumbent  -114684  gap +0.00%
+it 241 t=(3, 4) assets=[16, 18] q=9  0.6s  window-opt sampled=None   cand  -114684  incumbent  -114684  gap +0.00%
+it 242 t=8 assets=[10, 22, 29, 33, 45] q=9  0.7s  window-opt sampled=None   cand  -114684  incumbent  -114684  gap +0.00%
+it 243 t=(1, 2) assets=[8, 20] q=9  0.5s  window-opt sampled=None   cand  -101127  incumbent  -114684  gap +0.00%
+it 244 t=3 assets=[15, 30, 35, 38, 47] q=9  0.4s  window-opt sampled=None   cand  -110309  incumbent  -114684  gap +0.00%
+it 245 t=3 assets=[11, 32, 37, 43, 49] q=9  0.5s  window-opt sampled=None   cand  -114684  incumbent  -114684  gap +0.00%
+it 246 t=2 assets=[31, 35, 37, 43, 49] q=9  0.6s  window-opt sampled=None   cand  -114684  incumbent  -114684  gap +0.00%
+it 247 t=(3, 4) assets=[10, 29] q=9  0.6s  window-opt sampled=None   cand  -114684  incumbent  -114684  gap +0.00%
+it 248 t=1 assets=[10, 22, 29, 35, 45] q=9  0.4s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 249 t=(4, 5) assets=[47, 48] q=9  0.6s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 250 t=2 assets=[1, 12, 14, 23, 38] q=9  0.6s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 251 t=5 assets=[5, 17, 21, 22, 24] q=9 -1.0s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 252 t=1 assets=[11, 27, 35, 43, 49] q=9  0.4s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 253 t=(3, 4) assets=[26, 47] q=9  0.4s  window-opt sampled=None   cand  -108496  incumbent  -115619  gap +0.00%
+it 254 t=1 assets=[22, 33, 36, 40, 45] q=9  0.4s  window-opt sampled=None   cand  -112524  incumbent  -115619  gap +0.00%
+it 255 t=7 assets=[1, 12, 14, 23, 24] q=9  0.5s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 256 t=(0, 1) assets=[10, 48] q=9  0.4s  window-opt sampled=None   cand  -115382  incumbent  -115619  gap +0.00%
+it 257 t=7 assets=[2, 17, 18, 31, 32] q=9  0.5s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 258 t=1 assets=[2, 12, 28, 32, 42] q=9  0.4s  window-opt sampled=None   cand  -113684  incumbent  -115619  gap +0.00%
+it 259 t=(2, 3) assets=[7, 24] q=9  0.5s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 260 t=(5, 6) assets=[9, 26] q=9  0.6s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 261 t=0 assets=[1, 5, 6, 8, 46] q=9  0.4s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 262 t=(7, 8) assets=[0, 27] q=9  0.5s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 263 t=8 assets=[2, 16, 17, 34, 37] q=9  0.4s  window-opt sampled=None   cand  -112021  incumbent  -115619  gap +0.00%
+it 264 t=2 assets=[5, 16, 17, 18, 29] q=9  0.6s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 265 t=3 assets=[0, 5, 10, 35, 42] q=9  0.6s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 266 t=(2, 3) assets=[8, 20] q=9  0.5s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 267 t=4 assets=[8, 12, 36, 38, 44] q=9  0.6s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 268 t=5 assets=[1, 11, 23, 27, 32] q=9  0.5s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 269 t=4 assets=[0, 11, 23, 27, 32] q=9  0.4s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 270 t=6 assets=[1, 11, 14, 23, 32] q=9  0.7s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 271 t=4 assets=[5, 31, 37, 43, 49] q=9  0.5s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 272 t=5 assets=[15, 26, 29, 30, 48] q=9  0.6s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 273 t=2 assets=[10, 12, 23, 39, 42] q=9  0.6s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 274 t=5 assets=[15, 26, 29, 30, 48] q=9  0.6s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 275 t=(2, 3) assets=[4, 29] q=9  0.6s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 276 t=(3, 4) assets=[5, 31] q=9  0.6s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 277 t=(2, 3) assets=[22, 29] q=9  0.7s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 278 t=(0, 1) assets=[26, 47] q=9  0.4s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 279 t=(7, 8) assets=[0, 27] q=9  0.5s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 280 t=4 assets=[1, 4, 5, 24, 48] q=9  0.5s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 281 t=(0, 1) assets=[22, 33] q=9  0.4s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 282 t=8 assets=[17, 18, 32, 36, 42] q=9  0.5s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 283 t=8 assets=[4, 17, 38, 41, 48] q=9  0.4s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 284 t=2 assets=[7, 15, 28, 29, 48] q=9  0.6s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 285 t=(2, 3) assets=[1, 8] q=9  0.6s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 286 t=(5, 6) assets=[18, 31] q=9  0.6s  window-opt sampled=None   cand  -114432  incumbent  -115619  gap +0.00%
+it 287 t=6 assets=[2, 19, 20, 35, 36] q=9  0.5s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 288 t=(6, 7) assets=[27, 38] q=9  0.4s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 289 t=(1, 2) assets=[3, 4] q=9  0.5s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 290 t=0 assets=[19, 26, 39, 42, 47] q=9  0.4s  window-opt sampled=None   cand  -113077  incumbent  -115619  gap +0.00%
+it 291 t=(3, 4) assets=[12, 35] q=9  0.6s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 292 t=3 assets=[2, 12, 24, 34, 36] q=9  0.6s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 293 t=8 assets=[1, 11, 16, 17, 32] q=9  0.4s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 294 t=7 assets=[3, 10, 17, 24, 36] q=9  0.5s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 295 t=6 assets=[7, 23, 27, 30, 48] q=9  0.5s  window-opt sampled=None   cand  -109734  incumbent  -115619  gap +0.00%
+it 296 t=6 assets=[0, 1, 32, 37, 47] q=9  0.5s  window-opt sampled=None   cand  -112930  incumbent  -115619  gap +0.00%
+it 297 t=(5, 6) assets=[8, 20] q=9  0.6s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 298 t=0 assets=[1, 16, 17, 32, 34] q=9  0.4s  window-opt sampled=None   cand  -111209  incumbent  -115619  gap +0.00%
+it 299 t=(5, 6) assets=[11, 18] q=9  0.6s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 300 t=(0, 1) assets=[5, 38] q=9  0.4s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 301 t=(3, 4) assets=[9, 26] q=9  0.5s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 302 t=(4, 5) assets=[44, 47] q=9  0.5s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 303 t=2 assets=[13, 25, 29, 40, 44] q=9  0.5s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 304 t=(0, 1) assets=[20, 34] q=9  0.3s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 305 t=1 assets=[2, 16, 27, 32, 34] q=9  0.4s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 306 t=8 assets=[0, 3, 30, 40, 46] q=9  0.6s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 307 t=5 assets=[1, 11, 23, 27, 32] q=9  0.5s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 308 t=2 assets=[0, 16, 32, 39, 43] q=9  0.5s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 309 t=(0, 1) assets=[22, 33] q=9  0.3s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 310 t=(6, 7) assets=[8, 29] q=9 -1.0s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 311 t=6 assets=[13, 15, 26, 29, 47] q=9  0.4s  window-opt sampled=None   cand  -112771  incumbent  -115619  gap +0.00%
+it 312 t=8 assets=[10, 21, 25, 37, 38] q=9  0.5s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 313 t=(4, 5) assets=[26, 47] q=9  0.6s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 314 t=(1, 2) assets=[35, 47] q=9  0.4s  window-opt sampled=None   cand  -114222  incumbent  -115619  gap +0.00%
+it 315 t=(6, 7) assets=[35, 47] q=9  0.6s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 316 t=(0, 1) assets=[15, 18] q=9  0.4s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 317 t=8 assets=[9, 11, 26, 28, 49] q=9  0.6s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 318 t=3 assets=[9, 26, 30, 40, 47] q=9  0.4s  window-opt sampled=None   cand  -113412  incumbent  -115619  gap +0.00%
+it 319 t=7 assets=[7, 26, 35, 36, 45] q=9  0.5s  window-opt sampled=None   cand  -111228  incumbent  -115619  gap +0.00%
+it 320 t=7 assets=[0, 2, 30, 39, 42] q=9  0.4s  window-opt sampled=None   cand  -112161  incumbent  -115619  gap +0.00%
+it 321 t=2 assets=[10, 23, 24, 27, 29] q=9  0.5s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 322 t=(0, 1) assets=[10, 29] q=9  0.3s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 323 t=0 assets=[21, 36, 41, 42, 45] q=9  0.4s  window-opt sampled=None   cand  -114971  incumbent  -115619  gap +0.00%
+it 324 t=(2, 3) assets=[16, 37] q=9  0.5s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 325 t=5 assets=[2, 3, 5, 18, 31] q=9  0.6s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 326 t=7 assets=[6, 12, 30, 36, 45] q=9  0.4s  window-opt sampled=None   cand  -103539  incumbent  -115619  gap +0.00%
+it 327 t=5 assets=[0, 9, 15, 28, 31] q=9  0.5s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 328 t=(4, 5) assets=[5, 6] q=9  0.5s  window-opt sampled=None   cand  -115619  incumbent  -115619  gap +0.00%
+it 329 t=4 assets=[14, 27, 28, 43, 44] q=9  0.7s  window-opt sampled=None   cand  -115736  incumbent  -115736  gap +0.00%
+it 330 t=(4, 5) assets=[15, 47] q=9  0.6s  window-opt sampled=None   cand  -115736  incumbent  -115736  gap +0.00%
+it 331 t=(4, 5) assets=[5, 31] q=9  0.7s  window-opt sampled=None   cand  -115736  incumbent  -115736  gap +0.00%
+it 332 t=7 assets=[14, 15, 22, 36, 45] q=9  0.8s  window-opt sampled=None   cand  -115736  incumbent  -115736  gap +0.00%
+it 333 t=(1, 2) assets=[41, 42] q=9  0.6s  window-opt sampled=None   cand  -115478  incumbent  -115736  gap +0.00%
+it 334 t=(2, 3) assets=[24, 34] q=9  0.6s  window-opt sampled=None   cand  -115736  incumbent  -115736  gap +0.00%
+it 335 t=(5, 6) assets=[3, 4] q=9  0.7s  window-opt sampled=None   cand  -115736  incumbent  -115736  gap +0.00%
+it 336 t=4 assets=[35, 38, 39, 42, 47] q=9  0.5s  window-opt sampled=None   cand  -112194  incumbent  -115736  gap +0.00%
+it 337 t=8 assets=[17, 24, 34, 38, 44] q=9  0.4s  window-opt sampled=None   cand   -88438  incumbent  -115736  gap +0.00%
+it 338 t=(1, 2) assets=[17, 32] q=9  0.7s  window-opt sampled=None   cand  -115736  incumbent  -115736  gap +0.00%
+it 339 t=(7, 8) assets=[2, 34] q=9  0.7s  window-opt sampled=None   cand  -115736  incumbent  -115736  gap +0.00%
+it 340 t=2 assets=[2, 23, 31, 38, 49] q=9  0.5s  window-opt sampled=None   cand  -112717  incumbent  -115736  gap +0.00%
+it 341 t=(1, 2) assets=[1, 8] q=9  0.5s  window-opt sampled=None   cand   -93303  incumbent  -115736  gap +0.00%
+it 342 t=7 assets=[4, 15, 32, 36, 44] q=9  0.5s  window-opt sampled=None   cand  -109701  incumbent  -115736  gap +0.00%
+it 343 t=5 assets=[7, 11, 16, 27, 37] q=9  0.5s  window-opt sampled=None   cand  -111130  incumbent  -115736  gap +0.00%
+it 344 t=(4, 5) assets=[17, 32] q=9  0.6s  window-opt sampled=None   cand  -115736  incumbent  -115736  gap +0.00%
+it 345 t=(0, 1) assets=[26, 47] q=9  0.4s  window-opt sampled=None   cand  -115616  incumbent  -115736  gap +0.00%
+it 346 t=5 assets=[10, 22, 29, 33, 45] q=9  0.6s  window-opt sampled=None   cand  -115736  incumbent  -115736  gap +0.00%
+it 347 t=(0, 1) assets=[1, 8] q=9  0.4s  window-opt sampled=None   cand  -115736  incumbent  -115736  gap +0.00%
+it 348 t=(6, 7) assets=[15, 29] q=9  0.6s  window-opt sampled=None   cand  -115736  incumbent  -115736  gap +0.00%
+it 349 t=4 assets=[9, 26, 30, 40, 47] q=9  0.5s  window-opt sampled=None   cand  -113155  incumbent  -115736  gap +0.00%
+it 350 t=(4, 5) assets=[38, 39] q=9  0.7s  window-opt sampled=None   cand  -115736  incumbent  -115736  gap +0.00%
+it 351 t=2 assets=[2, 3, 4, 30, 34] q=9  0.5s  window-opt sampled=None   cand  -107484  incumbent  -115736  gap +0.00%
+it 352 t=5 assets=[16, 27, 37, 43, 49] q=9  0.5s  window-opt sampled=None   cand  -110626  incumbent  -115736  gap +0.00%
+it 353 t=(5, 6) assets=[34, 48] q=9  0.8s  window-opt sampled=None   cand  -115736  incumbent  -115736  gap +0.00%
+it 354 t=8 assets=[7, 11, 18, 21, 23] q=9  0.5s  window-opt sampled=None   cand  -115736  incumbent  -115736  gap +0.00%
+it 355 t=2 assets=[1, 6, 8, 11, 37] q=9  0.6s  window-opt sampled=None   cand  -115736  incumbent  -115736  gap +0.00%
+it 356 t=8 assets=[9, 26, 30, 40, 47] q=9  0.7s  window-opt sampled=None   cand  -115736  incumbent  -115736  gap +0.00%
+it 357 t=3 assets=[2, 16, 32, 34, 37] q=9  0.6s  window-opt sampled=None   cand  -115736  incumbent  -115736  gap +0.00%
+it 358 t=3 assets=[1, 26, 33, 40, 46] q=9  0.5s  window-opt sampled=None   cand  -112402  incumbent  -115736  gap +0.00%
+it 359 t=5 assets=[21, 30, 31, 40, 44] q=9  0.5s  window-opt sampled=None   cand  -115736  incumbent  -115736  gap +0.00%
+it 360 t=0 assets=[1, 16, 17, 32, 34] q=9  0.5s  window-opt sampled=None   cand  -111326  incumbent  -115736  gap +0.00%
+it 361 t=0 assets=[3, 16, 20, 26, 46] q=9  0.4s  window-opt sampled=None   cand  -104297  incumbent  -115736  gap +0.00%
+it 362 t=(4, 5) assets=[34, 48] q=9  0.7s  window-opt sampled=None   cand  -115736  incumbent  -115736  gap +0.00%
+it 363 t=(1, 2) assets=[3, 30] q=9  0.6s  window-opt sampled=None   cand  -115736  incumbent  -115736  gap +0.00%
+it 364 t=6 assets=[11, 18, 27, 34, 44] q=9 -0.8s  window-opt sampled=None   cand  -112161  incumbent  -115736  gap +0.00%
+it 365 t=4 assets=[9, 21, 38, 41, 42] q=9  0.5s  window-opt sampled=None   cand  -114329  incumbent  -115736  gap +0.00%
+it 366 t=6 assets=[22, 33, 36, 42, 45] q=9  0.5s  window-opt sampled=None   cand  -113235  incumbent  -115736  gap +0.00%
+it 367 t=(1, 2) assets=[7, 32] q=9  0.6s  window-opt sampled=None   cand  -115736  incumbent  -115736  gap +0.00%
+it 368 t=(6, 7) assets=[39, 42] q=9  0.7s  window-opt sampled=None   cand  -115736  incumbent  -115736  gap +0.00%
+it 369 t=4 assets=[35, 38, 39, 42, 47] q=9  0.4s  window-opt sampled=None   cand  -112065  incumbent  -115736  gap +0.00%
+it 370 t=(0, 1) assets=[13, 25] q=9  0.4s  window-opt sampled=None   cand  -115622  incumbent  -115736  gap +0.00%
+it 371 t=(0, 1) assets=[17, 32] q=9  0.4s  window-opt sampled=None   cand  -110622  incumbent  -115736  gap +0.00%
+it 372 t=1 assets=[2, 18, 24, 34, 36] q=9  0.4s  window-opt sampled=None   cand  -114593  incumbent  -115736  gap +0.00%
+it 373 t=(2, 3) assets=[22, 33] q=9  0.8s  window-opt sampled=None   cand  -115736  incumbent  -115736  gap +0.00%
+it 374 t=(0, 1) assets=[7, 24] q=9  0.4s  window-opt sampled=None   cand  -110883  incumbent  -115736  gap +0.00%
+it 375 t=(1, 2) assets=[16, 47] q=9  0.4s  window-opt sampled=None   cand  -105352  incumbent  -115736  gap +0.00%
+it 376 t=(4, 5) assets=[1, 46] q=9  0.6s  window-opt sampled=None   cand  -115736  incumbent  -115736  gap +0.00%
+it 377 t=(0, 1) assets=[10, 15] q=9  0.4s  window-opt sampled=None   cand  -115728  incumbent  -115736  gap +0.00%
+it 378 t=1 assets=[12, 15, 22, 35, 39] q=9  0.4s  window-opt sampled=None   cand  -114669  incumbent  -115736  gap +0.00%
+it 379 t=7 assets=[1, 12, 14, 23, 24] q=9  0.5s  window-opt sampled=None   cand  -115736  incumbent  -115736  gap +0.00%
+it 380 t=3 assets=[1, 26, 33, 40, 46] q=9  0.6s  window-opt sampled=None   cand  -115736  incumbent  -115736  gap +0.00%
+it 381 t=8 assets=[35, 37, 38, 42, 47] q=9  0.7s  window-opt sampled=None   cand  -115736  incumbent  -115736  gap +0.00%
+it 382 t=6 assets=[22, 33, 36, 39, 45] q=9  0.5s  window-opt sampled=None   cand  -104146  incumbent  -115736  gap +0.00%
+it 383 t=5 assets=[2, 3, 5, 18, 31] q=9  0.7s  window-opt sampled=None   cand  -115736  incumbent  -115736  gap +0.00%
+it 384 t=6 assets=[1, 11, 16, 17, 32] q=9  0.7s  window-opt sampled=None   cand  -115736  incumbent  -115736  gap +0.00%
+it 385 t=(1, 2) assets=[14, 30] q=9  0.5s  window-opt sampled=None   cand  -115736  incumbent  -115736  gap +0.00%
+it 386 t=5 assets=[16, 27, 37, 43, 49] q=9  0.5s  window-opt sampled=None   cand  -115736  incumbent  -115736  gap +0.00%
+it 387 t=4 assets=[9, 26, 28, 30, 38] q=9  0.5s  window-opt sampled=None   cand  -113541  incumbent  -115736  gap +0.00%
+it 388 t=1 assets=[2, 9, 25, 39, 44] q=9  0.4s  window-opt sampled=None   cand  -115736  incumbent  -115736  gap +0.00%
+it 389 t=(2, 3) assets=[2, 18] q=9  0.6s  window-opt sampled=None   cand  -115736  incumbent  -115736  gap +0.00%
+it 390 t=(3, 4) assets=[41, 42] q=9  0.6s  window-opt sampled=None   cand  -115736  incumbent  -115736  gap +0.00%
+it 391 t=7 assets=[0, 11, 18, 27, 32] q=9  0.5s  window-opt sampled=None   cand  -112720  incumbent  -115736  gap +0.00%
+it 392 t=0 assets=[1, 2, 5, 6, 34] q=9  0.5s  window-opt sampled=None   cand  -113622  incumbent  -115736  gap +0.00%
+it 393 t=(0, 1) assets=[0, 28] q=9  0.4s  window-opt sampled=None   cand  -114187  incumbent  -115736  gap +0.00%
+it 394 t=4 assets=[1, 7, 23, 31, 41] q=9  0.5s  window-opt sampled=None   cand  -108294  incumbent  -115736  gap +0.00%
+it 395 t=5 assets=[21, 35, 38, 42, 45] q=9  0.7s  window-opt sampled=None   cand  -115736  incumbent  -115736  gap +0.00%
+it 396 t=7 assets=[1, 5, 6, 8, 46] q=9  0.8s  window-opt sampled=None   cand  -115736  incumbent  -115736  gap +0.00%
+it 397 t=(7, 8) assets=[3, 25] q=9  0.7s  window-opt sampled=None   cand  -115736  incumbent  -115736  gap +0.00%
+it 398 t=0 assets=[15, 26, 28, 30, 33] q=9  0.4s  window-opt sampled=None   cand  -108969  incumbent  -115736  gap +0.00%
+it 399 t=(6, 7) assets=[16, 37] q=9  0.6s  window-opt sampled=None   cand  -115736  incumbent  -115736  gap +0.00%
+it 400 t=1 assets=[1, 14, 26, 32, 40] q=9  0.4s  window-opt sampled=None   cand  -114311  incumbent  -115736  gap +0.00%
+it 401 t=(7, 8) assets=[22, 33] q=9  0.7s  window-opt sampled=None   cand  -115736  incumbent  -115736  gap +0.00%
+it 402 t=(5, 6) assets=[18, 21] q=9  0.6s  window-opt sampled=None   cand  -113720  incumbent  -115736  gap +0.00%
+it 403 t=(7, 8) assets=[21, 43] q=9  0.6s  window-opt sampled=None   cand  -115736  incumbent  -115736  gap +0.00%
+it 404 t=0 assets=[1, 5, 8, 23, 46] q=9  0.4s  window-opt sampled=None   cand  -113236  incumbent  -115736  gap +0.00%
+it 405 t=(1, 2) assets=[16, 42] q=9  0.5s  window-opt sampled=None   cand  -104365  incumbent  -115736  gap +0.00%
+it 406 t=(4, 5) assets=[3, 30] q=9  0.7s  window-opt sampled=None   cand  -115736  incumbent  -115736  gap +0.00%
+it 407 t=(6, 7) assets=[36, 44] q=9  0.5s  window-opt sampled=None   cand  -103992  incumbent  -115736  gap +0.00%
+it 408 t=3 assets=[1, 11, 20, 27, 39] q=9  0.7s  window-opt sampled=None   cand  -115736  incumbent  -115736  gap +0.00%
+it 409 t=0 assets=[19, 26, 39, 42, 47] q=9  0.4s  window-opt sampled=None   cand  -113669  incumbent  -115736  gap +0.00%
+it 410 t=4 assets=[0, 23, 24, 43, 47] q=9  0.6s  window-opt sampled=None   cand  -115736  incumbent  -115736  gap +0.00%
+it 411 t=1 assets=[4, 13, 25, 40, 48] q=9  0.4s  window-opt sampled=None   cand  -114256  incumbent  -115736  gap +0.00%
+it 412 t=(5, 6) assets=[18, 31] q=9  0.6s  window-opt sampled=None   cand  -114549  incumbent  -115736  gap +0.00%
+it 413 t=1 assets=[17, 19, 23, 39, 43] q=9  0.4s  window-opt sampled=None   cand  -109706  incumbent  -115736  gap +0.00%
+it 414 t=5 assets=[17, 28, 31, 33, 49] q=9  0.5s  window-opt sampled=None   cand  -113428  incumbent  -115736  gap +0.00%
+it 415 t=(2, 3) assets=[15, 28] q=9  0.6s  window-opt sampled=None   cand  -115736  incumbent  -115736  gap +0.00%
+it 416 t=(7, 8) assets=[35, 38] q=9  0.5s  window-opt sampled=None   cand  -115736  incumbent  -115736  gap +0.00%
+it 417 t=6 assets=[18, 21, 22, 26, 42] q=9 -0.7s  window-opt sampled=None   cand  -115736  incumbent  -115736  gap +0.00%
+it 418 t=5 assets=[13, 25, 36, 44, 45] q=9  0.7s  window-opt sampled=None   cand  -115820  incumbent  -115820  gap +0.00%
+it 419 t=(2, 3) assets=[1, 36] q=9  0.8s  window-opt sampled=None   cand  -115820  incumbent  -115820  gap +0.00%
+it 420 t=7 assets=[1, 6, 28, 37, 47] q=9  0.6s  window-opt sampled=None   cand  -115820  incumbent  -115820  gap +0.00%
+it 421 t=(1, 2) assets=[6, 44] q=9  0.5s  window-opt sampled=None   cand  -115820  incumbent  -115820  gap +0.00%
+it 422 t=2 assets=[7, 21, 41, 42, 45] q=9  0.7s  window-opt sampled=None   cand  -115820  incumbent  -115820  gap +0.00%
+it 423 t=(7, 8) assets=[14, 23] q=9  0.6s  window-opt sampled=None   cand  -115820  incumbent  -115820  gap +0.00%
+it 424 t=3 assets=[2, 5, 24, 34, 48] q=9  0.6s  window-opt sampled=None   cand  -115820  incumbent  -115820  gap +0.00%
+it 425 t=0 assets=[6, 15, 21, 41, 49] q=9  0.5s  window-opt sampled=None   cand  -114496  incumbent  -115820  gap +0.00%
+it 426 t=(3, 4) assets=[5, 6] q=9  0.7s  window-opt sampled=None   cand  -115820  incumbent  -115820  gap +0.00%
+it 427 t=(7, 8) assets=[23, 39] q=9  0.5s  window-opt sampled=None   cand  -113188  incumbent  -115820  gap +0.00%
+it 428 t=4 assets=[5, 6, 11, 22, 41] q=9  0.6s  window-opt sampled=None   cand  -109039  incumbent  -115820  gap +0.00%
+it 429 t=4 assets=[9, 26, 30, 40, 47] q=9  0.5s  window-opt sampled=None   cand  -112371  incumbent  -115820  gap +0.00%
+it 430 t=6 assets=[7, 19, 20, 26, 43] q=9  0.6s  window-opt sampled=None   cand  -114207  incumbent  -115820  gap +0.00%
+it 431 t=(6, 7) assets=[36, 40] q=9  0.5s  window-opt sampled=None   cand  -105851  incumbent  -115820  gap +0.00%
+it 432 t=(3, 4) assets=[17, 32] q=9  0.5s  window-opt sampled=None   cand  -115820  incumbent  -115820  gap +0.00%
+it 433 t=2 assets=[2, 18, 24, 34, 36] q=9  0.5s  window-opt sampled=None   cand  -112319  incumbent  -115820  gap +0.00%
+it 434 t=2 assets=[6, 7, 10, 31, 47] q=9  0.6s  window-opt sampled=None   cand  -115820  incumbent  -115820  gap +0.00%
+it 435 t=0 assets=[10, 22, 29, 36, 45] q=9  0.5s  window-opt sampled=None   cand  -115812  incumbent  -115820  gap +0.00%
+it 436 t=(1, 2) assets=[13, 25] q=9  0.7s  window-opt sampled=None   cand  -111922  incumbent  -115820  gap +0.00%
+it 437 t=5 assets=[13, 14, 15, 32, 45] q=9  0.6s  window-opt sampled=None   cand  -115820  incumbent  -115820  gap +0.00%
+it 438 t=(4, 5) assets=[15, 47] q=9  0.5s  window-opt sampled=None   cand  -115820  incumbent  -115820  gap +0.00%
+it 439 t=(6, 7) assets=[18, 19] q=9  0.6s  window-opt sampled=None   cand  -113157  incumbent  -115820  gap +0.00%
+it 440 t=(4, 5) assets=[2, 5] q=9  0.7s  window-opt sampled=None   cand  -115820  incumbent  -115820  gap +0.00%
+it 441 t=5 assets=[35, 38, 39, 42, 47] q=9  0.7s  window-opt sampled=None   cand  -116504  incumbent  -116504  gap +0.00%
+it 442 t=3 assets=[13, 16, 26, 47, 49] q=9  0.4s  window-opt sampled=None   cand  -108782  incumbent  -116504  gap +0.00%
+it 443 t=2 assets=[1, 5, 6, 8, 46] q=9  0.6s  window-opt sampled=None   cand  -116504  incumbent  -116504  gap +0.00%
+it 444 t=(1, 2) assets=[12, 14] q=9  0.5s  window-opt sampled=None   cand  -113733  incumbent  -116504  gap +0.00%
+it 445 t=7 assets=[9, 26, 28, 30, 38] q=9  0.5s  window-opt sampled=None   cand  -116504  incumbent  -116504  gap +0.00%
+it 446 t=5 assets=[16, 27, 37, 43, 49] q=9  0.5s  window-opt sampled=None   cand  -114392  incumbent  -116504  gap +0.00%
+it 447 t=8 assets=[14, 21, 25, 32, 46] q=9  0.7s  window-opt sampled=None   cand  -116504  incumbent  -116504  gap +0.00%
+it 448 t=(2, 3) assets=[22, 33] q=9  0.8s  window-opt sampled=None   cand  -116504  incumbent  -116504  gap +0.00%
+it 449 t=1 assets=[28, 33, 38, 43, 47] q=9  0.4s  window-opt sampled=None   cand  -112936  incumbent  -116504  gap +0.00%
+it 450 t=5 assets=[0, 16, 28, 40, 43] q=9  0.6s  window-opt sampled=None   cand  -112158  incumbent  -116504  gap +0.00%
+it 451 t=7 assets=[8, 20, 24, 34, 36] q=9  0.5s  window-opt sampled=None   cand  -116504  incumbent  -116504  gap +0.00%
+it 452 t=(5, 6) assets=[18, 31] q=9  0.7s  window-opt sampled=None   cand  -116504  incumbent  -116504  gap +0.00%
+it 453 t=6 assets=[13, 15, 26, 29, 47] q=9  0.5s  window-opt sampled=None   cand  -114604  incumbent  -116504  gap +0.00%
+it 454 t=(1, 2) assets=[3, 4] q=9  0.5s  window-opt sampled=None   cand  -116504  incumbent  -116504  gap +0.00%
+it 455 t=(1, 2) assets=[24, 45] q=9  0.5s  window-opt sampled=None   cand  -116504  incumbent  -116504  gap +0.00%
+it 456 t=4 assets=[1, 26, 33, 40, 46] q=9  0.5s  window-opt sampled=None   cand  -116504  incumbent  -116504  gap +0.00%
+it 457 t=(5, 6) assets=[29, 35] q=9  0.7s  window-opt sampled=None   cand  -116504  incumbent  -116504  gap +0.00%
+it 458 t=2 assets=[31, 35, 37, 43, 49] q=9  0.7s  window-opt sampled=None   cand  -116504  incumbent  -116504  gap +0.00%
+it 459 t=2 assets=[12, 35, 38, 39, 42] q=9  0.6s  window-opt sampled=None   cand  -114351  incumbent  -116504  gap +0.00%
+it 460 t=(4, 5) assets=[15, 47] q=9  0.5s  window-opt sampled=None   cand  -116504  incumbent  -116504  gap +0.00%
+it 461 t=0 assets=[17, 18, 28, 36, 41] q=9  0.4s  window-opt sampled=None   cand  -114331  incumbent  -116504  gap +0.00%
+it 462 t=5 assets=[35, 38, 39, 42, 47] q=9  0.5s  window-opt sampled=None   cand  -116504  incumbent  -116504  gap +0.00%
+it 463 t=0 assets=[21, 35, 38, 42, 45] q=9  0.5s  window-opt sampled=None   cand  -113975  incumbent  -116504  gap +0.00%
+it 464 t=4 assets=[0, 19, 20, 38, 44] q=9  0.7s  window-opt sampled=None   cand  -116504  incumbent  -116504  gap +0.00%
+it 465 t=8 assets=[2, 5, 24, 34, 48] q=9  0.5s  window-opt sampled=None   cand  -116504  incumbent  -116504  gap +0.00%
+it 466 t=3 assets=[6, 23, 24, 40, 49] q=9  0.7s  window-opt sampled=None   cand  -116504  incumbent  -116504  gap +0.00%
+it 467 t=3 assets=[9, 26, 30, 40, 47] q=9  0.5s  window-opt sampled=None   cand  -114297  incumbent  -116504  gap +0.00%
+it 468 t=0 assets=[10, 22, 29, 33, 45] q=9 -0.9s  window-opt sampled=None   cand  -116496  incumbent  -116504  gap +0.00%
+it 469 t=1 assets=[15, 26, 28, 30, 43] q=9  0.4s  window-opt sampled=None   cand  -115437  incumbent  -116504  gap +0.00%
+it 470 t=5 assets=[6, 12, 30, 40, 49] q=9  0.6s  window-opt sampled=None   cand  -116504  incumbent  -116504  gap +0.00%
+it 471 t=(0, 1) assets=[9, 30] q=9  0.4s  window-opt sampled=None   cand  -113434  incumbent  -116504  gap +0.00%
+it 472 t=(7, 8) assets=[1, 46] q=9  0.5s  window-opt sampled=None   cand  -103434  incumbent  -116504  gap +0.00%
+it 473 t=5 assets=[19, 27, 39, 42, 47] q=9  0.5s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 474 t=1 assets=[16, 26, 30, 35, 47] q=9  0.4s  window-opt sampled=None   cand  -114429  incumbent  -116506  gap +0.00%
+it 475 t=(2, 3) assets=[5, 8] q=9  0.5s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 476 t=(7, 8) assets=[3, 48] q=9  0.6s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 477 t=2 assets=[15, 26, 28, 30, 43] q=9  0.7s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 478 t=(4, 5) assets=[22, 33] q=9  0.6s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 479 t=7 assets=[12, 16, 24, 29, 33] q=9  0.6s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 480 t=(1, 2) assets=[2, 39] q=9  0.4s  window-opt sampled=None   cand   -95362  incumbent  -116506  gap +0.00%
+it 481 t=1 assets=[15, 26, 28, 30, 43] q=9  0.4s  window-opt sampled=None   cand  -113843  incumbent  -116506  gap +0.00%
+it 482 t=(2, 3) assets=[2, 43] q=9  0.5s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 483 t=6 assets=[1, 12, 14, 23, 24] q=9  0.5s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 484 t=6 assets=[0, 11, 27, 37, 49] q=9  0.6s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 485 t=1 assets=[0, 3, 25, 26, 29] q=9  0.4s  window-opt sampled=None   cand  -112136  incumbent  -116506  gap +0.00%
+it 486 t=(7, 8) assets=[18, 31] q=9  0.4s  window-opt sampled=None   cand  -109571  incumbent  -116506  gap +0.00%
+it 487 t=5 assets=[15, 22, 30, 37, 42] q=9  0.4s  window-opt sampled=None   cand  -112532  incumbent  -116506  gap +0.00%
+it 488 t=(0, 1) assets=[19, 36] q=9  0.4s  window-opt sampled=None   cand  -112853  incumbent  -116506  gap +0.00%
+it 489 t=(1, 2) assets=[0, 27] q=9  0.4s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 490 t=1 assets=[1, 8, 17, 38, 39] q=9  0.4s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 491 t=(6, 7) assets=[26, 40] q=9  0.6s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 492 t=4 assets=[2, 5, 6, 31, 34] q=9  0.6s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 493 t=(4, 5) assets=[12, 14] q=9  0.7s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 494 t=5 assets=[7, 23, 27, 43, 45] q=9  0.6s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 495 t=2 assets=[8, 11, 20, 32, 37] q=9  0.6s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 496 t=(2, 3) assets=[9, 17] q=9  0.6s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 497 t=1 assets=[8, 22, 33, 42, 49] q=9  0.4s  window-opt sampled=None   cand  -114027  incumbent  -116506  gap +0.00%
+it 498 t=(5, 6) assets=[12, 45] q=9  0.6s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 499 t=8 assets=[1, 11, 16, 17, 32] q=9  0.5s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 500 t=(5, 6) assets=[10, 29] q=9  0.7s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 501 t=7 assets=[9, 35, 38, 39, 42] q=9  0.6s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 502 t=(6, 7) assets=[3, 4] q=9  0.6s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 503 t=(4, 5) assets=[31, 39] q=9  0.7s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 504 t=(1, 2) assets=[5, 10] q=9  0.5s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 505 t=2 assets=[2, 3, 4, 5, 34] q=9  0.4s  window-opt sampled=None   cand  -115117  incumbent  -116506  gap +0.00%
+it 506 t=2 assets=[3, 6, 11, 33, 46] q=9  0.6s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 507 t=2 assets=[2, 6, 24, 27, 31] q=9  0.4s  window-opt sampled=None   cand   -94586  incumbent  -116506  gap +0.00%
+it 508 t=2 assets=[2, 3, 4, 5, 34] q=9  0.5s  window-opt sampled=None   cand  -115117  incumbent  -116506  gap +0.00%
+it 509 t=4 assets=[1, 2, 26, 29, 31] q=9  0.6s  window-opt sampled=None   cand  -111601  incumbent  -116506  gap +0.00%
+it 510 t=3 assets=[5, 9, 15, 40, 44] q=9  0.5s  window-opt sampled=None   cand  -115615  incumbent  -116506  gap +0.00%
+it 511 t=(7, 8) assets=[18, 47] q=9  0.4s  window-opt sampled=None   cand  -114174  incumbent  -116506  gap +0.00%
+it 512 t=1 assets=[1, 11, 14, 23, 27] q=9  0.4s  window-opt sampled=None   cand  -114286  incumbent  -116506  gap +0.00%
+it 513 t=(7, 8) assets=[22, 33] q=9  0.6s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 514 t=(5, 6) assets=[19, 42] q=9  0.5s  window-opt sampled=None   cand  -114401  incumbent  -116506  gap +0.00%
+it 515 t=3 assets=[10, 22, 29, 35, 38] q=9  0.5s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 516 t=(4, 5) assets=[14, 29] q=9  0.7s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 517 t=6 assets=[4, 6, 23, 44, 45] q=9  0.6s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 518 t=0 assets=[0, 2, 22, 30, 32] q=9  0.4s  window-opt sampled=None   cand  -114190  incumbent  -116506  gap +0.00%
+it 519 t=8 assets=[13, 15, 21, 24, 45] q=9  0.6s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 520 t=7 assets=[2, 3, 4, 30, 31] q=9  0.4s  window-opt sampled=None   cand  -113904  incumbent  -116506  gap +0.00%
+it 521 t=5 assets=[19, 27, 39, 42, 47] q=9  0.4s  window-opt sampled=None   cand  -114097  incumbent  -116506  gap +0.00%
+it 522 t=5 assets=[2, 4, 7, 32, 49] q=9  0.5s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 523 t=(4, 5) assets=[19, 47] q=9  0.4s  window-opt sampled=None   cand  -115503  incumbent  -116506  gap +0.00%
+it 524 t=0 assets=[3, 9, 33, 34, 41] q=9  0.4s  window-opt sampled=None   cand  -112786  incumbent  -116506  gap +0.00%
+it 525 t=8 assets=[2, 16, 17, 34, 37] q=9 -1.0s  window-opt sampled=None   cand  -112908  incumbent  -116506  gap +0.00%
+it 526 t=2 assets=[1, 5, 6, 8, 46] q=9  0.7s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 527 t=(1, 2) assets=[35, 47] q=9  0.6s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 528 t=6 assets=[18, 31, 36, 44, 45] q=9  0.5s  window-opt sampled=None   cand  -114005  incumbent  -116506  gap +0.00%
+it 529 t=(7, 8) assets=[15, 28] q=9  0.6s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 530 t=6 assets=[13, 15, 26, 29, 47] q=9  0.5s  window-opt sampled=None   cand  -114606  incumbent  -116506  gap +0.00%
+it 531 t=(5, 6) assets=[12, 14] q=9  0.6s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 532 t=7 assets=[0, 25, 37, 39, 40] q=9  0.5s  window-opt sampled=None   cand  -113840  incumbent  -116506  gap +0.00%
+it 533 t=4 assets=[15, 30, 35, 38, 47] q=9  0.4s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 534 t=(4, 5) assets=[32, 42] q=9  0.6s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 535 t=8 assets=[1, 3, 14, 16, 45] q=9  0.5s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 536 t=3 assets=[27, 28, 29, 44, 49] q=9  0.6s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 537 t=8 assets=[3, 24, 34, 43, 47] q=9  0.4s  window-opt sampled=None   cand  -107105  incumbent  -116506  gap +0.00%
+it 538 t=(3, 4) assets=[43, 49] q=9  0.5s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 539 t=0 assets=[10, 22, 29, 33, 45] q=9  0.4s  window-opt sampled=None   cand  -115466  incumbent  -116506  gap +0.00%
+it 540 t=(0, 1) assets=[26, 47] q=9  0.4s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 541 t=(2, 3) assets=[3, 26] q=9  0.6s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 542 t=3 assets=[9, 26, 30, 40, 47] q=9  0.4s  window-opt sampled=None   cand  -114299  incumbent  -116506  gap +0.00%
+it 543 t=3 assets=[4, 8, 12, 15, 44] q=9  0.6s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 544 t=(4, 5) assets=[38, 41] q=9  0.5s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 545 t=4 assets=[0, 11, 23, 27, 32] q=9  0.6s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 546 t=5 assets=[16, 27, 37, 43, 49] q=9  0.5s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 547 t=1 assets=[7, 26, 33, 38, 45] q=9  0.5s  window-opt sampled=None   cand  -108214  incumbent  -116506  gap +0.00%
+it 548 t=6 assets=[12, 16, 26, 32, 39] q=9  0.5s  window-opt sampled=None   cand  -110075  incumbent  -116506  gap +0.00%
+it 549 t=(3, 4) assets=[6, 8] q=9  0.7s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 550 t=1 assets=[4, 8, 38, 46, 47] q=9  0.4s  window-opt sampled=None   cand  -115109  incumbent  -116506  gap +0.00%
+it 551 t=8 assets=[17, 22, 23, 40, 48] q=9  0.4s  window-opt sampled=None   cand  -103571  incumbent  -116506  gap +0.00%
+it 552 t=3 assets=[16, 18, 22, 40, 45] q=9  0.5s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 553 t=7 assets=[2, 5, 18, 31, 34] q=9  0.5s  window-opt sampled=None   cand  -113118  incumbent  -116506  gap +0.00%
+it 554 t=2 assets=[0, 22, 27, 41, 43] q=9  0.4s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 555 t=1 assets=[0, 2, 18, 27, 37] q=9  0.4s  window-opt sampled=None   cand  -115526  incumbent  -116506  gap +0.00%
+it 556 t=4 assets=[1, 14, 28, 40, 41] q=9  0.5s  window-opt sampled=None   cand  -111994  incumbent  -116506  gap +0.00%
+it 557 t=8 assets=[2, 5, 18, 43, 48] q=9  0.5s  window-opt sampled=None   cand  -111608  incumbent  -116506  gap +0.00%
+it 558 t=6 assets=[0, 11, 27, 37, 49] q=9  0.6s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 559 t=(6, 7) assets=[8, 48] q=9  0.6s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 560 t=2 assets=[0, 16, 41, 43, 46] q=9  0.5s  window-opt sampled=None   cand  -113956  incumbent  -116506  gap +0.00%
+it 561 t=0 assets=[1, 16, 17, 32, 34] q=9  0.4s  window-opt sampled=None   cand  -112096  incumbent  -116506  gap +0.00%
+it 562 t=(5, 6) assets=[0, 27] q=9  0.4s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 563 t=6 assets=[13, 16, 25, 40, 48] q=9  0.6s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 564 t=8 assets=[15, 28, 36, 43, 49] q=9  0.5s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 565 t=(7, 8) assets=[30, 34] q=9  0.6s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 566 t=3 assets=[2, 12, 24, 34, 36] q=9  0.6s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 567 t=(7, 8) assets=[3, 30] q=9  0.5s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 568 t=(2, 3) assets=[5, 6] q=9  0.5s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 569 t=8 assets=[7, 11, 18, 21, 23] q=9  0.4s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 570 t=(2, 3) assets=[43, 49] q=9  0.5s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 571 t=4 assets=[19, 26, 35, 38, 47] q=9  0.4s  window-opt sampled=None   cand  -112624  incumbent  -116506  gap +0.00%
+it 572 t=(4, 5) assets=[12, 14] q=9  0.6s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 573 t=(0, 1) assets=[34, 48] q=9  0.3s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 574 t=4 assets=[1, 5, 14, 23, 46] q=9  0.4s  window-opt sampled=None   cand  -102696  incumbent  -116506  gap +0.00%
+it 575 t=(7, 8) assets=[35, 38] q=9  0.4s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 576 t=3 assets=[19, 38, 39, 42, 47] q=9  0.4s  window-opt sampled=None   cand  -106638  incumbent  -116506  gap +0.00%
+it 577 t=3 assets=[11, 32, 37, 43, 49] q=9  0.4s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 578 t=(5, 6) assets=[27, 31] q=9  0.5s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 579 t=(6, 7) assets=[2, 31] q=9  0.5s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 580 t=(2, 3) assets=[38, 42] q=9  0.5s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 581 t=2 assets=[7, 9, 27, 36, 49] q=9  0.5s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 582 t=(2, 3) assets=[22, 29] q=9  0.6s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 583 t=(3, 4) assets=[12, 14] q=9  0.6s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 584 t=2 assets=[8, 15, 19, 37, 49] q=9  0.5s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 585 t=2 assets=[1, 5, 6, 8, 46] q=9  0.5s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 586 t=(0, 1) assets=[3, 14] q=9  0.3s  window-opt sampled=None   cand  -112154  incumbent  -116506  gap +0.00%
+it 587 t=6 assets=[1, 11, 14, 23, 32] q=9  0.6s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 588 t=4 assets=[2, 4, 5, 16, 34] q=9  0.6s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 589 t=7 assets=[0, 6, 8, 29, 44] q=9  0.5s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 590 t=(7, 8) assets=[24, 49] q=9  0.4s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 591 t=4 assets=[3, 5, 7, 46, 48] q=9  0.4s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 592 t=(3, 4) assets=[0, 27] q=9  0.6s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 593 t=2 assets=[11, 27, 37, 43, 49] q=9  0.4s  window-opt sampled=None   cand  -114145  incumbent  -116506  gap +0.00%
+it 594 t=1 assets=[21, 35, 38, 42, 45] q=9  0.3s  window-opt sampled=None   cand  -115394  incumbent  -116506  gap +0.00%
+it 595 t=(4, 5) assets=[38, 42] q=9  0.5s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 596 t=4 assets=[7, 21, 38, 41, 42] q=9  0.5s  window-opt sampled=None   cand  -115924  incumbent  -116506  gap +0.00%
+it 597 t=(7, 8) assets=[8, 31] q=9  0.6s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 598 t=0 assets=[1, 11, 14, 23, 27] q=9  0.4s  window-opt sampled=None   cand  -114766  incumbent  -116506  gap +0.00%
+it 599 t=(4, 5) assets=[1, 20] q=9  0.5s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 600 t=5 assets=[1, 11, 16, 17, 32] q=9  0.4s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 601 t=4 assets=[2, 6, 21, 25, 36] q=9  0.5s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 602 t=(4, 5) assets=[32, 49] q=9  0.5s  window-opt sampled=None   cand  -110361  incumbent  -116506  gap +0.00%
+it 603 t=4 assets=[3, 10, 13, 21, 45] q=9  0.7s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 604 t=(1, 2) assets=[10, 39] q=9  0.4s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 605 t=(0, 1) assets=[26, 28] q=9  0.4s  window-opt sampled=None   cand  -116320  incumbent  -116506  gap +0.00%
+it 606 t=(0, 1) assets=[18, 31] q=9  0.3s  window-opt sampled=None   cand  -114677  incumbent  -116506  gap +0.00%
+it 607 t=(6, 7) assets=[29, 33] q=9  0.5s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 608 t=3 assets=[26, 27, 30, 35, 47] q=9  0.5s  window-opt sampled=None   cand  -114350  incumbent  -116506  gap +0.00%
+it 609 t=0 assets=[0, 12, 30, 38, 43] q=9  0.4s  window-opt sampled=None   cand  -111140  incumbent  -116506  gap +0.00%
+it 610 t=3 assets=[18, 23, 27, 36, 44] q=9  0.6s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 611 t=2 assets=[16, 30, 33, 38, 43] q=9  0.6s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 612 t=3 assets=[19, 38, 39, 42, 47] q=9  0.4s  window-opt sampled=None   cand  -106638  incumbent  -116506  gap +0.00%
+it 613 t=(6, 7) assets=[24, 34] q=9  0.5s  window-opt sampled=None   cand  -116506  incumbent  -116506  gap +0.00%
+it 614 t=(0, 1) assets=[19, 39] q=9  0.4s  window-opt sampled=None   cand  -116757  incumbent  -116757  gap +0.00%
+it 615 t=(5, 6) assets=[15, 48] q=9  0.5s  window-opt sampled=None   cand  -116757  incumbent  -116757  gap +0.00%
+it 616 t=2 assets=[1, 12, 14, 23, 38] q=9  0.6s  window-opt sampled=None   cand  -116757  incumbent  -116757  gap +0.00%
+it 617 t=1 assets=[16, 26, 30, 35, 47] q=9  0.4s  window-opt sampled=None   cand  -116045  incumbent  -116757  gap +0.00%
+it 618 t=1 assets=[2, 16, 28, 41, 49] q=9  0.3s  window-opt sampled=None   cand  -116571  incumbent  -116757  gap +0.00%
+it 619 t=(2, 3) assets=[26, 40] q=9  0.5s  window-opt sampled=None   cand  -116757  incumbent  -116757  gap +0.00%
+it 620 t=3 assets=[10, 16, 17, 24, 25] q=9  0.4s  window-opt sampled=None   cand  -116757  incumbent  -116757  gap +0.00%
+it 621 t=(7, 8) assets=[1, 15] q=9  0.5s  window-opt sampled=None   cand  -116757  incumbent  -116757  gap +0.00%
+it 622 t=6 assets=[10, 22, 29, 33, 45] q=9  0.6s  window-opt sampled=None   cand  -116757  incumbent  -116757  gap +0.00%
+it 623 t=6 assets=[11, 16, 28, 36, 49] q=9  0.5s  window-opt sampled=None   cand  -116757  incumbent  -116757  gap +0.00%
+it 624 t=(4, 5) assets=[22, 33] q=9  0.5s  window-opt sampled=None   cand  -116757  incumbent  -116757  gap +0.00%
+it 625 t=4 assets=[3, 4, 26, 30, 35] q=9  0.4s  window-opt sampled=None   cand  -112464  incumbent  -116757  gap +0.00%
+it 626 t=2 assets=[2, 7, 22, 31, 47] q=9  0.4s  window-opt sampled=None   cand  -112075  incumbent  -116757  gap +0.00%
+it 627 t=1 assets=[21, 35, 38, 42, 45] q=9  0.4s  window-opt sampled=None   cand  -115645  incumbent  -116757  gap +0.00%
+it 628 t=(3, 4) assets=[38, 42] q=9  0.5s  window-opt sampled=None   cand  -116757  incumbent  -116757  gap +0.00%
+it 629 t=(0, 1) assets=[0, 6] q=9  0.3s  window-opt sampled=None   cand  -115777  incumbent  -116757  gap +0.00%
+it 630 t=3 assets=[2, 12, 24, 34, 36] q=9  0.5s  window-opt sampled=None   cand  -116757  incumbent  -116757  gap +0.00%
+it 631 t=(6, 7) assets=[1, 11] q=9  0.6s  window-opt sampled=None   cand  -116757  incumbent  -116757  gap +0.00%
+it 632 t=(7, 8) assets=[8, 20] q=9  0.5s  window-opt sampled=None   cand  -116757  incumbent  -116757  gap +0.00%
+it 633 t=8 assets=[21, 36, 41, 42, 45] q=9  0.6s  window-opt sampled=None   cand  -116757  incumbent  -116757  gap +0.00%
+it 634 t=2 assets=[21, 27, 35, 37, 46] q=9  0.5s  window-opt sampled=None   cand  -116757  incumbent  -116757  gap +0.00%
+it 635 t=8 assets=[2, 18, 32, 36, 42] q=9  0.5s  window-opt sampled=None   cand  -116757  incumbent  -116757  gap +0.00%
+it 636 t=6 assets=[11, 27, 29, 36, 41] q=9  0.4s  window-opt sampled=None   cand  -115274  incumbent  -116757  gap +0.00%
+it 637 t=(0, 1) assets=[0, 27] q=9  0.3s  window-opt sampled=None   cand  -115777  incumbent  -116757  gap +0.00%
+it 638 t=(2, 3) assets=[18, 37] q=9  0.6s  window-opt sampled=None   cand  -116757  incumbent  -116757  gap +0.00%
+it 639 t=3 assets=[33, 36, 42, 45, 49] q=9  0.6s  window-opt sampled=None   cand  -116757  incumbent  -116757  gap +0.00%
+it 640 t=(5, 6) assets=[17, 32] q=9  0.5s  window-opt sampled=None   cand  -116757  incumbent  -116757  gap +0.00%
+it 641 t=5 assets=[35, 37, 39, 43, 49] q=9  0.4s  window-opt sampled=None   cand  -112105  incumbent  -116757  gap +0.00%
+it 642 t=4 assets=[1, 5, 14, 23, 46] q=9  0.4s  window-opt sampled=None   cand  -116757  incumbent  -116757  gap +0.00%
+it 643 t=(6, 7) assets=[1, 31] q=9  0.5s  window-opt sampled=None   cand  -116757  incumbent  -116757  gap +0.00%
+it 644 t=7 assets=[2, 16, 17, 34, 37] q=9  0.6s  window-opt sampled=None   cand  -114376  incumbent  -116757  gap +0.00%
+it 645 t=1 assets=[2, 3, 4, 5, 34] q=9 -1.1s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 646 t=4 assets=[2, 5, 6, 31, 34] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 647 t=(4, 5) assets=[33, 40] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 648 t=(2, 3) assets=[26, 28] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 649 t=3 assets=[1, 18, 34, 42, 43] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 650 t=1 assets=[1, 3, 9, 24, 45] q=9  0.3s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 651 t=1 assets=[14, 23, 24, 31, 42] q=9  0.3s  window-opt sampled=None   cand  -110502  incumbent  -116783  gap +0.00%
+it 652 t=0 assets=[10, 22, 29, 33, 45] q=9  0.3s  window-opt sampled=None   cand  -116613  incumbent  -116783  gap +0.00%
+it 653 t=(6, 7) assets=[26, 28] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 654 t=6 assets=[9, 26, 30, 40, 47] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 655 t=(1, 2) assets=[24, 34] q=9  0.4s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 656 t=(3, 4) assets=[17, 32] q=9  0.4s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 657 t=7 assets=[2, 12, 24, 34, 48] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 658 t=(1, 2) assets=[22, 33] q=9  0.5s  window-opt sampled=None   cand  -114533  incumbent  -116783  gap +0.00%
+it 659 t=(6, 7) assets=[1, 11] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 660 t=6 assets=[10, 22, 29, 33, 45] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 661 t=1 assets=[1, 14, 35, 42, 47] q=9  0.3s  window-opt sampled=None   cand  -113018  incumbent  -116783  gap +0.00%
+it 662 t=(0, 1) assets=[6, 44] q=9  0.3s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 663 t=4 assets=[1, 5, 14, 23, 46] q=9  0.4s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 664 t=4 assets=[9, 10, 16, 42, 46] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 665 t=2 assets=[14, 20, 21, 35, 48] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 666 t=2 assets=[1, 6, 8, 11, 37] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 667 t=5 assets=[3, 24, 33, 37, 40] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 668 t=5 assets=[1, 11, 23, 27, 32] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 669 t=5 assets=[3, 11, 25, 28, 49] q=9  0.4s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 670 t=(1, 2) assets=[43, 49] q=9  0.4s  window-opt sampled=None   cand  -114225  incumbent  -116783  gap +0.00%
+it 671 t=3 assets=[11, 16, 17, 32, 37] q=9  0.4s  window-opt sampled=None   cand  -112985  incumbent  -116783  gap +0.00%
+it 672 t=4 assets=[9, 26, 30, 40, 47] q=9  0.4s  window-opt sampled=None   cand  -114202  incumbent  -116783  gap +0.00%
+it 673 t=3 assets=[8, 18, 27, 31, 40] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 674 t=(7, 8) assets=[16, 34] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 675 t=8 assets=[13, 16, 27, 39, 41] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 676 t=(1, 2) assets=[16, 34] q=9  0.4s  window-opt sampled=None   cand  -109261  incumbent  -116783  gap +0.00%
+it 677 t=2 assets=[12, 18, 31, 32, 36] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 678 t=5 assets=[1, 5, 14, 23, 46] q=9  0.7s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 679 t=3 assets=[9, 26, 28, 30, 38] q=9  0.5s  window-opt sampled=None   cand  -115383  incumbent  -116783  gap +0.00%
+it 680 t=(6, 7) assets=[16, 33] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 681 t=4 assets=[5, 31, 37, 43, 49] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 682 t=(0, 1) assets=[27, 29] q=9  0.4s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 683 t=(6, 7) assets=[5, 14] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 684 t=(7, 8) assets=[28, 36] q=9  0.5s  window-opt sampled=None   cand  -113354  incumbent  -116783  gap +0.00%
+it 685 t=(0, 1) assets=[22, 33] q=9  0.4s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 686 t=1 assets=[2, 19, 35, 42, 47] q=9  0.4s  window-opt sampled=None   cand  -113018  incumbent  -116783  gap +0.00%
+it 687 t=6 assets=[7, 11, 21, 23, 24] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 688 t=7 assets=[3, 4, 26, 30, 48] q=9  0.4s  window-opt sampled=None   cand  -102629  incumbent  -116783  gap +0.00%
+it 689 t=(2, 3) assets=[43, 49] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 690 t=3 assets=[26, 27, 30, 35, 47] q=9  0.5s  window-opt sampled=None   cand  -114627  incumbent  -116783  gap +0.00%
+it 691 t=(2, 3) assets=[34, 48] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 692 t=5 assets=[35, 38, 39, 42, 47] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 693 t=(2, 3) assets=[16, 37] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 694 t=3 assets=[9, 18, 35, 36, 47] q=9  0.5s  window-opt sampled=None   cand  -113537  incumbent  -116783  gap +0.00%
+it 695 t=(3, 4) assets=[15, 41] q=9  0.4s  window-opt sampled=None   cand  -114448  incumbent  -116783  gap +0.00%
+it 696 t=(3, 4) assets=[16, 36] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 697 t=0 assets=[1, 11, 14, 23, 27] q=9  0.4s  window-opt sampled=None   cand  -114897  incumbent  -116783  gap +0.00%
+it 698 t=(7, 8) assets=[37, 49] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 699 t=2 assets=[1, 12, 14, 23, 38] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 700 t=(0, 1) assets=[34, 48] q=9  0.3s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 701 t=(0, 1) assets=[36, 45] q=9  0.3s  window-opt sampled=None   cand  -112286  incumbent  -116783  gap +0.00%
+it 702 t=(0, 1) assets=[22, 33] q=9  0.4s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 703 t=(2, 3) assets=[17, 30] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 704 t=7 assets=[6, 12, 16, 17, 36] q=9  0.4s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 705 t=2 assets=[7, 21, 41, 42, 45] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 706 t=7 assets=[6, 13, 15, 26, 31] q=9 -0.8s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 707 t=6 assets=[1, 18, 26, 37, 49] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 708 t=4 assets=[4, 16, 18, 23, 38] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 709 t=6 assets=[2, 16, 17, 34, 37] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 710 t=4 assets=[35, 38, 39, 42, 47] q=9  0.4s  window-opt sampled=None   cand  -113241  incumbent  -116783  gap +0.00%
+it 711 t=7 assets=[13, 21, 25, 36, 44] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 712 t=(1, 2) assets=[2, 34] q=9  0.4s  window-opt sampled=None   cand  -100952  incumbent  -116783  gap +0.00%
+it 713 t=(6, 7) assets=[1, 8] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 714 t=(4, 5) assets=[0, 27] q=9  0.5s  window-opt sampled=None   cand  -116599  incumbent  -116783  gap +0.00%
+it 715 t=5 assets=[22, 33, 39, 40, 45] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 716 t=4 assets=[13, 17, 28, 34, 43] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 717 t=3 assets=[10, 11, 22, 31, 40] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 718 t=8 assets=[6, 7, 20, 29, 45] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 719 t=8 assets=[21, 35, 41, 42, 45] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 720 t=8 assets=[9, 11, 26, 28, 49] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 721 t=4 assets=[11, 23, 26, 32, 40] q=9  0.5s  window-opt sampled=None   cand  -112810  incumbent  -116783  gap +0.00%
+it 722 t=(3, 4) assets=[33, 34] q=9  0.7s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 723 t=4 assets=[5, 16, 25, 31, 44] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 724 t=(0, 1) assets=[22, 33] q=9  0.4s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 725 t=8 assets=[13, 27, 33, 34, 48] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 726 t=(6, 7) assets=[39, 42] q=9  0.7s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 727 t=(1, 2) assets=[34, 48] q=9  0.5s  window-opt sampled=None   cand  -112120  incumbent  -116783  gap +0.00%
+it 728 t=(7, 8) assets=[6, 16] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 729 t=(4, 5) assets=[32, 37] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 730 t=1 assets=[22, 33, 36, 40, 45] q=9  0.4s  window-opt sampled=None   cand  -111477  incumbent  -116783  gap +0.00%
+it 731 t=(7, 8) assets=[35, 47] q=9  0.7s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 732 t=(7, 8) assets=[43, 49] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 733 t=8 assets=[9, 11, 26, 28, 49] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 734 t=2 assets=[2, 32, 38, 39, 42] q=9  0.5s  window-opt sampled=None   cand  -107115  incumbent  -116783  gap +0.00%
+it 735 t=(4, 5) assets=[8, 20] q=9  0.7s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 736 t=(0, 1) assets=[2, 34] q=9  0.4s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 737 t=2 assets=[2, 3, 4, 5, 34] q=9  0.5s  window-opt sampled=None   cand  -115394  incumbent  -116783  gap +0.00%
+it 738 t=6 assets=[38, 39, 42, 45, 49] q=9  0.7s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 739 t=6 assets=[7, 17, 20, 26, 29] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 740 t=3 assets=[6, 10, 13, 19, 21] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 741 t=5 assets=[6, 8, 17, 27, 49] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 742 t=2 assets=[12, 22, 28, 47, 48] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 743 t=(2, 3) assets=[24, 34] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 744 t=6 assets=[5, 23, 28, 40, 46] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 745 t=4 assets=[2, 25, 28, 34, 45] q=9  0.6s  window-opt sampled=None   cand  -114577  incumbent  -116783  gap +0.00%
+it 746 t=(2, 3) assets=[8, 20] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 747 t=(3, 4) assets=[15, 47] q=9  0.4s  window-opt sampled=None   cand  -113801  incumbent  -116783  gap +0.00%
+it 748 t=2 assets=[1, 12, 14, 23, 38] q=9  0.7s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 749 t=8 assets=[22, 33, 36, 42, 45] q=9  0.7s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 750 t=4 assets=[9, 21, 38, 41, 42] q=9  0.6s  window-opt sampled=None   cand  -116201  incumbent  -116783  gap +0.00%
+it 751 t=7 assets=[1, 12, 14, 23, 24] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 752 t=6 assets=[2, 3, 42, 47, 48] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 753 t=(5, 6) assets=[22, 33] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 754 t=1 assets=[22, 33, 36, 40, 45] q=9  0.4s  window-opt sampled=None   cand  -114040  incumbent  -116783  gap +0.00%
+it 755 t=5 assets=[9, 21, 31, 34, 49] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 756 t=8 assets=[9, 35, 38, 39, 42] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 757 t=3 assets=[11, 16, 17, 32, 37] q=9  0.5s  window-opt sampled=None   cand  -112985  incumbent  -116783  gap +0.00%
+it 758 t=4 assets=[10, 22, 29, 33, 45] q=9  0.7s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 759 t=2 assets=[2, 3, 4, 30, 34] q=9 -0.9s  window-opt sampled=None   cand  -108531  incumbent  -116783  gap +0.00%
+it 760 t=(6, 7) assets=[1, 23] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 761 t=4 assets=[18, 28, 38, 45, 49] q=9  0.5s  window-opt sampled=None   cand  -113945  incumbent  -116783  gap +0.00%
+it 762 t=(1, 2) assets=[1, 8] q=9  0.5s  window-opt sampled=None   cand   -94350  incumbent  -116783  gap +0.00%
+it 763 t=7 assets=[2, 3, 4, 30, 31] q=9  0.4s  window-opt sampled=None   cand  -114181  incumbent  -116783  gap +0.00%
+it 764 t=2 assets=[2, 32, 38, 39, 42] q=9  0.5s  window-opt sampled=None   cand  -111394  incumbent  -116783  gap +0.00%
+it 765 t=(4, 5) assets=[1, 23] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 766 t=(4, 5) assets=[20, 36] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 767 t=1 assets=[18, 31, 36, 44, 45] q=9  0.4s  window-opt sampled=None   cand  -114292  incumbent  -116783  gap +0.00%
+it 768 t=0 assets=[3, 4, 26, 30, 35] q=9  0.4s  window-opt sampled=None   cand  -112045  incumbent  -116783  gap +0.00%
+it 769 t=2 assets=[8, 13, 28, 35, 49] q=9  0.5s  window-opt sampled=None   cand  -112860  incumbent  -116783  gap +0.00%
+it 770 t=2 assets=[1, 12, 14, 23, 38] q=9  0.7s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 771 t=6 assets=[1, 6, 7, 31, 48] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 772 t=6 assets=[9, 26, 30, 40, 47] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 773 t=3 assets=[13, 25, 36, 44, 45] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 774 t=(2, 3) assets=[45, 48] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 775 t=2 assets=[5, 16, 18, 36, 47] q=9  0.6s  window-opt sampled=None   cand  -112561  incumbent  -116783  gap +0.00%
+it 776 t=(5, 6) assets=[22, 33] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 777 t=4 assets=[0, 14, 28, 34, 49] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 778 t=4 assets=[3, 23, 24, 31, 40] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 779 t=1 assets=[15, 26, 28, 30, 43] q=9  0.3s  window-opt sampled=None   cand  -115658  incumbent  -116783  gap +0.00%
+it 780 t=3 assets=[9, 18, 26, 30, 38] q=9  0.5s  window-opt sampled=None   cand  -114642  incumbent  -116783  gap +0.00%
+it 781 t=(2, 3) assets=[15, 28] q=9  0.5s  window-opt sampled=None   cand  -115676  incumbent  -116783  gap +0.00%
+it 782 t=1 assets=[22, 33, 37, 39, 48] q=9  0.4s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 783 t=(3, 4) assets=[14, 47] q=9  0.4s  window-opt sampled=None   cand  -111721  incumbent  -116783  gap +0.00%
+it 784 t=7 assets=[2, 5, 6, 31, 34] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 785 t=(4, 5) assets=[25, 26] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 786 t=(2, 3) assets=[20, 32] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 787 t=1 assets=[0, 4, 12, 16, 23] q=9  0.4s  window-opt sampled=None   cand  -107503  incumbent  -116783  gap +0.00%
+it 788 t=2 assets=[12, 35, 38, 39, 42] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 789 t=(6, 7) assets=[18, 31] q=9  0.4s  window-opt sampled=None   cand  -112208  incumbent  -116783  gap +0.00%
+it 790 t=7 assets=[7, 8, 20, 30, 37] q=9  0.4s  window-opt sampled=None   cand  -106785  incumbent  -116783  gap +0.00%
+it 791 t=8 assets=[1, 11, 16, 17, 32] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 792 t=(0, 1) assets=[0, 27] q=9  0.4s  window-opt sampled=None   cand  -114859  incumbent  -116783  gap +0.00%
+it 793 t=(5, 6) assets=[38, 44] q=9  0.7s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 794 t=(7, 8) assets=[5, 9] q=9  0.8s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 795 t=6 assets=[2, 5, 6, 31, 34] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 796 t=7 assets=[2, 5, 18, 31, 34] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 797 t=(3, 4) assets=[12, 44] q=9  0.7s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 798 t=5 assets=[4, 5, 36, 44, 45] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 799 t=1 assets=[1, 12, 14, 23, 27] q=9  0.4s  window-opt sampled=None   cand  -113889  incumbent  -116783  gap +0.00%
+it 800 t=5 assets=[10, 17, 20, 26, 40] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 801 t=(3, 4) assets=[38, 39] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 802 t=1 assets=[18, 31, 36, 44, 45] q=9  0.4s  window-opt sampled=None   cand  -114292  incumbent  -116783  gap +0.00%
+it 803 t=6 assets=[2, 12, 24, 34, 48] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 804 t=(4, 5) assets=[36, 44] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 805 t=2 assets=[9, 28, 29, 35, 40] q=9  0.7s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 806 t=(0, 1) assets=[8, 20] q=9  0.4s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 807 t=(1, 2) assets=[1, 23] q=9  0.5s  window-opt sampled=None   cand  -114862  incumbent  -116783  gap +0.00%
+it 808 t=(2, 3) assets=[21, 43] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 809 t=(6, 7) assets=[0, 39] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 810 t=0 assets=[19, 26, 39, 42, 47] q=9  0.4s  window-opt sampled=None   cand  -114465  incumbent  -116783  gap +0.00%
+it 811 t=2 assets=[12, 21, 24, 31, 49] q=9  0.5s  window-opt sampled=None   cand  -113764  incumbent  -116783  gap +0.00%
+it 812 t=(5, 6) assets=[35, 36] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 813 t=7 assets=[3, 7, 11, 14, 45] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 814 t=4 assets=[0, 11, 23, 27, 32] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 815 t=(7, 8) assets=[35, 38] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 816 t=(7, 8) assets=[1, 46] q=9 -0.9s  window-opt sampled=None   cand  -103713  incumbent  -116783  gap +0.00%
+it 817 t=(3, 4) assets=[35, 47] q=9  0.4s  window-opt sampled=None   cand  -113801  incumbent  -116783  gap +0.00%
+it 818 t=4 assets=[2, 5, 6, 31, 34] q=9  0.8s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 819 t=0 assets=[9, 26, 30, 35, 38] q=9  0.4s  window-opt sampled=None   cand  -113453  incumbent  -116783  gap +0.00%
+it 820 t=(5, 6) assets=[26, 40] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 821 t=3 assets=[28, 32, 35, 40, 49] q=9  0.5s  window-opt sampled=None   cand  -112579  incumbent  -116783  gap +0.00%
+it 822 t=3 assets=[30, 32, 34, 37, 45] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 823 t=2 assets=[2, 16, 32, 34, 37] q=9  0.4s  window-opt sampled=None   cand  -109582  incumbent  -116783  gap +0.00%
+it 824 t=(2, 3) assets=[9, 40] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 825 t=0 assets=[3, 9, 18, 20, 34] q=9  0.4s  window-opt sampled=None   cand  -108284  incumbent  -116783  gap +0.00%
+it 826 t=7 assets=[1, 24, 26, 28, 29] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 827 t=0 assets=[2, 3, 4, 30, 34] q=9  0.4s  window-opt sampled=None   cand  -106356  incumbent  -116783  gap +0.00%
+it 828 t=(1, 2) assets=[8, 15] q=9  0.5s  window-opt sampled=None   cand  -100026  incumbent  -116783  gap +0.00%
+it 829 t=8 assets=[2, 12, 20, 24, 34] q=9  0.4s  window-opt sampled=None   cand  -114258  incumbent  -116783  gap +0.00%
+it 830 t=(0, 1) assets=[26, 47] q=9  0.4s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 831 t=(6, 7) assets=[10, 29] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 832 t=2 assets=[2, 18, 20, 28, 39] q=9  0.5s  window-opt sampled=None   cand   -90363  incumbent  -116783  gap +0.00%
+it 833 t=(5, 6) assets=[39, 49] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 834 t=(0, 1) assets=[9, 30] q=9  0.4s  window-opt sampled=None   cand  -113553  incumbent  -116783  gap +0.00%
+it 835 t=8 assets=[27, 37, 39, 43, 49] q=9  0.6s  window-opt sampled=None   cand  -114184  incumbent  -116783  gap +0.00%
+it 836 t=(7, 8) assets=[1, 46] q=9  0.5s  window-opt sampled=None   cand  -103713  incumbent  -116783  gap +0.00%
+it 837 t=(5, 6) assets=[2, 38] q=9  0.7s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 838 t=6 assets=[27, 35, 37, 43, 49] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 839 t=7 assets=[10, 17, 22, 29, 38] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 840 t=3 assets=[35, 38, 39, 42, 47] q=9  0.5s  window-opt sampled=None   cand  -109606  incumbent  -116783  gap +0.00%
+it 841 t=(5, 6) assets=[20, 48] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 842 t=6 assets=[1, 12, 14, 23, 24] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 843 t=6 assets=[12, 24, 34, 35, 42] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 844 t=5 assets=[6, 22, 35, 36, 47] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 845 t=5 assets=[21, 35, 38, 42, 45] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 846 t=(4, 5) assets=[27, 41] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 847 t=5 assets=[13, 25, 36, 44, 45] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 848 t=7 assets=[17, 18, 20, 28, 46] q=9  0.5s  window-opt sampled=None   cand  -110524  incumbent  -116783  gap +0.00%
+it 849 t=(7, 8) assets=[34, 48] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 850 t=(3, 4) assets=[2, 34] q=9  0.7s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 851 t=(5, 6) assets=[2, 29] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 852 t=5 assets=[22, 33, 39, 40, 45] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 853 t=5 assets=[0, 11, 18, 27, 32] q=9  0.5s  window-opt sampled=None   cand  -113709  incumbent  -116783  gap +0.00%
+it 854 t=4 assets=[1, 11, 14, 23, 27] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 855 t=(6, 7) assets=[39, 42] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 856 t=5 assets=[15, 26, 29, 30, 48] q=9  0.7s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 857 t=8 assets=[2, 18, 32, 36, 42] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 858 t=7 assets=[4, 5, 6, 23, 29] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 859 t=(3, 4) assets=[11, 23] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 860 t=0 assets=[9, 31, 32, 35, 36] q=9  0.4s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 861 t=(3, 4) assets=[0, 40] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 862 t=(4, 5) assets=[3, 4] q=9  0.7s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 863 t=3 assets=[10, 13, 25, 27, 41] q=9  0.7s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 864 t=(2, 3) assets=[2, 26] q=9  0.4s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 865 t=3 assets=[2, 3, 13, 16, 40] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 866 t=2 assets=[11, 13, 22, 23, 32] q=9  0.6s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 867 t=(2, 3) assets=[5, 6] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 868 t=(4, 5) assets=[43, 49] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 869 t=1 assets=[15, 26, 28, 30, 43] q=9  0.4s  window-opt sampled=None   cand  -115658  incumbent  -116783  gap +0.00%
+it 870 t=(1, 2) assets=[20, 38] q=9  0.4s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 871 t=4 assets=[5, 31, 37, 38, 48] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 872 t=(3, 4) assets=[8, 49] q=9 -0.9s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 873 t=3 assets=[14, 17, 21, 27, 45] q=9  0.5s  window-opt sampled=None   cand  -116783  incumbent  -116783  gap +0.00%
+it 874 t=(0, 1) assets=[36, 45] q=9  0.3s  window-opt sampled=None   cand  -112286  incumbent  -116783  gap +0.00%
+it 875 t=2 assets=[8, 11, 20, 32, 37] q=9  0.5s  window-opt sampled=None   cand  -114721  incumbent  -116783  gap +0.00%
+it 876 t=(0, 1) assets=[3, 47] q=9  0.3s  window-opt sampled=None   cand  -117656  incumbent  -117656  gap +0.00%
+it 877 t=3 assets=[7, 9, 10, 19, 25] q=9  0.4s  window-opt sampled=None   cand  -113871  incumbent  -117656  gap +0.00%
+it 878 t=5 assets=[2, 18, 31, 32, 36] q=9  0.5s  window-opt sampled=None   cand  -117656  incumbent  -117656  gap +0.00%
+it 879 t=2 assets=[1, 5, 6, 8, 46] q=9  0.5s  window-opt sampled=None   cand  -117656  incumbent  -117656  gap +0.00%
+it 880 t=1 assets=[16, 26, 30, 35, 47] q=9  0.4s  window-opt sampled=None   cand  -116728  incumbent  -117656  gap +0.00%
+it 881 t=5 assets=[21, 35, 38, 42, 45] q=9  0.6s  window-opt sampled=None   cand  -117656  incumbent  -117656  gap +0.00%
+it 882 t=0 assets=[3, 4, 26, 30, 35] q=9  0.4s  window-opt sampled=None   cand  -112269  incumbent  -117656  gap +0.00%
+it 883 t=5 assets=[1, 10, 11, 28, 44] q=9  0.5s  window-opt sampled=None   cand  -117656  incumbent  -117656  gap +0.00%
+it 884 t=4 assets=[5, 31, 37, 43, 49] q=9  0.5s  window-opt sampled=None   cand  -117656  incumbent  -117656  gap +0.00%
+it 885 t=(6, 7) assets=[2, 31] q=9  0.5s  window-opt sampled=None   cand  -117656  incumbent  -117656  gap +0.00%
+it 886 t=(4, 5) assets=[10, 37] q=9  0.5s  window-opt sampled=None   cand  -117656  incumbent  -117656  gap +0.00%
+it 887 t=7 assets=[13, 21, 25, 36, 44] q=9  0.5s  window-opt sampled=None   cand  -117656  incumbent  -117656  gap +0.00%
+it 888 t=(1, 2) assets=[26, 47] q=9  0.4s  window-opt sampled=None   cand  -117656  incumbent  -117656  gap +0.00%
+it 889 t=(5, 6) assets=[27, 49] q=9  0.4s  window-opt sampled=None   cand  -111465  incumbent  -117656  gap +0.00%
+it 890 t=6 assets=[19, 26, 35, 38, 47] q=9  0.4s  window-opt sampled=None   cand  -115573  incumbent  -117656  gap +0.00%
+it 891 t=(5, 6) assets=[26, 40] q=9  0.5s  window-opt sampled=None   cand  -117656  incumbent  -117656  gap +0.00%
+it 892 t=(3, 4) assets=[24, 37] q=9  0.5s  window-opt sampled=None   cand  -117656  incumbent  -117656  gap +0.00%
+it 893 t=2 assets=[10, 22, 25, 41, 46] q=9  0.5s  window-opt sampled=None   cand  -117656  incumbent  -117656  gap +0.00%
+it 894 t=0 assets=[10, 22, 29, 33, 45] q=9  0.4s  window-opt sampled=None   cand  -116946  incumbent  -117656  gap +0.00%
+it 895 t=7 assets=[6, 12, 15, 21, 37] q=9  0.5s  window-opt sampled=None   cand  -117656  incumbent  -117656  gap +0.00%
+it 896 t=(7, 8) assets=[8, 46] q=9  0.5s  window-opt sampled=None   cand  -117656  incumbent  -117656  gap +0.00%
+it 897 t=(4, 5) assets=[41, 42] q=9  0.4s  window-opt sampled=None   cand  -115021  incumbent  -117656  gap +0.00%
+it 898 t=4 assets=[8, 11, 20, 24, 34] q=9  0.6s  window-opt sampled=None   cand  -117656  incumbent  -117656  gap +0.00%
+it 899 t=6 assets=[38, 39, 42, 45, 49] q=9  0.6s  window-opt sampled=None   cand  -117656  incumbent  -117656  gap +0.00%
+it 900 t=3 assets=[10, 12, 23, 31, 35] q=9  0.5s  window-opt sampled=None   cand  -117656  incumbent  -117656  gap +0.00%
+it 901 t=2 assets=[5, 31, 35, 39, 41] q=9  0.5s  window-opt sampled=None   cand  -117656  incumbent  -117656  gap +0.00%
+it 902 t=5 assets=[0, 11, 18, 27, 32] q=9  0.4s  window-opt sampled=None   cand  -114582  incumbent  -117656  gap +0.00%
+it 903 t=(5, 6) assets=[22, 29] q=9  0.5s  window-opt sampled=None   cand  -117656  incumbent  -117656  gap +0.00%
+it 904 t=3 assets=[1, 26, 33, 40, 46] q=9  0.5s  window-opt sampled=None   cand  -117656  incumbent  -117656  gap +0.00%
+it 905 t=(0, 1) assets=[0, 27] q=9  0.3s  window-opt sampled=None   cand  -115141  incumbent  -117656  gap +0.00%
+it 906 t=8 assets=[2, 16, 17, 34, 37] q=9  0.4s  window-opt sampled=None   cand  -114058  incumbent  -117656  gap +0.00%
+it 907 t=2 assets=[5, 19, 22, 47, 49] q=9  0.5s  window-opt sampled=None   cand  -117656  incumbent  -117656  gap +0.00%
+it 908 t=4 assets=[3, 9, 21, 30, 45] q=9  0.7s  window-opt sampled=None   cand  -117656  incumbent  -117656  gap +0.00%
+it 909 t=7 assets=[3, 10, 19, 27, 38] q=9  0.5s  window-opt sampled=None   cand  -117656  incumbent  -117656  gap +0.00%
+it 910 t=8 assets=[8, 20, 29, 38, 42] q=9  0.5s  window-opt sampled=None   cand  -117656  incumbent  -117656  gap +0.00%
+it 911 t=2 assets=[4, 6, 13, 19, 25] q=9  0.4s  window-opt sampled=None   cand  -117656  incumbent  -117656  gap +0.00%
+it 912 t=(4, 5) assets=[26, 28] q=9  0.5s  window-opt sampled=None   cand  -117943  incumbent  -117943  gap +0.00%
+it 913 t=(2, 3) assets=[5, 6] q=9  0.5s  window-opt sampled=None   cand  -117943  incumbent  -117943  gap +0.00%
+it 914 t=(6, 7) assets=[9, 26] q=9  0.6s  window-opt sampled=None   cand  -117943  incumbent  -117943  gap +0.00%
+it 915 t=1 assets=[12, 18, 25, 27, 49] q=9  0.4s  window-opt sampled=None   cand  -117943  incumbent  -117943  gap +0.00%
+it 916 t=(7, 8) assets=[20, 45] q=9  0.5s  window-opt sampled=None   cand  -117943  incumbent  -117943  gap +0.00%
+it 917 t=5 assets=[12, 15, 22, 27, 41] q=9  0.5s  window-opt sampled=None   cand  -117943  incumbent  -117943  gap +0.00%
+it 918 t=3 assets=[1, 26, 33, 40, 46] q=9  0.5s  window-opt sampled=None   cand  -117943  incumbent  -117943  gap +0.00%
+it 919 t=(3, 4) assets=[15, 36] q=9  0.5s  window-opt sampled=None   cand  -117943  incumbent  -117943  gap +0.00%
+it 920 t=1 assets=[18, 31, 36, 44, 45] q=9  0.3s  window-opt sampled=None   cand  -110573  incumbent  -117943  gap +0.00%
+it 921 t=4 assets=[2, 3, 18, 31, 36] q=9  0.6s  window-opt sampled=None   cand  -117943  incumbent  -117943  gap +0.00%
+it 922 t=(0, 1) assets=[36, 44] q=9  0.3s  window-opt sampled=None   cand  -108222  incumbent  -117943  gap +0.00%
+it 923 t=5 assets=[21, 35, 38, 42, 45] q=9  0.5s  window-opt sampled=None   cand  -117943  incumbent  -117943  gap +0.00%
+it 924 t=(5, 6) assets=[22, 33] q=9  0.5s  window-opt sampled=None   cand  -117943  incumbent  -117943  gap +0.00%
+it 925 t=7 assets=[1, 12, 14, 23, 24] q=9  0.5s  window-opt sampled=None   cand  -117943  incumbent  -117943  gap +0.00%
+it 926 t=7 assets=[1, 11, 14, 23, 46] q=9  0.5s  window-opt sampled=None   cand  -117943  incumbent  -117943  gap +0.00%
+it 927 t=5 assets=[2, 19, 24, 48, 49] q=9  0.4s  window-opt sampled=None   cand  -112430  incumbent  -117943  gap +0.00%
+it 928 t=6 assets=[21, 23, 29, 31, 36] q=9  0.4s  window-opt sampled=None   cand  -113421  incumbent  -117943  gap +0.00%
+it 929 t=7 assets=[13, 19, 20, 21, 44] q=9  0.5s  window-opt sampled=None   cand  -117943  incumbent  -117943  gap +0.00%
+it 930 t=(1, 2) assets=[9, 24] q=9  0.4s  window-opt sampled=None   cand  -117943  incumbent  -117943  gap +0.00%
+it 931 t=1 assets=[1, 5, 8, 23, 46] q=9  0.3s  window-opt sampled=None   cand  -111501  incumbent  -117943  gap +0.00%
+it 932 t=(6, 7) assets=[7, 23] q=9  0.4s  window-opt sampled=None   cand  -117943  incumbent  -117943  gap +0.00%
+it 933 t=(3, 4) assets=[24, 34] q=9  0.5s  window-opt sampled=None   cand  -117943  incumbent  -117943  gap +0.00%
+it 934 t=1 assets=[22, 33, 36, 40, 45] q=9 -1.1s  window-opt sampled=None   cand  -115200  incumbent  -117943  gap +0.00%
+it 935 t=0 assets=[12, 16, 19, 29, 47] q=9  0.4s  window-opt sampled=None   cand  -113058  incumbent  -117943  gap +0.00%
+it 936 t=(2, 3) assets=[9, 28] q=9  0.5s  window-opt sampled=None   cand  -117943  incumbent  -117943  gap +0.00%
+it 937 t=(4, 5) assets=[13, 37] q=9  0.5s  window-opt sampled=None   cand  -117943  incumbent  -117943  gap +0.00%
+it 938 t=(5, 6) assets=[12, 14] q=9  0.6s  window-opt sampled=None   cand  -117943  incumbent  -117943  gap +0.00%
+
+FINAL objective=-117943 (feasible; risk=69444, return=-213175, transaction=26580, cash_interest=-1010, short_cost=218, liquidation=0)  BKV 0  gap +0.000%
+improvements 24, window optimum sampled 0/939, max qubits 9, circuits 301419, 541s
+saved quantum_focus/starts/homotopy_po_a050_t10_s00_s1_l2e-3.sol

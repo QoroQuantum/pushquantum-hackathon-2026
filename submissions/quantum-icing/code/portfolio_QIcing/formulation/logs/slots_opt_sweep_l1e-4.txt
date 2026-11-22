@@ -1,0 +1,16 @@
+### --optimizer lbfgs --iters 100 --n-layers 3
+  t=0 20v q=6   1.7s | samples     -2606 r658 (2u) | expect     -2606 r658 (3u) | both     -2606 r658 (5u) | rand     -3181 r444 (30u) | opt -7252
+  t=8 20v q=6   0.3s | samples     -8286 r231 (2u) | expect     -9189 r145 (9u) | both     -9189 r145 (11u) | rand     -8938 r164 (51u) | opt -15265
+== chained objective: samples -34812 (+49.898%)  expect -41983 (+39.577%)  both -41983 (+39.577%)  rand -36626 (+47.287%)   [3s, 1035 circuits, ≤6 qubits]
+### --optimizer lbfgs --iters 200 --n-layers 6
+  t=0 20v q=6   2.8s | samples     -2460 r722 (11u) | expect     -4984 r94 (12u) | both     -4984 r94 (23u) | rand     -4674 r129 (177u) | opt -7252
+  t=8 20v q=6   1.3s | samples     -8286 r231 (3u) | expect    -11464 r30 (11u) | both    -11464 r30 (14u) | rand     -9666 r105 (171u) | opt -15265
+== chained objective: samples -28223 (+59.381%)  expect -49499 (+28.760%)  both -49499 (+28.760%)  rand -41650 (+40.056%)   [12s, 3153 circuits, ≤6 qubits]
+### --optimizer cobyla --iters 300 --n-layers 3
+  t=0 20v q=6   5.0s | samples     -4142 r208 (10u) | expect     -4190 r201 (27u) | both     -4190 r201 (37u) | rand     -4674 r129 (340u) | opt -7252
+  t=8 20v q=6   2.9s | samples     -4156 r1384 (24u) | expect     -9223 r143 (31u) | both     -9223 r143 (55u) | rand     -9090 r158 (351u) | opt -15265
+== chained objective: samples -32663 (+52.991%)  expect -48581 (+30.081%)  both -48691 (+29.923%)  rand -50991 (+26.613%)   [25s, 4481 circuits, ≤6 qubits]
+### --optimizer mc --pop 40 --iters 40 --n-layers 3
+  t=0 20v q=6   1.8s | samples     -3263 r412 (22u) | expect     -3644 r310 (86u) | both     -3644 r310 (108u) | rand     -7007 r1 (792u) | opt -7252
+  t=8 20v q=6   1.5s | samples     -4156 r1384 (23u) | expect    -12102 r18 (187u) | both    -12102 r18 (210u) | rand    -10526 r55 (819u) | opt -15265
+== chained objective: samples -38878 (+44.046%)  expect -54138 (+22.083%)  both -54263 (+21.904%)  rand -53991 (+22.295%)   [13s, 14409 circuits, ≤6 qubits]

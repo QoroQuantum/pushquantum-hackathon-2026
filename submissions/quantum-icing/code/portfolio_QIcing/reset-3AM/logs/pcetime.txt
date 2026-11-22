@@ -1,0 +1,3 @@
+import 46.01180148124695
+po_a050_t10_orig λ=1e-3: start -205278 (+0.4660% vs BKV -206239) solver=pce m_max=20 | ../solutions/po_a050_t10_orig_b020_l1e-3/po_a050_t10_orig_b020_l1e-3__lns__20261121-221134.sol
+FINAL {"start": -205278, "final": -205278, "bkv": -206239, "gap": "+0.4660%", "calls": 6, "accepts": 0, "circuits": 808, "max_qubits": 5, "sec": 115.7, "ref_calls": 0, "qubo_improvable": 0, "hit_opt": 0, "mean_gain_fraction": null, "start_file": "../solutions/po_a050_t10_orig_b020_l1e-3/po_a050_t10_orig_b020_l1e-3__lns__20261121-221134.sol"}

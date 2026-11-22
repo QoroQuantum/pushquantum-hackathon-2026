@@ -1,0 +1,10 @@
+best held solution -234587; per-period stage energies [-24085, -15228, -44829, -24579, -31624, -26910, -28895, -34138, -31729, -100]
+po_a050_t10_s00 λ=5e-4 n=50 B=20: reference -234259 (BKV) | {'instance': 'po_a050_t10_s00', 'lam': '5e-4', 'order': 'spectral', 'slots': 0, 'optimizer': 'lbfgs', 'n_layers': 6, 'pop': 40, 'iters': 200, 'alpha': 6.0, 'qubits': 0, 'code': 'multibasis2', 'cap_weight': 1.0, 'dup_weight': 0.0, 'pool': 20, 'repeats': 8, 'seed': 0, 'periods': '', 'no_ideal': False, 'tag': '_r8ls', 'polish': True, 'polish_pool': 60, 'lns_time': 120.0, 'record': True}
+  t=0 140v q=11 317.9s | samples     -7637 (8u) | expect     -7881 (299u) | both     -7881 (307u) | rand      -586 (1685u) | ideal     -3293 (27u) | best-held -24085
+  t=1 140v q=11 324.2s | samples     -2541 (8u) | expect     -3530 (342u) | both     -3530 (350u) | rand       842 (1667u) | ideal     -2077 (37u) | best-held -15228
+  t=2 140v q=11 277.2s | samples    -18677 (8u) | expect    -18677 (326u) | both    -18677 (334u) | rand    -11631 (1681u) | ideal    -12754 (57u) | best-held -44829
+  t=3 140v q=11 255.9s | samples     -9123 (8u) | expect     -9123 (388u) | both     -9123 (396u) | rand     -4011 (1682u) | ideal     -3121 (37u) | best-held -24579
+  t=4 140v q=11 315.5s | samples     -5134 (8u) | expect     -6117 (306u) | both     -6117 (314u) | rand     -3360 (1680u) | ideal     -2354 (21u) | best-held -31624
+  t=5 140v q=11 251.4s | samples     -4808 (8u) | expect     -4808 (308u) | both     -4808 (316u) | rand     -1612 (1681u) | ideal     -2564 (15u) | best-held -26910
+  t=6 140v q=11 196.1s | samples     -8518 (8u) | expect     -8518 (306u) | both     -8518 (314u) | rand     -3420 (1677u) | ideal      -670 (27u) | best-held -28895
+  t=7 140v q=11 202.1s | samples     -8210 (8u) | expect     -8210 (300u) | both     -8210 (308u) | rand     -3694 (1677u) | ideal     -5755 (24u) | best-held -34138

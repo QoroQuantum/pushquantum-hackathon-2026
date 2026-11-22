@@ -1,0 +1,12 @@
+po_a050_t10_orig λ=1e-3: start -205278 (+0.4660% vs BKV -206239) solver=exact m_max=20 | ../solutions/po_a050_t10_orig_b020_l1e-3/po_a050_t10_orig_b020_l1e-3__lns__20261121-221134.sol
+call    50 [0,2) m=20 best ΔE       0 opt 0        cur -205278 (+0.4660%) [17s]
+call   100 [6,8) m=20 best ΔE       0 opt 0        cur -205278 (+0.4660%) [24s]
+call   150 [0,1) m=16 best ΔE       0 opt 0        cur -205278 (+0.4660%) [31s]
+call   200 [7,9) m=20 best ΔE       0 opt 0        cur -205278 (+0.4660%) [37s]
+call   250 [8,9) m=20 best ΔE       0 opt 0        cur -205278 (+0.4660%) [44s]
+call   300 [7,9) m=20 best ΔE       0 opt 0        cur -205278 (+0.4660%) [51s]
+call   350 [8,9) m=20 best ΔE       0 opt 0        cur -205278 (+0.4660%) [57s]
+call   400 [8,9) m=20 best ΔE       0 opt 0        cur -205278 (+0.4660%) [65s]
+call   450 [6,8) m= 5 best ΔE       0 opt 0        cur -205278 (+0.4660%) [71s]
+call   500 [6,8) m= 5 best ΔE       0 opt 0        cur -205278 (+0.4660%) [79s]
+FINAL {"start": -205278, "final": -205278, "bkv": -206239, "gap": "+0.4660%", "calls": 500, "accepts": 0, "circuits": 0, "max_qubits": 0, "sec": 78.6, "ref_calls": 500, "qubo_improvable": 0, "hit_opt": 462, "mean_gain_fraction": null, "start_file": "../solutions/po_a050_t10_orig_b020_l1e-3/po_a050_t10_orig_b020_l1e-3__lns__20261121-221134.sol"}
