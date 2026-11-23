@@ -1,0 +1,78 @@
+{
+  "instance": "po_a050_t10_s02",
+  "budget": 20,
+  "lam": "1e-2",
+  "bkv": -43565,
+  "size": 3,
+  "method": "random",
+  "time_limit": 1200.0,
+  "kick_blocks": 6,
+  "seed": 0,
+  "start": -1000,
+  "solver": {
+    "name": "exact"
+  },
+  "day_blocks": {
+    "chains": 64,
+    "sweeps": 300,
+    "calls": 353,
+    "seconds": 640.2,
+    "share": 0.5,
+    "moves": 293,
+    "improvements": 8,
+    "polish_score": -21887
+  },
+  "blocks": -1000,
+  "score": -32367,
+  "gap": 0.25704120280041315,
+  "kicks": 2346,
+  "improvements": 0,
+  "trace": [
+    [
+      0.0,
+      -1000
+    ],
+    [
+      63.6,
+      -21887
+    ],
+    [
+      76.9,
+      -21887
+    ],
+    [
+      78.1,
+      -24916
+    ],
+    [
+      114.7,
+      -25221
+    ],
+    [
+      121.7,
+      -26064
+    ],
+    [
+      264.1,
+      -27698
+    ],
+    [
+      777.2,
+      -27702
+    ],
+    [
+      859.1,
+      -28966
+    ],
+    [
+      1058.1,
+      -31235
+    ],
+    [
+      1168.6,
+      -32367
+    ]
+  ],
+  "seconds": 1201.3,
+  "solution_file": "results/day_blocks/solutions/po_a050_t10_s02_b020_l1e-2.sol"
+}

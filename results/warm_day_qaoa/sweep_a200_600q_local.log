@@ -1,0 +1,4 @@
+po_a200_t10_orig λ1e-3 start -840155 (bkv None); 2 days, 600 qubits, 179565 couplings; 1 angle sets -> 2 programs; eps 0.005, mu_step 0.25, p=1, chi 16, cluster local
+day  4 γ 0.25 β -0.40: feasible 0.185/0.061  improve 0.0000/0.0000  mean Δ 3576.3/9218.8  best Δ 0.0/0.0
+day  7 γ 0.25 β -0.40: feasible 0.216/0.084  improve 0.0000/0.0000  mean Δ 3040.1/10824.0  best Δ 0.0/0.0
+wall 472.8s, credits None

@@ -1,0 +1,28 @@
+{
+ "instance": "po_a050_t15_s02",
+ "budget": 20,
+ "lam": "1e-2",
+ "init": "recombine",
+ "inputs": 6,
+ "best_input": -79560,
+ "recombined": -79755,
+ "score": -79755,
+ "candidates_per_day": [
+  2,
+  3,
+  1,
+  1,
+  2,
+  2,
+  3,
+  3,
+  2,
+  2,
+  2,
+  3,
+  1,
+  2,
+  1
+ ],
+ "solution_file": "results/recombine2/po_a050_t15_s02_b020_l1e-2_recomb.sol"
+}

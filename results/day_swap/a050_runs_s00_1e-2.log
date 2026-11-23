@@ -1,0 +1,14 @@
+po_a050_t10_s00 B=20 λ=1e-2: start -9631 from handin/po_a050_t10_s00_b020_l1e-2.sol
+        0s  descent sweep 1: -9631
+        0s  kick 1 (day 8): -10457
+        0s  kick 34 (day 7): -11512
+        1s  kick 297 (day 2): -12812
+        2s  kick 500 (day 8): -14366
+        2s  kick 516 (day 8): -16255
+        6s  kick 1499 (day 2): -18636
+       12s  kick 3317 (day 7): -19175
+       13s  kick 3453 (day 7): -20351
+       14s  kick 3525 (day 7): -20962
+       20s  kick 4275 (day 7): -22496
+       21s  kick 4538 (day 7): -23297
+  final -23297 (12068 kicks, 11 accepted, 61.1s); wrote results/day_swap/a050_runs/s00_1e-2/po_a050_t10_s00_b020_l1e-2_seed0.sol

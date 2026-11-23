@@ -1,0 +1,13 @@
+
+po_a050_t10_s00 λ1e-3 start handin: -181978 (bkv -191879, gap +5.16%)
+  size  3 window 1 seed 0: -181978 -> -181978 (gain 0, gap +5.16%) | 1 sweeps, 170 blocks, 0 accepted, 0.0s
+  size  3 window 1 seed 1: -181978 -> -181978 (gain 0, gap +5.16%) | 1 sweeps, 170 blocks, 0 accepted, 0.0s
+  size  6 window 1 seed 0: -181978 -> -182584 (gain -606, gap +4.84%) | 2 sweeps, 180 blocks, 3 accepted, 16.3s
+  size  6 window 1 seed 1: -181978 -> -181978 (gain 0, gap +5.16%) | 1 sweeps, 90 blocks, 0 accepted, 10.8s
+  size  8 window 1 seed 0: -181978 -> -182823 (gain -845, gap +4.72%) | 2 sweeps, 140 blocks, 1 accepted, 20.5s
+  size  8 window 1 seed 1: -181978 -> -181978 (gain 0, gap +5.16%) | 1 sweeps, 70 blocks, 0 accepted, 9.3s
+  size 12 window 1 seed 0: -181978 -> -182823 (gain -845, gap +4.72%) | 2 sweeps, 100 blocks, 1 accepted, 18.6s
+  size 12 window 1 seed 1: -181978 -> -181978 (gain 0, gap +5.16%) | 1 sweeps, 50 blocks, 0 accepted, 8.8s
+  size 50 window 1 seed 0: -181978 -> -185032 (gain -3054, gap +3.57%) | 6 sweeps, 60 blocks, 9 accepted, 43.9s
+  size 50 window 1 seed 1: -181978 -> -184711 (gain -2733, gap +3.74%) | 5 sweeps, 50 blocks, 7 accepted, 35.8s
+wrote results/big_blocks/sweep_po_a050_t10_s00_lam1e-3_handin_s3-6-8-12-50_w1.json

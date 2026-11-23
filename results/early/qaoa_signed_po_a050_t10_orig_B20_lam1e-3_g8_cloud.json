@@ -1,0 +1,42 @@
+{
+ "instance": "po_a050_t10_orig",
+ "budget": 20,
+ "lam": "1e-3",
+ "group": 8,
+ "blocks": 1,
+ "layers": 3,
+ "iters": 40,
+ "shots": 10000,
+ "top": 1024,
+ "seed": 0,
+ "cloud": true,
+ "rows": [
+  {
+   "block": 0,
+   "day": 7,
+   "group": [
+    7,
+    15,
+    18,
+    22,
+    29,
+    33,
+    34,
+    42
+   ],
+   "qubits": 24,
+   "mu": 409.0000000006985,
+   "min_margin": 0.0,
+   "qubo_exact": null,
+   "lagrange_hits_opt": true,
+   "current": 0.0,
+   "qaoa_best": 4293.0,
+   "random_best": 16856.0,
+   "p_opt_in_top": 0.0,
+   "p_opt_uniform": 9.5367431640625e-07,
+   "feasible_top": 48,
+   "p_feasible_top": 0.005000000000000001,
+   "seconds": 827.5
+  }
+ ]
+}

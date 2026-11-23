@@ -1,0 +1,16 @@
+po_a050_t10_s01 seed1: QAOA endpoint -51051 -> polished -141513
+po_a050_t10_s01 seed0: QAOA endpoint -51051 -> polished -141431
+po_a050_t10_s02 seed0: QAOA endpoint -149251 -> polished -233766
+po_a050_t10_s02 seed1: QAOA endpoint -149251 -> polished -233766
+po_a050_t15_orig seed0: QAOA endpoint -226771 -> polished -321839
+po_a050_t15_orig seed1: QAOA endpoint -226771 -> polished -321839
+po_a050_t10_orig λ1e-3 seed0: QAOA endpoint -149162 -> polished -206239
+po_a050_t10_orig λ1e-3 seed1: QAOA endpoint -149162 -> polished -206239
+po_a050_t10_orig λ5e-4 seed1: QAOA endpoint -209258 -> polished -254727
+po_a050_t10_orig λ5e-4 seed0: QAOA endpoint -209258 -> polished -254857
+po_a050_t15_orig λ5e-4 seed0: QAOA endpoint -334346 -> polished -397568
+po_a050_t15_orig λ5e-4 seed1: QAOA endpoint -334346 -> polished -397568
+po_a050_t15_s01 λ5e-4 seed0: QAOA endpoint -235712 -> polished -304268
+po_a050_t15_s01 λ5e-4 seed1: QAOA endpoint -235712 -> polished -304268
+po_a050_t15_s02 λ1e-4 seed0: QAOA endpoint -563437 -> polished -604145
+po_a050_t15_s02 λ1e-4 seed1: QAOA endpoint -563437 -> polished -604070

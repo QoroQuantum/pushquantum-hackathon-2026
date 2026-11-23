@@ -7,3 +7,16 @@ qoblib_data/
 __pycache__/
 .ipynb_checkpoints/
 .DS_Store
+.pytest_cache/
+
+# Venvs
+qoro_venv/
+# Hand-in solutions are tracked
+!handin/*.sol
+<<<<<<< HEAD
+# AutoRunner
+AutoData/
+# Earlier init comparison (auto runner, init_comp, AutoData)
+previous init comp calculations/
+=======
+>>>>>>> 6784ddb605f5e27c6b76dfaf32d6f6393abe1352

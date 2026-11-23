@@ -1,0 +1,19 @@
+{
+  "instance": "po_a400_t15_orig",
+  "budget": 100,
+  "lam": "1e-3",
+  "init": "handin/po_a400_t15_orig_b100_l1e-3.sol",
+  "start": -3162386,
+  "workers": 3,
+  "round_seconds": 300.0,
+  "rounds": [
+    {
+      "round": 0,
+      "start": -3162386,
+      "score": -3162386,
+      "kept_days": [],
+      "elapsed": 338.6
+    }
+  ],
+  "score": -3162386
+}

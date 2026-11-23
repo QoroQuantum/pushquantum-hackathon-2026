@@ -1,0 +1,4 @@
+po_a050_t10_s00 B=20 λ=1e-2: start -23297 from results/day_swap/a050_runs/s00_1e-2/po_a050_t10_s00_b020_l1e-2_seed0.sol
+        0s  descent sweep 1: -23297
+       27s  kick 7213 (day 2): -24353
+  final -24353 (36501 kicks, 1 accepted, 120.0s); wrote results/day_swap/a050_runs2/s00_1e-2/po_a050_t10_s00_b020_l1e-2_seed1.sol

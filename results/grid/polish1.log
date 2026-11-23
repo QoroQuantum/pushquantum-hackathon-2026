@@ -1,0 +1,15 @@
+88 polish tasks on 6 workers
+po_a010_t10_s00_b004_l1e-5       warm seed2: -204714 -> -204714 (last gain 0.2s of 300)
+po_a010_t10_s00_b004_l1e-5       warm seed4: -204714 -> -204714 (last gain 0.2s of 300)
+po_a010_t10_s00_b004_l1e-5       warm seed3: -204714 -> -204714 (last gain 0.3s of 300)
+po_a010_t10_s02_b004_l0          warm seed2: -123018 -> -123018 (last gain 0.3s of 300)
+po_a010_t10_s00_b004_l1e-5       warm seed5: -204714 -> -204714 (last gain 0.3s of 300)
+po_a010_t10_s02_b004_l0          warm seed3: -123018 -> -123018 (last gain 0.3s of 300)
+po_a010_t10_s02_b004_l0          warm seed4: -123018 -> -123018 (last gain 0.0s of 300)
+po_a010_t10_s02_b004_l0          warm seed5: -123018 -> -123018 (last gain 0.0s of 300)
+po_a010_t10_s02_b004_l1e-6       warm seed2: -120624 -> -120624 (last gain 0.0s of 300)
+po_a010_t10_s02_b004_l1e-6       warm seed3: -120624 -> -120624 (last gain 0.0s of 300)
+po_a010_t10_s02_b004_l1e-6       warm seed4: -120624 -> -120624 (last gain 0.0s of 300)
+po_a010_t10_s02_b004_l1e-6       warm seed5: -120624 -> -120624 (last gain 0.0s of 300)
+/opt/anaconda3/lib/python3.12/multiprocessing/resource_tracker.py:254: UserWarning: resource_tracker: There appear to be 6 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

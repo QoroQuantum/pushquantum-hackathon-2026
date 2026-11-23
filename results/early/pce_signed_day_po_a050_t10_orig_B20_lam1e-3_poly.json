@@ -1,0 +1,44 @@
+{
+ "instance": "po_a050_t10_orig",
+ "budget": 20,
+ "lam": "1e-3",
+ "days": [
+  0,
+  3
+ ],
+ "encoding": "poly",
+ "iters": 10,
+ "seed": 0,
+ "rows": [
+  {
+   "day": 0,
+   "mu": 200,
+   "qubits": 17,
+   "vars": 150,
+   "seconds": 8.0,
+   "min_units_sampled": 3,
+   "feasible_in_top": 14,
+   "pce_best_feasible_minus_current": 26931.0,
+   "empty_minus_current": 14055.0,
+   "sa_signed_minus_current": 2322.0,
+   "pce_repaired_score": -179503,
+   "start_score": -195512,
+   "sa_signed_score": -193190
+  },
+  {
+   "day": 3,
+   "mu": 1600,
+   "qubits": 17,
+   "vars": 150,
+   "seconds": 7.2,
+   "min_units_sampled": 25,
+   "feasible_in_top": 0,
+   "pce_best_feasible_minus_current": Infinity,
+   "empty_minus_current": 30005.0,
+   "sa_signed_minus_current": 14815.0,
+   "pce_repaired_score": -179575,
+   "start_score": -195512,
+   "sa_signed_score": -180697
+  }
+ ]
+}

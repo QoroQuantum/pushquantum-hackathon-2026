@@ -1,0 +1,64 @@
+{
+  "instance": "po_a050_t10_s02",
+  "budget": 20,
+  "lam": "1e-3",
+  "bkv": -233766,
+  "size": 3,
+  "method": "random",
+  "time_limit": 120.0,
+  "kick_blocks": 6,
+  "seed": 0,
+  "start": -216414,
+  "sa": {
+    "build": 0.5284662246704102,
+    "anneal": 6.8290228843688965,
+    "repair": 0.32949209213256836,
+    "score": -216414
+  },
+  "solver": {
+    "name": "exact"
+  },
+  "day_blocks": {
+    "chains": 64,
+    "sweeps": 300,
+    "calls": 191,
+    "seconds": 119.8,
+    "share": 0.5,
+    "moves": 1,
+    "improvements": 0,
+    "polish_score": -232285
+  },
+  "blocks": -218282,
+  "score": -232285,
+  "gap": 0.006335395224284114,
+  "kicks": 2,
+  "improvements": 0,
+  "trace": [
+    [
+      0.0,
+      -218282
+    ],
+    [
+      37.3,
+      -229898
+    ],
+    [
+      74.6,
+      -231368
+    ],
+    [
+      86.9,
+      -231424
+    ],
+    [
+      112.1,
+      -232285
+    ],
+    [
+      119.2,
+      -232285
+    ]
+  ],
+  "seconds": 127.7,
+  "solution_file": "results/day_blocks/smoke/po_a050_t10_s02_b020_l1e-3.sol"
+}

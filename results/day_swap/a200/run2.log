@@ -1,0 +1,9 @@
+po_a200_t10_orig B=50 λ=1e-3: start -831775 from results/day_swap/a200/start2.sol
+        6s  descent sweep 1: -831775
+       56s  kick 10170 (day 8): -831806
+      213s  kick 61299 (day 4): -831815
+      215s  kick 61694 (day 3): -831946
+      237s  kick 69213 (day 4): -831960
+      239s  kick 69603 (day 4): -832061
+      240s  kick 69693 (day 4): -832193
+      242s  kick 70234 (day 4): -832366

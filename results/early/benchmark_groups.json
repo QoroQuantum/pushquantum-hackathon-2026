@@ -1,0 +1,122 @@
+[
+  {
+    "instance": "po_a050_t10_orig",
+    "lam": "1e-4",
+    "bkv": -370869,
+    "start": -367909,
+    "blocks": -369304,
+    "score": -370869,
+    "gap": 0.0,
+    "seconds": 130.1
+  },
+  {
+    "instance": "po_a050_t10_orig",
+    "lam": "1e-3",
+    "bkv": -206239,
+    "start": -198608,
+    "blocks": -200263,
+    "score": -203964,
+    "gap": 0.01103089134450807,
+    "seconds": 129.4
+  },
+  {
+    "instance": "po_a050_t10_orig",
+    "lam": "1e-2",
+    "bkv": -37107,
+    "start": 18033,
+    "blocks": 11641,
+    "score": 11641,
+    "gap": 1.3137143935106583,
+    "seconds": 129.6
+  },
+  {
+    "instance": "po_a050_t10_s00",
+    "lam": "1e-4",
+    "bkv": -355530,
+    "start": -353534,
+    "blocks": -353953,
+    "score": -355367,
+    "gap": 0.000458470452563778,
+    "seconds": 140.5
+  },
+  {
+    "instance": "po_a050_t10_s00",
+    "lam": "1e-3",
+    "bkv": -191879,
+    "start": -170567,
+    "blocks": -171608,
+    "score": -178637,
+    "gap": 0.06901224209006718,
+    "seconds": 133.2
+  },
+  {
+    "instance": "po_a050_t10_s00",
+    "lam": "1e-2",
+    "bkv": -12340,
+    "start": 94454,
+    "blocks": 78886,
+    "score": 78886,
+    "gap": 7.392706645056726,
+    "seconds": 138.1
+  },
+  {
+    "instance": "po_a050_t10_s01",
+    "lam": "1e-4",
+    "bkv": -301400,
+    "start": -299059,
+    "blocks": -301048,
+    "score": -301400,
+    "gap": 0.0,
+    "seconds": 132.8
+  },
+  {
+    "instance": "po_a050_t10_s01",
+    "lam": "1e-3",
+    "bkv": -141376,
+    "start": -127725,
+    "blocks": -129368,
+    "score": -131333,
+    "gap": 0.07103751697600724,
+    "seconds": 147.6
+  },
+  {
+    "instance": "po_a050_t10_s01",
+    "lam": "1e-2",
+    "bkv": -2248,
+    "start": 101734,
+    "blocks": 89795,
+    "score": 89795,
+    "gap": 40.944395017793596,
+    "seconds": 133.9
+  },
+  {
+    "instance": "po_a050_t10_s02",
+    "lam": "1e-4",
+    "bkv": -443357,
+    "start": -440533,
+    "blocks": -442210,
+    "score": -443266,
+    "gap": 0.0002052522008223621,
+    "seconds": 134.3
+  },
+  {
+    "instance": "po_a050_t10_s02",
+    "lam": "1e-3",
+    "bkv": -233766,
+    "start": -216414,
+    "blocks": -218282,
+    "score": -223691,
+    "gap": 0.04309865420976532,
+    "seconds": 133.5
+  },
+  {
+    "instance": "po_a050_t10_s02",
+    "lam": "1e-2",
+    "bkv": -43565,
+    "start": 48540,
+    "blocks": 40228,
+    "score": 40228,
+    "gap": 1.9234018133823023,
+    "seconds": 137.7
+  }
+]

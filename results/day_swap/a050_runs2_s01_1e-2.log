@@ -1,0 +1,5 @@
+po_a050_t10_s01 B=20 λ=1e-2: start 89795 from solutions/po_a050_t10_s01_b020_l1e-2.sol
+        0s  descent sweep 1: -673
+        0s  descent sweep 2: -1000
+        0s  descent sweep 3: -1000
+  final -1000 (56429 kicks, 0 accepted, 120.0s); wrote results/day_swap/a050_runs2/s01_1e-2/po_a050_t10_s01_b020_l1e-2_seed1.sol

@@ -1,0 +1,68 @@
+{
+  "instance": "po_a010_t10_s02",
+  "budget": 4,
+  "lam": "1e-4",
+  "bkv": -53255,
+  "size": 3,
+  "method": "random",
+  "time_limit": 1200.0,
+  "kick_blocks": 6,
+  "seed": 1,
+  "start": -1000,
+  "solver": {
+    "name": "qaoa",
+    "calls": 17846,
+    "cache_hits": 6970,
+    "qaoa_runs": 24914,
+    "mu_raised": 8141,
+    "proposals": 1206,
+    "no_feasible": 0,
+    "qaoa_seconds": 1117.2,
+    "exact_checked": 10876,
+    "exact_hits": 10875,
+    "sample_hits": 10872,
+    "exact_gap": 171.0,
+    "mu_stage": [
+      2735,
+      2799,
+      4787,
+      555
+    ],
+    "layers": 2,
+    "iters": 8,
+    "shots": 10000,
+    "top": 64,
+    "init": "tqa",
+    "tqa_dt": 1.0,
+    "mu_ladder": [
+      0.25,
+      1.0,
+      4.0
+    ]
+  },
+  "blocks": -51845,
+  "score": -52907,
+  "gap": 0.0065345976903577125,
+  "kicks": 120,
+  "improvements": 3,
+  "trace": [
+    [
+      76.1,
+      -51845
+    ],
+    [
+      178.0,
+      -52218
+    ],
+    [
+      200.3,
+      -52842
+    ],
+    [
+      881.1,
+      -52907
+    ]
+  ],
+  "seconds": 1201.0,
+  "solution_file": "results/qaoa_pipe/po_a010_t10_s02_l1e-4_empty_i8_s1/po_a010_t10_s02_b004_l1e-4.sol"
+}

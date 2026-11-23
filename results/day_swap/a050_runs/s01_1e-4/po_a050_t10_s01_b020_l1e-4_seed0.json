@@ -1,0 +1,22 @@
+{
+  "instance": "po_a050_t10_s01",
+  "budget": 20,
+  "lam": "1e-4",
+  "init": "handin/po_a050_t10_s01_b020_l1e-4.sol",
+  "start": -301400,
+  "score": -301400,
+  "kicks": 33783,
+  "accepted": 0,
+  "trace": [
+    [
+      0.0,
+      -301400
+    ],
+    [
+      0.0,
+      -301400
+    ]
+  ],
+  "seconds": 60.0,
+  "solution_file": "results/day_swap/a050_runs/s01_1e-4/po_a050_t10_s01_b020_l1e-4_seed0.sol"
+}

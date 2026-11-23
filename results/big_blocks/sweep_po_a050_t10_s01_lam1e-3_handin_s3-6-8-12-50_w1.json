@@ -1,0 +1,301 @@
+{
+ "command": "sweep",
+ "instance": "po_a050_t10_s01",
+ "budget": 20,
+ "lam": "1e-3",
+ "start": "handin",
+ "sizes": [
+  3,
+  6,
+  8,
+  12,
+  50
+ ],
+ "windows": [
+  1
+ ],
+ "seeds": 2,
+ "time": 90.0,
+ "chains": 64,
+ "sa_sweeps": 300,
+ "rows": [
+  {
+   "score": -136072,
+   "sweeps": 1,
+   "blocks": 170,
+   "accepted": 0,
+   "seconds": 0.0,
+   "history": [
+    [
+     0.0,
+     -136072
+    ],
+    [
+     0.0,
+     -136072
+    ]
+   ],
+   "instance": "po_a050_t10_s01",
+   "lam": "1e-3",
+   "start": "handin",
+   "size": 3,
+   "window": 1,
+   "seed": 0,
+   "base": -136072,
+   "bkv": -141376,
+   "gain": 0,
+   "gap": 0.037516976007243096
+  },
+  {
+   "score": -136072,
+   "sweeps": 1,
+   "blocks": 170,
+   "accepted": 0,
+   "seconds": 0.0,
+   "history": [
+    [
+     0.0,
+     -136072
+    ],
+    [
+     0.0,
+     -136072
+    ]
+   ],
+   "instance": "po_a050_t10_s01",
+   "lam": "1e-3",
+   "start": "handin",
+   "size": 3,
+   "window": 1,
+   "seed": 1,
+   "base": -136072,
+   "bkv": -141376,
+   "gain": 0,
+   "gap": 0.037516976007243096
+  },
+  {
+   "score": -136072,
+   "sweeps": 1,
+   "blocks": 90,
+   "accepted": 0,
+   "seconds": 6.8,
+   "history": [
+    [
+     0.0,
+     -136072
+    ],
+    [
+     6.8,
+     -136072
+    ]
+   ],
+   "instance": "po_a050_t10_s01",
+   "lam": "1e-3",
+   "start": "handin",
+   "size": 6,
+   "window": 1,
+   "seed": 0,
+   "base": -136072,
+   "bkv": -141376,
+   "gain": 0,
+   "gap": 0.037516976007243096
+  },
+  {
+   "score": -136072,
+   "sweeps": 1,
+   "blocks": 90,
+   "accepted": 0,
+   "seconds": 9.6,
+   "history": [
+    [
+     0.0,
+     -136072
+    ],
+    [
+     9.6,
+     -136072
+    ]
+   ],
+   "instance": "po_a050_t10_s01",
+   "lam": "1e-3",
+   "start": "handin",
+   "size": 6,
+   "window": 1,
+   "seed": 1,
+   "base": -136072,
+   "bkv": -141376,
+   "gain": 0,
+   "gap": 0.037516976007243096
+  },
+  {
+   "score": -136072,
+   "sweeps": 1,
+   "blocks": 70,
+   "accepted": 0,
+   "seconds": 11.0,
+   "history": [
+    [
+     0.0,
+     -136072
+    ],
+    [
+     11.0,
+     -136072
+    ]
+   ],
+   "instance": "po_a050_t10_s01",
+   "lam": "1e-3",
+   "start": "handin",
+   "size": 8,
+   "window": 1,
+   "seed": 0,
+   "base": -136072,
+   "bkv": -141376,
+   "gain": 0,
+   "gap": 0.037516976007243096
+  },
+  {
+   "score": -136072,
+   "sweeps": 1,
+   "blocks": 70,
+   "accepted": 0,
+   "seconds": 9.2,
+   "history": [
+    [
+     0.0,
+     -136072
+    ],
+    [
+     9.2,
+     -136072
+    ]
+   ],
+   "instance": "po_a050_t10_s01",
+   "lam": "1e-3",
+   "start": "handin",
+   "size": 8,
+   "window": 1,
+   "seed": 1,
+   "base": -136072,
+   "bkv": -141376,
+   "gain": 0,
+   "gap": 0.037516976007243096
+  },
+  {
+   "score": -136072,
+   "sweeps": 1,
+   "blocks": 50,
+   "accepted": 0,
+   "seconds": 11.3,
+   "history": [
+    [
+     0.0,
+     -136072
+    ],
+    [
+     11.3,
+     -136072
+    ]
+   ],
+   "instance": "po_a050_t10_s01",
+   "lam": "1e-3",
+   "start": "handin",
+   "size": 12,
+   "window": 1,
+   "seed": 0,
+   "base": -136072,
+   "bkv": -141376,
+   "gain": 0,
+   "gap": 0.037516976007243096
+  },
+  {
+   "score": -136072,
+   "sweeps": 1,
+   "blocks": 50,
+   "accepted": 0,
+   "seconds": 9.4,
+   "history": [
+    [
+     0.0,
+     -136072
+    ],
+    [
+     9.4,
+     -136072
+    ]
+   ],
+   "instance": "po_a050_t10_s01",
+   "lam": "1e-3",
+   "start": "handin",
+   "size": 12,
+   "window": 1,
+   "seed": 1,
+   "base": -136072,
+   "bkv": -141376,
+   "gain": 0,
+   "gap": 0.037516976007243096
+  },
+  {
+   "score": -136072,
+   "sweeps": 1,
+   "blocks": 10,
+   "accepted": 0,
+   "seconds": 9.4,
+   "history": [
+    [
+     0.0,
+     -136072
+    ],
+    [
+     9.4,
+     -136072
+    ]
+   ],
+   "instance": "po_a050_t10_s01",
+   "lam": "1e-3",
+   "start": "handin",
+   "size": 50,
+   "window": 1,
+   "seed": 0,
+   "base": -136072,
+   "bkv": -141376,
+   "gain": 0,
+   "gap": 0.037516976007243096
+  },
+  {
+   "score": -137323,
+   "sweeps": 3,
+   "blocks": 30,
+   "accepted": 3,
+   "seconds": 28.0,
+   "history": [
+    [
+     0.0,
+     -136072
+    ],
+    [
+     10.0,
+     -136365
+    ],
+    [
+     19.2,
+     -137323
+    ],
+    [
+     28.0,
+     -137323
+    ]
+   ],
+   "instance": "po_a050_t10_s01",
+   "lam": "1e-3",
+   "start": "handin",
+   "size": 50,
+   "window": 1,
+   "seed": 1,
+   "base": -136072,
+   "bkv": -141376,
+   "gain": -1251,
+   "gap": 0.028668232231779084
+  }
+ ]
+}

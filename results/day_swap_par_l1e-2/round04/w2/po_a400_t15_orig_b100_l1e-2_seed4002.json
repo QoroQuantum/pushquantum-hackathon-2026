@@ -1,0 +1,24 @@
+{
+  "instance": "po_a400_t15_orig",
+  "budget": 100,
+  "lam": "1e-2",
+  "init": "results/day_swap_par_l1e-2/round04_start.sol",
+  "start": -2995135,
+  "score": -2995135,
+  "kicks": 36571,
+  "accepted": 0,
+  "kicks2": 9221,
+  "accepted2": 0,
+  "trace": [
+    [
+      0.0,
+      -2995135
+    ],
+    [
+      0.2,
+      -2995135
+    ]
+  ],
+  "seconds": 240.0,
+  "solution_file": "results/day_swap_par_l1e-2/round04/w2/po_a400_t15_orig_b100_l1e-2_seed4002.sol"
+}

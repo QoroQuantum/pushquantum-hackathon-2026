@@ -1,0 +1,2 @@
+po_a200_t10_orig B=50 λ=1e-3: start -837017 from results/day_swap_par/a200_t10/round02_start.sol
+  final -837017 (31932 kicks, 0 accepted; 7961 two-day moves, 0 accepted; 180.0s); wrote results/day_swap_par/a200_t10/round02/w0/po_a200_t10_orig_b050_l1e-3_seed302000.sol

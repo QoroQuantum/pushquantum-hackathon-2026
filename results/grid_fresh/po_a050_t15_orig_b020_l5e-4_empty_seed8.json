@@ -1,0 +1,14 @@
+{
+ "instance": "po_a050_t15_orig",
+ "budget": 20,
+ "lam": "5e-4",
+ "seed": 8,
+ "init": "empty",
+ "start": -1500,
+ "score": -397568,
+ "seconds": 154.1,
+ "accepted": 17,
+ "accepted2": 8,
+ "last_gain": 34.1,
+ "solution_file": "results/grid_fresh/po_a050_t15_orig_b020_l5e-4_empty_seed8.sol"
+}

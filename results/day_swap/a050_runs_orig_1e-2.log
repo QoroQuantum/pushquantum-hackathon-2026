@@ -1,0 +1,34 @@
+po_a050_t10_orig B=20 λ=1e-2: start -26186 from handin/po_a050_t10_orig_b020_l1e-2.sol
+        0s  descent sweep 1: -26186
+        0s  kick 17 (day 3): -30221
+        0s  kick 132 (day 2): -30231
+        0s  kick 175 (day 8): -30985
+        0s  kick 193 (day 8): -31243
+        1s  kick 267 (day 1): -31271
+        1s  kick 290 (day 6): -31273
+        1s  kick 296 (day 8): -31571
+        1s  kick 358 (day 2): -31641
+        1s  kick 560 (day 6): -31861
+        1s  kick 656 (day 2): -32394
+        1s  kick 701 (day 6): -32759
+        2s  kick 1037 (day 2): -33718
+        2s  kick 1073 (day 1): -34617
+        2s  kick 1133 (day 1): -34877
+        3s  kick 1889 (day 1): -35425
+        4s  kick 2028 (day 1): -36621
+        5s  kick 2765 (day 8): -36928
+        7s  kick 3801 (day 2): -37169
+       20s  kick 9942 (day 8): -37624
+       25s  kick 12078 (day 8): -39172
+       33s  kick 14876 (day 4): -39462
+       33s  kick 14887 (day 4): -39541
+       34s  kick 15009 (day 4): -39893
+       34s  kick 15194 (day 4): -40637
+       36s  kick 16046 (day 4): -40976
+       37s  kick 16138 (day 4): -41006
+       37s  kick 16140 (day 4): -41059
+       37s  kick 16332 (day 4): -41686
+       48s  kick 19812 (day 7): -44163
+       55s  kick 21578 (day 6): -44593
+       58s  kick 22611 (day 4): -45087
+  final -45087 (23386 kicks, 31 accepted, 60.0s); wrote results/day_swap/a050_runs/orig_1e-2/po_a050_t10_orig_b020_l1e-2_seed0.sol

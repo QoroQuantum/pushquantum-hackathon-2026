@@ -1,0 +1,2 @@
+po_a400_t15_orig B=100 λ=1e-3: start -3108403 from results/day_swap_par/a400_t15/round03_start.sol
+  final -3116120 (2442 kicks, 2 accepted, 240.0s); wrote results/day_swap_par/a400_t15/round03/w5/po_a400_t15_orig_b100_l1e-3_seed3005.sol

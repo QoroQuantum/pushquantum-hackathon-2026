@@ -1,0 +1,45 @@
+{
+  "instance": "po_a200_t10_orig",
+  "budget": 50,
+  "lam": "1e-3",
+  "init": "results/day_swap/a200/start3.sol",
+  "start": -831815,
+  "workers": 2,
+  "round_seconds": 180.0,
+  "rounds": [
+    {
+      "round": 0,
+      "start": -831815,
+      "score": -836946,
+      "kept_days": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "elapsed": 187.2
+    },
+    {
+      "round": 1,
+      "start": -836946,
+      "score": -837017,
+      "kept_days": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "elapsed": 375.4
+    },
+    {
+      "round": 2,
+      "start": -837017,
+      "score": -837017,
+      "kept_days": [],
+      "elapsed": 565.1
+    }
+  ],
+  "score": -837017
+}

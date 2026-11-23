@@ -1,0 +1,2 @@
+po_a400_t15_s00 B=100 λ=1e-3: start -1500 from results/day_swap_par_s00/round00_start.sol
+  final -589086 (35505 kicks, 121 accepted; 8958 two-day moves, 12 accepted; 240.0s); wrote results/day_swap_par_s00/round00/w2/po_a400_t15_s00_b100_l1e-3_seed2.sol

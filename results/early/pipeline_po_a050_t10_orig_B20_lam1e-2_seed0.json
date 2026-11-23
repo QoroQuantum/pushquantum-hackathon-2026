@@ -1,0 +1,31 @@
+{
+  "instance": "po_a050_t10_orig",
+  "budget": 20,
+  "lam": "1e-2",
+  "bkv": -37107,
+  "size": 3,
+  "method": "random",
+  "time_limit": 120.0,
+  "kick_blocks": 6,
+  "seed": 0,
+  "start": 18033,
+  "sa": {
+    "build": 0.5745248794555664,
+    "anneal": 8.888411045074463,
+    "repair": 0.05538582801818848,
+    "score": 18033
+  },
+  "blocks": 11641,
+  "score": 11641,
+  "gap": 1.3137143935106583,
+  "kicks": 1095,
+  "improvements": 0,
+  "trace": [
+    [
+      0.1,
+      11641
+    ]
+  ],
+  "seconds": 129.6,
+  "solution_file": "solutions/po_a050_t10_orig_b020_l1e-2.sol"
+}

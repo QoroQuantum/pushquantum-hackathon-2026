@@ -1,0 +1,5 @@
+po_a050_t10_s02, B=20, λ=1e-3, 50 assets, 10 days; best known -233766
+  SA start: 2781 vars, build 1s, anneal 18s, repair 1s -> -220078
+  start (SA + fast repair): -220078 (+5.86%)
+  blocks: -221097 (+5.42%) -> iterated search: -226584 (+3.07%) (5644 kicks, 14 improvements); total 1220s
+  wrote results/ils1200/solutions/seed11/po_a050_t10_s02_b020_l1e-3.sol and results/ils1200/pipeline_po_a050_t10_s02_B20_lam1e-3_seed11.json

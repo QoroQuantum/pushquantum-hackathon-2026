@@ -1,0 +1,3 @@
+po_a050_t10_s02, B=20, λ=1e-2, 50 assets, 10 days; best known -43565
+  blocks: -1000 (+97.70%) -> whole-day polish: -21887 (+49.76%) -> iterated search: -32367 (+25.70%) (2346 kicks, 0 improvements; 293 day moves, 8 improvements); total 1201s
+  wrote results/day_blocks/solutions/po_a050_t10_s02_b020_l1e-2.sol and results/day_blocks/pipeline_po_a050_t10_s02_B20_lam1e-2_seed0_days.json

@@ -1,0 +1,92 @@
+{
+  "instance": "po_a400_t15_orig",
+  "budget": 100,
+  "lam": "1e-3",
+  "init": "results/day_swap/a400_m3156661.sol",
+  "start": -3156661,
+  "workers": 6,
+  "round_seconds": 240.0,
+  "rounds": [
+    {
+      "round": 8,
+      "start": -3156661,
+      "score": -3157623,
+      "kept_days": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "elapsed": 299.0
+    },
+    {
+      "round": 9,
+      "start": -3157623,
+      "score": -3157696,
+      "kept_days": [
+        0,
+        13,
+        14,
+        1,
+        2
+      ],
+      "elapsed": 580.8
+    },
+    {
+      "round": 10,
+      "start": -3157696,
+      "score": -3157888,
+      "kept_days": [
+        0,
+        1,
+        14,
+        9,
+        10
+      ],
+      "elapsed": 855.1
+    },
+    {
+      "round": 11,
+      "start": -3157888,
+      "score": -3161963,
+      "kept_days": [
+        8,
+        9
+      ],
+      "elapsed": 1138.3
+    },
+    {
+      "round": 12,
+      "start": -3161963,
+      "score": -3162245,
+      "kept_days": [
+        6,
+        7,
+        8
+      ],
+      "elapsed": 1420.7
+    },
+    {
+      "round": 13,
+      "start": -3162245,
+      "score": -3162245,
+      "kept_days": [],
+      "elapsed": 1696.2
+    },
+    {
+      "round": 14,
+      "start": -3162245,
+      "score": -3162245,
+      "kept_days": [],
+      "elapsed": 1990.1
+    },
+    {
+      "round": 15,
+      "start": -3162245,
+      "score": -3162245,
+      "kept_days": [],
+      "elapsed": 2265.8
+    }
+  ],
+  "score": -3162245
+}

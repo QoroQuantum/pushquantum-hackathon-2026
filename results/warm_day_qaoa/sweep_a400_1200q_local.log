@@ -1,0 +1,5 @@
+po_a400_t15_orig λ1e-3 start -3162386 (bkv None); 1 days, 1200 qubits, 718842 couplings; 1 angle sets -> 1 programs; eps 0.0025, mu_step 0.25, p=1, chi 16, cluster local
+day  7 γ 0.25 β -0.40: feasible 0.179/0.085  improve 0.0000/0.0000  mean Δ 2023.9/11438.7  best Δ 0.0/0.0
+wall 1986.1s, credits None
+     2154.92 real      1636.33 user        26.13 sys
+          2156003328  maximum resident set size

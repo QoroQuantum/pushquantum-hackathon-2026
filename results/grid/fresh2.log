@@ -1,0 +1,13 @@
+12 tasks on 4 workers
+po_a050_t10_s00_b020_l1e-2       empty seed2: -1000 -> -29190 (last gain 23.5s of 240)
+po_a050_t10_s00_b020_l1e-2       empty seed3: -1000 -> -36445 (last gain 78.0s of 240)
+po_a050_t10_s00_b020_l1e-2       empty seed4: -1000 -> -42073 (last gain 223.0s of 240)
+po_a050_t10_s00_b020_l1e-2       empty seed5: -1000 -> -44110 (last gain 188.4s of 240)
+po_a050_t10_s01_b020_l1e-2       empty seed5: -1000 -> -1000 (last gain 0.0s of 240)
+po_a050_t10_s01_b020_l1e-2       empty seed2: -1000 -> -7663 (last gain 134.0s of 240)
+po_a050_t10_s01_b020_l1e-2       empty seed3: -1000 -> -7663 (last gain 144.1s of 240)
+po_a050_t10_s01_b020_l1e-2       empty seed4: -1000 -> -6331 (last gain 104.6s of 240)
+po_a050_t10_s02_b020_l1e-2       empty seed2: -1000 -> -52704 (last gain 19.4s of 240)
+po_a050_t10_s02_b020_l1e-2       empty seed3: -1000 -> -55908 (last gain 110.3s of 240)
+po_a050_t10_s02_b020_l1e-2       empty seed4: -1000 -> -60036 (last gain 117.1s of 240)
+po_a050_t10_s02_b020_l1e-2       empty seed5: -1000 -> -58193 (last gain 239.7s of 240)

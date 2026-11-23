@@ -1,0 +1,4 @@
+po_a010_t10_orig, B=4, λ=1e-4, 10 assets, 10 days; best known -69482
+  blocks: -69397 (+0.12%) -> iterated search: -69397 (+0.12%) (3 kicks, 0 improvements); total 602s
+  solver: {'name': 'qaoa', 'calls': 1165, 'cache_hits': 86, 'qaoa_runs': 2671, 'mu_raised': 811, 'proposals': 80, 'no_feasible': 0, 'qaoa_seconds': 581.9, 'exact_checked': 1079, 'exact_hits': 1079, 'sample_hits': 1079, 'exact_gap': 0.0, 'mu_stage': [268, 148, 545, 118], 'layers': 2, 'iters': 30, 'shots': 10000, 'top': 64, 'init': 'tqa', 'tqa_dt': 1.0, 'mu_ladder': [0.25, 1.0, 4.0]}
+  wrote results/qaoa_pipe/l1e-4_empty/po_a010_t10_orig_b004_l1e-4.sol and results/qaoa_pipe/l1e-4_empty/pipeline_po_a010_t10_orig_B4_lam1e-4_seed0_qaoa.json

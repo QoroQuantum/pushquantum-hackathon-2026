@@ -1,0 +1,17 @@
+po_a050_t10_s00, B=20, λ=1e-3, 50 assets, 10 days; best known -191879
+  SA start: 2781 vars, build 1s, anneal 31s, repair 1s -> -171478
+  start (SA + fast repair): -171478 (+10.63%)
+  blocks: -178830 (+6.80%) -> iterated search: -178998 (+6.71%) (218 kicks, 1 improvements); total 1237s
+Traceback (most recent call last):
+  File "/Users/julesdupont/pushquantum-hackathon-2026/asset_groups.py", line 607, in <module>
+    else:
+    ^^^^^^
+  File "/Users/julesdupont/pushquantum-hackathon-2026/asset_groups.py", line 538, in main
+    if args.command == "pipeline":
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/julesdupont/pushquantum-hackathon-2026/asset_groups.py", line 592, in run_pipeline
+    return s, lambda: dict(name="qaoa", **s.summary())
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/pathlib.py", line 1311, in mkdir
+    os.mkdir(self, mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'results/ils1200/g5/solutions'

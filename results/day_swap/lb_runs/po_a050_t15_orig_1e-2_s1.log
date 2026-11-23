@@ -1,0 +1,75 @@
+po_a050_t15_orig B=20 λ=1e-2: start -1500 from empty
+        1s  descent sweep 1: -3746
+        1s  descent sweep 2: -3746
+        1s  kick 256 (day 2): -4266
+        1s  kick 556 (day 2): -9464
+        1s  kick 648 (day 9): -11877
+        1s  kick 666 (day 9): -12364
+        1s  kick 736 (day 2): -13383
+        1s  kick 738 (day 9): -14173
+        1s  kick 758 (day 9): -16335
+        1s  kick 851 (day 9): -17018
+        1s  two-day move 240 (days 9,10): -17158
+        1s  two-day move 322 (days 8,9): -18684
+        1s  kick 1594 (day 2): -19398
+        1s  kick 1672 (day 3): -21122
+        1s  kick 1674 (day 2): -21234
+        1s  kick 1871 (day 9): -21270
+        1s  two-day move 517 (days 2,3): -24091
+        1s  kick 2080 (day 3): -24190
+        1s  kick 2209 (day 9): -24404
+        1s  kick 2350 (day 3): -31662
+        1s  kick 2539 (day 4): -31844
+        1s  kick 2544 (day 4): -32501
+        1s  two-day move 702 (days 2,3): -33213
+        1s  kick 2674 (day 4): -33242
+        1s  kick 2680 (day 4): -33482
+        1s  kick 2779 (day 4): -33507
+        1s  kick 2840 (day 4): -34278
+        1s  kick 3047 (day 2): -34562
+        1s  kick 3209 (day 4): -34957
+        1s  kick 3317 (day 4): -35172
+        2s  kick 5104 (day 8): -36196
+        2s  kick 5194 (day 8): -36299
+        2s  kick 5210 (day 8): -37646
+        2s  kick 5665 (day 8): -38573
+        2s  kick 6115 (day 8): -38743
+        2s  kick 6118 (day 8): -39577
+        2s  kick 6232 (day 8): -41412
+        2s  kick 6807 (day 2): -41908
+        2s  kick 8190 (day 1): -41996
+        2s  kick 8829 (day 11): -42459
+        2s  kick 9061 (day 11): -46684
+        3s  kick 11020 (day 12): -49152
+        3s  kick 13468 (day 10): -49590
+        3s  kick 14361 (day 10): -51982
+        3s  kick 14595 (day 10): -52856
+        3s  kick 14740 (day 1): -53353
+        3s  kick 14863 (day 10): -53868
+        3s  kick 14893 (day 10): -54170
+        5s  kick 20493 (day 8): -54913
+        5s  kick 21853 (day 12): -55424
+        7s  kick 29579 (day 1): -55749
+        7s  kick 30189 (day 1): -57501
+        8s  kick 34329 (day 13): -58643
+        9s  kick 39139 (day 13): -58843
+        9s  kick 39625 (day 13): -59726
+        9s  kick 40123 (day 13): -60143
+       12s  kick 55395 (day 6): -61669
+       13s  kick 59780 (day 8): -62994
+       15s  kick 67624 (day 13): -64177
+       16s  kick 69019 (day 13): -66648
+       22s  kick 92899 (day 7): -67165
+       22s  kick 92937 (day 7): -67555
+       23s  kick 97575 (day 6): -67985
+       26s  kick 108402 (day 13): -68813
+       30s  kick 122036 (day 12): -68845
+       53s  kick 191775 (day 6): -69661
+       70s  kick 243406 (day 1): -72492
+       70s  kick 245884 (day 7): -73702
+      142s  kick 418715 (day 2): -73989
+      142s  two-day move 104795 (days 2,3): -74663
+      152s  kick 447585 (day 2): -74731
+      177s  kick 489375 (day 4): -75138
+      177s  kick 489467 (day 4): -75225
+  final -75225 (495216 kicks, 66 accepted; 123881 two-day moves, 5 accepted; 180.0s); wrote results/day_swap/lb_runs/po_a050_t15_orig_1e-2_s1/po_a050_t15_orig_b020_l1e-2_seed1.sol

@@ -48,6 +48,32 @@ Divi 0.16.2 needs Python 3.11 or newer. The version is pinned because names can 
 minor versions. Put your key in a file called `.env` next to the notebooks, containing
 `QORO_API_KEY="your_api_key_here"`. The repository's `.gitignore` keeps `.env` out of commits.
 
+### Reproducible environment (`requirements.txt`)
+
+`requirements.txt` pins every package of a tested environment (Python 3.12, Divi 0.16.2), produced
+with `pip freeze`.
+
+With conda:
+
+```bash
+conda create -n Munich_hackathon python=3.12 -y
+conda activate Munich_hackathon
+pip install -r requirements.txt
+python -m ipykernel install --user --name Munich_hackathon --display-name "Python (Munich_hackathon)"
+```
+
+With plain pip and a virtual environment:
+
+```bash
+python -m venv Munich_hackathon
+# Windows: Munich_hackathon\Scripts\activate    macOS/Linux: source Munich_hackathon/bin/activate
+pip install -r requirements.txt
+python -m ipykernel install --user --name Munich_hackathon --display-name "Python (Munich_hackathon)"
+```
+
+Then pick the **Python (Munich_hackathon)** kernel in Jupyter or VS Code. To refresh the file after
+installing something new: `pip freeze > requirements.txt`.
+
 Optional: Maestro, Qoro's simulator, as a drop-in for code you write directly in Qiskit
 (`pip install qiskit-maestro`) or PennyLane (`pip install pennylane-maestro`).
 
@@ -140,8 +166,36 @@ print(qt.check_network_solution("network12.sol", 12, qt.load_network_demand(12))
 | `00_main_qubo_101.ipynb` | Main notebook: setup, QUBO 101, choosing a problem, handing in |
 | `01_portfolio_optimisation.ipynb` | Portfolio optimisation (QOBLIB 06) |
 | `02_network_design.ipynb` | Network design (QOBLIB 08) |
+| `03_encoding_and_objectives.ipynb` | Copy of 01 plus a comparison of PCE encodings and objectives |
+| `handin/` | Our hand-in: verified `.sol` files, `README.md`, `RESULTS.md`, `QUANTUM_STORY.md` |
+| `experiments/` | Dead-end and side experiments not used by the hand-in, kept for the record |
 | `qoblib_tools.py` | Helper and referee for 01 and 02 |
 | `LICENSE` | Apache-2.0 |
 
 Created when you run the notebooks (ignored by git): `qoblib_data/` (downloaded instances), the `.sol`
 files, `__pycache__/`.
+
+## Quantum reheat (optional, experimental)
+
+`--quantum-reheat {off,always,stuck}` (default `off`; off is the previous behaviour).
+
+After the first SA stage of a block, a TQA-initialised QAOA is run on the block QUBO. Its
+lowest-energy samples, picked greedily for Hamming diversity, replace the usual start states
+of the following SA reheat stage (run at `--quantum-reheat-scale`). QAOA samples are also
+scored as ordinary candidates and can become the incumbent.
+
+**This is a heuristic restart distribution, not a sampler with detailed balance.** The QAOA
+samples come from a finite-shot, finite-depth circuit, and neither their probabilities nor
+the SA acceptance rule form a Markov chain with a known stationary distribution. Do not read
+it as exact SA/PT or as evidence of quantum advantage. The ablation in
+`bench_quantum_reheat.py` is the only evidence it helps.
+
+It is skipped (and counted in `sa.quantum`) when:
+- the block has fewer than `--quantum-min-qubits` (24) or more than `--quantum-max-qubits`
+  (26) QUBO variables (3 per asset: use `--group-size 8`);
+- `--quantum-budget` QAOA runs per seed are spent;
+- the policy says the block is not stuck (`stuck`: no improvement after stage 1, or a
+  plateau of near-minimal reads, or the same block failed to improve last time);
+- `--reheats 0` or `--block-solver exact`.
+
+Unchanged blocks reuse cached QAOA samples. Credits are 0 on the local simulator.

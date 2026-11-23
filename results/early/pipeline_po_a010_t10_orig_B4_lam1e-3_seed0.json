@@ -1,0 +1,43 @@
+{
+  "instance": "po_a010_t10_orig",
+  "budget": 4,
+  "lam": "1/1000",
+  "bkv": -8397,
+  "size": 3,
+  "method": "random",
+  "time_limit": 20.0,
+  "kick_blocks": 6,
+  "seed": 0,
+  "start": -7983,
+  "sa": {
+    "build": 0.04503774642944336,
+    "anneal": 0.45534324645996094,
+    "repair": 0.010642766952514648,
+    "score": -7983
+  },
+  "blocks": -8133,
+  "score": -8397,
+  "gap": 0.0,
+  "kicks": 1678,
+  "improvements": 3,
+  "trace": [
+    [
+      0.0,
+      -8133
+    ],
+    [
+      0.1,
+      -8172
+    ],
+    [
+      0.4,
+      -8322
+    ],
+    [
+      2.0,
+      -8397
+    ]
+  ],
+  "seconds": 20.6,
+  "solution_file": "solutions/po_a010_t10_orig_b004_l1e-3.sol"
+}

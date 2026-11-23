@@ -1,0 +1,9 @@
+po_a050_t10_s00 λ1e-3 start -1000 (bkv -191879); 10 days x 150 qubits per round, eps 0.05, γ 0.25, β -0.4, p=1, shots 2000, chi 16, qoro_cpu
+round  1: QAOA -10307 (units 30)  γ=0 baseline -4529 (units 15)  [116s]
+round  2: QAOA -23145 (units 51)  γ=0 baseline -10017 (units 29)  [118s]
+round  3: QAOA -38363 (units 81)  γ=0 baseline -13911 (units 42)  [118s]
+round  4: QAOA -59693 (units 104)  γ=0 baseline -16698 (units 50)  [121s]
+round  5: QAOA -68850 (units 124)  γ=0 baseline -24341 (units 76)  [104s]
+round  6: QAOA -75370 (units 137)  γ=0 baseline -29937 (units 82)  [121s]
+round  7: QAOA -81743 (units 142)  γ=0 baseline -31261 (units 91)  [134s]
+round  8: QAOA -86666 (units 146)  γ=0 baseline -36603 (units 97)  [109s]

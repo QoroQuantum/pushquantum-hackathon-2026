@@ -1,0 +1,31 @@
+po_a050_t10_s00 B=20 λ=5e-4: start -1000 from empty
+        1s  descent sweep 1: -226674
+        1s  descent sweep 2: -227062
+        1s  descent sweep 3: -227062
+        1s  kick 30 (day 4): -227252
+        1s  kick 35 (day 0): -227551
+        1s  kick 39 (day 8): -227911
+        1s  kick 43 (day 2): -228022
+        1s  two-day move 13 (days 7,8): -228957
+        1s  kick 54 (day 8): -230064
+        1s  kick 70 (day 0): -230165
+        1s  kick 72 (day 3): -230335
+        1s  kick 77 (day 4): -230526
+        1s  kick 96 (day 2): -231475
+        1s  two-day move 25 (days 0,1): -231570
+        1s  kick 118 (day 8): -231732
+        1s  kick 177 (day 7): -232209
+        1s  two-day move 62 (days 7,8): -232229
+        1s  kick 287 (day 6): -232639
+        1s  kick 482 (day 4): -232939
+        1s  kick 732 (day 6): -232997
+        1s  kick 804 (day 6): -233654
+        1s  two-day move 246 (days 1,2): -233772
+        1s  kick 1295 (day 2): -233900
+        1s  kick 1718 (day 5): -234174
+        1s  kick 1746 (day 5): -234241
+        1s  kick 1791 (day 5): -234363
+        1s  kick 1864 (day 4): -234492
+        1s  kick 1952 (day 2): -234510
+        1s  kick 1973 (day 4): -234646
+  final -234646 (412818 kicks, 22 accepted; 103830 two-day moves, 4 accepted; 180.0s); wrote results/day_swap/lb_runs/po_a050_t10_s00_5e-4_s2/po_a050_t10_s00_b020_l5e-4_seed2.sol

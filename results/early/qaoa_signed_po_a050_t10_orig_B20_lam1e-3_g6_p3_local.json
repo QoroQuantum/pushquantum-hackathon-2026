@@ -1,0 +1,90 @@
+{
+ "instance": "po_a050_t10_orig",
+ "budget": 20,
+ "lam": "1e-3",
+ "group": 6,
+ "blocks": 3,
+ "layers": 3,
+ "iters": 40,
+ "shots": 10000,
+ "top": 512,
+ "seed": 0,
+ "cloud": false,
+ "rows": [
+  {
+   "block": 0,
+   "day": 7,
+   "group": [
+    0,
+    3,
+    8,
+    18,
+    34,
+    35
+   ],
+   "qubits": 18,
+   "mu": 979.0000000006985,
+   "min_margin": 0.0,
+   "qubo_exact": true,
+   "lagrange_hits_opt": true,
+   "current": 0.0,
+   "qaoa_best": 0.0,
+   "random_best": 8204.0,
+   "p_opt_in_top": 0.0003,
+   "p_opt_uniform": 3.0517578125e-05,
+   "feasible_top": 107,
+   "p_feasible_top": 0.0276,
+   "seconds": 7.5
+  },
+  {
+   "block": 1,
+   "day": 4,
+   "group": [
+    7,
+    10,
+    21,
+    30,
+    43,
+    44
+   ],
+   "qubits": 18,
+   "mu": 482.00000000046566,
+   "min_margin": 0.0,
+   "qubo_exact": true,
+   "lagrange_hits_opt": true,
+   "current": 0.0,
+   "qaoa_best": 2546.0,
+   "random_best": 9752.0,
+   "p_opt_in_top": 0.0,
+   "p_opt_uniform": 3.0517578125e-05,
+   "feasible_top": 288,
+   "p_feasible_top": 0.06120000000000001,
+   "seconds": 7.6
+  },
+  {
+   "block": 2,
+   "day": 1,
+   "group": [
+    10,
+    21,
+    26,
+    30,
+    31,
+    40
+   ],
+   "qubits": 18,
+   "mu": 697.5000000002328,
+   "min_margin": 0.0,
+   "qubo_exact": true,
+   "lagrange_hits_opt": true,
+   "current": 0.0,
+   "qaoa_best": 2145.0,
+   "random_best": 3846.0,
+   "p_opt_in_top": 0.0,
+   "p_opt_uniform": 3.0517578125e-05,
+   "feasible_top": 47,
+   "p_feasible_top": 0.011300000000000006,
+   "seconds": 12.2
+  }
+ ]
+}

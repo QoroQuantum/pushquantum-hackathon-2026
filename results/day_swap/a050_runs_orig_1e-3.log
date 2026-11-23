@@ -1,0 +1,7 @@
+po_a050_t10_orig B=20 λ=1e-3: start -205926 from handin/po_a050_t10_orig_b020_l1e-3.sol
+        0s  descent sweep 1: -205926
+        0s  kick 55 (day 4): -205962
+        0s  kick 62 (day 3): -206012
+        0s  kick 91 (day 1): -206039
+        1s  kick 400 (day 5): -206239
+  final -206239 (29799 kicks, 4 accepted, 60.0s); wrote results/day_swap/a050_runs/orig_1e-3/po_a050_t10_orig_b020_l1e-3_seed0.sol

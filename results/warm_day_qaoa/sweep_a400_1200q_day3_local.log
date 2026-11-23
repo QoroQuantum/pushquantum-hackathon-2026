@@ -1,0 +1,3 @@
+po_a400_t15_orig λ1e-3 start -3162386 (bkv None); 1 days, 1200 qubits, 718698 couplings; 1 angle sets -> 1 programs; eps 0.0025, mu_step 0.25, p=1, chi 16, cluster local
+day  3 γ 0.25 β -0.40: feasible 0.198/0.082  improve 0.0000/0.0000  mean Δ 6509.9/12036.5  best Δ 0.0/0.0
+wall 1519.5s, credits None

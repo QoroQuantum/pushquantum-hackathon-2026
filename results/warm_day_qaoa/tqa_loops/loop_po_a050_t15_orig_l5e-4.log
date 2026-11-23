@@ -1,0 +1,13 @@
+po_a050_t15_orig λ5e-4 start -1500 (bkv -397497); 15 days x 150 qubits per round, eps 0.05, angles [0.1, -0.5, 0.3, -0.3, 0.5, -0.1], p=3, shots 2000, chi 16, qoro_cpu
+round  1: QAOA -157045 (units 127)  γ=0 baseline -66465 (units 110)  [108s]
+round  2: QAOA -224763 (units 190)  γ=0 baseline -119059 (units 185)  [96s]
+round  3: QAOA -286030 (units 249)  γ=0 baseline -146452 (units 226)  [102s]
+round  4: QAOA -309057 (units 261)  γ=0 baseline -172222 (units 243)  [99s]
+round  5: QAOA -324671 (units 271)  γ=0 baseline -186479 (units 256)  [100s]
+round  6: QAOA -334995 (units 273)  γ=0 baseline -196085 (units 262)  [114s]
+round  7: QAOA -339399 (units 277)  γ=0 baseline -209552 (units 262)  [106s]
+round  8: QAOA -343537 (units 278)  γ=0 baseline -215191 (units 267)  [103s]
+round  9: QAOA -346917 (units 277)  γ=0 baseline -220616 (units 267)  [106s]
+round 10: QAOA -350865 (units 276)  γ=0 baseline -224762 (units 270)  [115s]
+round 11: QAOA -356349 (units 276)  γ=0 baseline -229974 (units 273)  [103s]
+round 12: QAOA -358337 (units 276)  γ=0 baseline -235019 (units 276)  [120s]

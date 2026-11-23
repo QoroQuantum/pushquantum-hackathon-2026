@@ -1,0 +1,6 @@
+po_a050_t10_orig, B=20, λ=1e-3, 50 assets, 10 days; best known -206239
+  SA start: 2781 vars, build 1s, anneal 8s, repair 0s -> -198608
+  start (SA + fast repair): -198608 (+3.70%)
+  blocks: -200263 (+2.90%) -> iterated search: -200509 (+2.78%) (8 kicks, 1 improvements); total 610s
+  solver: {'name': 'qaoa', 'calls': 6132, 'cache_hits': 1344, 'qaoa_runs': 7020, 'mu_raised': 1697, 'proposals': 200, 'no_feasible': 0, 'qaoa_seconds': 581.2, 'exact_checked': 4788, 'exact_hits': 4788, 'sample_hits': 4786, 'exact_gap': 0.0, 'layers': 2, 'iters': 30, 'shots': 10000, 'top': 64, 'init': 'tqa', 'tqa_dt': 1.0, 'mu_ladder': [0.25, 1.0, 4.0]}
+  wrote results/qaoa_pipe/solutions/po_a050_t10_orig_b020_l1e-3.sol and results/qaoa_pipe/pipeline_po_a050_t10_orig_B20_lam1e-3_seed0_qaoa.json

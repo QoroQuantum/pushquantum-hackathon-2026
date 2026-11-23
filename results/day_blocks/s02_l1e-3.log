@@ -1,0 +1,5 @@
+po_a050_t10_s02, B=20, λ=1e-3, 50 assets, 10 days; best known -233766
+  SA start: 2781 vars, build 1s, anneal 19s, repair 1s -> -216414
+  start (SA + fast repair): -216414 (+7.42%)
+  blocks: -218282 (+6.62%) -> whole-day polish: -232285 (+0.63%) -> iterated search: -233672 (+0.04%) (2315 kicks, 2 improvements; 229 day moves, 3 improvements); total 1221s
+  wrote results/day_blocks/solutions/po_a050_t10_s02_b020_l1e-3.sol and results/day_blocks/pipeline_po_a050_t10_s02_B20_lam1e-3_seed0_days.json

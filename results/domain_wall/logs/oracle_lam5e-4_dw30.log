@@ -1,0 +1,27 @@
+po_a010_t10_orig, B=4, λ=5e-4: best known -27044; compact QUBO 710 -> 567 variables, 9 days in the QUBO
+
+[oracle, solver=pce, seed=1]
+  day 0: exact -27044 (2 units) | empty day -24952 | SA -25937 (0.3s) | PCE 4015 (gap +31059, fewest units in a sample 3, domain-wall-valid mass 0.00; 60 vars on 7 qubits, 50021 circuits, 31.3s)
+  day 1: exact -27044 (4 units) | empty day -22885 | SA -23535 (0.2s) | PCE -2208 (gap +24836, fewest units in a sample 3, domain-wall-valid mass 0.00; 60 vars on 7 qubits, 50021 circuits, 28.9s)
+  day 2: exact -27044 (4 units) | empty day -25728 | SA -25348 (0.3s) | PCE 3872 (gap +30916, fewest units in a sample 3, domain-wall-valid mass 0.00; 60 vars on 7 qubits, 50021 circuits, 29.2s)
+  day 3: exact -27044 (3 units) | empty day -23705 | SA -24325 (0.3s) | PCE -2896 (gap +24148, fewest units in a sample 3, domain-wall-valid mass 0.00; 60 vars on 7 qubits, 50021 circuits, 29.2s)
+  day 4: exact -27044 (4 units) | empty day -23630 | SA -25015 (0.4s) | PCE 2132 (gap +29176, fewest units in a sample 3, domain-wall-valid mass 0.00; 60 vars on 7 qubits, 50021 circuits, 28.2s)
+  day 5: exact -27044 (4 units) | empty day -23817 | SA -26124 (0.2s) | PCE -3935 (gap +23109, fewest units in a sample 3, domain-wall-valid mass 0.00; 60 vars on 7 qubits, 50021 circuits, 28.5s)
+  day 6: exact -27044 (0 units) | empty day -27044 | SA -25808 (0.3s) | PCE -10136 (gap +16908, fewest units in a sample 3, domain-wall-valid mass 0.00; 60 vars on 7 qubits, 50021 circuits, 30.9s)
+  day 7: exact -27044 (4 units) | empty day -25283 | SA -24945 (0.3s) | PCE -10868 (gap +16176, fewest units in a sample 3, domain-wall-valid mass 0.00; 60 vars on 7 qubits, 50021 circuits, 30.3s)
+  day 8: exact -27044 (4 units) | empty day -19280 | SA -23284 (0.3s) | PCE 6735 (gap +33779, fewest units in a sample 3, domain-wall-valid mass 0.00; 60 vars on 7 qubits, 50021 circuits, 28.2s)
+  → PCE feasible on 9/9 days, matched the target on 0/9, beat an empty day on 0/9; SA matched the target on 0/9
+
+[oracle, solver=pce, seed=2]
+  day 0: exact -27044 (2 units) | empty day -24952 | SA -25509 (0.2s) | PCE inf (gap +inf, fewest units in a sample 6, domain-wall-valid mass 0.00; 60 vars on 7 qubits, 40017 circuits, 19.5s)
+  day 1: exact -27044 (4 units) | empty day -22885 | SA -23990 (0.2s) | PCE inf (gap +inf, fewest units in a sample 6, domain-wall-valid mass 0.00; 60 vars on 7 qubits, 40017 circuits, 21.7s)
+  day 2: exact -27044 (4 units) | empty day -25728 | SA -25517 (0.2s) | PCE inf (gap +inf, fewest units in a sample 6, domain-wall-valid mass 0.00; 60 vars on 7 qubits, 40017 circuits, 33.4s)
+  day 3: exact -27044 (3 units) | empty day -23705 | SA -24613 (0.2s) | PCE inf (gap +inf, fewest units in a sample 6, domain-wall-valid mass 0.00; 60 vars on 7 qubits, 40017 circuits, 30.1s)
+  day 4: exact -27044 (4 units) | empty day -23630 | SA -26594 (0.2s) | PCE inf (gap +inf, fewest units in a sample 6, domain-wall-valid mass 0.00; 60 vars on 7 qubits, 40017 circuits, 22.4s)
+  day 5: exact -27044 (4 units) | empty day -23817 | SA -24423 (0.2s) | PCE inf (gap +inf, fewest units in a sample 6, domain-wall-valid mass 0.00; 60 vars on 7 qubits, 40017 circuits, 26.4s)
+  day 6: exact -27044 (0 units) | empty day -27044 | SA -26301 (0.3s) | PCE inf (gap +inf, fewest units in a sample 6, domain-wall-valid mass 0.00; 60 vars on 7 qubits, 40017 circuits, 20.1s)
+  day 7: exact -27044 (4 units) | empty day -25283 | SA -24916 (0.2s) | PCE inf (gap +inf, fewest units in a sample 6, domain-wall-valid mass 0.00; 60 vars on 7 qubits, 40017 circuits, 22.1s)
+  day 8: exact -27044 (4 units) | empty day -19280 | SA -22640 (0.2s) | PCE inf (gap +inf, fewest units in a sample 6, domain-wall-valid mass 0.00; 60 vars on 7 qubits, 40017 circuits, 19.1s)
+  → PCE feasible on 0/9 days, matched the target on 0/9, beat an empty day on 0/9; SA matched the target on 0/9
+
+Saved results/domain_wall/per_day_oracle_pce_po_a010_t10_orig_B4_lam5e-4_multibasis_progressive_dw30.json

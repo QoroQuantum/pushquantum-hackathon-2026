@@ -1,0 +1,12 @@
+{
+ "instance": "po_a010_t10_orig",
+ "budget": 4,
+ "lam": "1e-5",
+ "score": -103821,
+ "bkv": -103821.0,
+ "gap": 0.0,
+ "states": 8341,
+ "seconds": 0.2,
+ "solution_file": "results/exact_dp/po_a010_t10_orig_b004_l1e-5.sol",
+ "optimal": true
+}

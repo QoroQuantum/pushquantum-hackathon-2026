@@ -1,0 +1,11 @@
+{
+ "instance": "po_a050_t15_s01",
+ "budget": 20,
+ "lam": "1e-2",
+ "seed": 0,
+ "init": "plant",
+ "score": -22040,
+ "start": -5690,
+ "plant_day": 12,
+ "solution_file": "results/grid_fresh/po_a050_t15_s01_b020_l1e-2_plant_seed0.sol"
+}

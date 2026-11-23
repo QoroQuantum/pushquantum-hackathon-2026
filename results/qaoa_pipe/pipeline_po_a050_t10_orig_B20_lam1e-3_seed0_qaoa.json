@@ -1,0 +1,60 @@
+{
+  "instance": "po_a050_t10_orig",
+  "budget": 20,
+  "lam": "1e-3",
+  "bkv": -206239,
+  "size": 3,
+  "method": "random",
+  "time_limit": 600.0,
+  "kick_blocks": 6,
+  "seed": 0,
+  "start": -198608,
+  "sa": {
+    "build": 0.5844841003417969,
+    "anneal": 8.45496392250061,
+    "repair": 0.2985851764678955,
+    "score": -198608
+  },
+  "solver": {
+    "name": "qaoa",
+    "calls": 6132,
+    "cache_hits": 1344,
+    "qaoa_runs": 7020,
+    "mu_raised": 1697,
+    "proposals": 200,
+    "no_feasible": 0,
+    "qaoa_seconds": 581.2,
+    "exact_checked": 4788,
+    "exact_hits": 4788,
+    "sample_hits": 4786,
+    "exact_gap": 0.0,
+    "layers": 2,
+    "iters": 30,
+    "shots": 10000,
+    "top": 64,
+    "init": "tqa",
+    "tqa_dt": 1.0,
+    "mu_ladder": [
+      0.25,
+      1.0,
+      4.0
+    ]
+  },
+  "blocks": -200263,
+  "score": -200509,
+  "gap": 0.02778329995781593,
+  "kicks": 8,
+  "improvements": 1,
+  "trace": [
+    [
+      76.4,
+      -200263
+    ],
+    [
+      483.0,
+      -200509
+    ]
+  ],
+  "seconds": 609.9,
+  "solution_file": "results/qaoa_pipe/solutions/po_a050_t10_orig_b020_l1e-3.sol"
+}

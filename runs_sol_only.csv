@@ -1,0 +1,15 @@
+sol,name,instance,budget,lam,objective,n_pos
+handin\po_a010_t10_orig_b004_l1e-3.sol,po_a010_t10_orig_b004_l1e-3,po_a010_t10_orig,4,0.001,-8397,22
+handin\po_a050_t10_orig_b020_l1e-2.sol,po_a050_t10_orig_b020_l1e-2,po_a050_t10_orig,20,0.01,-47301,115
+handin\po_a050_t10_orig_b020_l1e-3.sol,po_a050_t10_orig_b020_l1e-3,po_a050_t10_orig,20,0.001,-206239,130
+handin\po_a050_t10_orig_b020_l1e-4.sol,po_a050_t10_orig_b020_l1e-4,po_a050_t10_orig,20,0.0001,-370869,86
+handin\po_a050_t10_s00_b020_l1e-2.sol,po_a050_t10_s00_b020_l1e-2,po_a050_t10_s00,20,0.01,-24353,52
+handin\po_a050_t10_s00_b020_l1e-3.sol,po_a050_t10_s00_b020_l1e-3,po_a050_t10_s00,20,0.001,-191879,125
+handin\po_a050_t10_s00_b020_l1e-4.sol,po_a050_t10_s00_b020_l1e-4,po_a050_t10_s00,20,0.0001,-355530,91
+handin\po_a050_t10_s01_b020_l1e-3.sol,po_a050_t10_s01_b020_l1e-3,po_a050_t10_s01,20,0.001,-141376,133
+handin\po_a050_t10_s01_b020_l1e-4.sol,po_a050_t10_s01_b020_l1e-4,po_a050_t10_s01,20,0.0001,-301400,88
+handin\po_a050_t10_s02_b020_l1e-2.sol,po_a050_t10_s02_b020_l1e-2,po_a050_t10_s02,20,0.01,-52358,85
+handin\po_a050_t10_s02_b020_l1e-3.sol,po_a050_t10_s02_b020_l1e-3,po_a050_t10_s02,20,0.001,-233766,122
+handin\po_a050_t10_s02_b020_l1e-4.sol,po_a050_t10_s02_b020_l1e-4,po_a050_t10_s02,20,0.0001,-443357,87
+handin\po_a200_t10_orig_b050_l1e-3.sol,po_a200_t10_orig_b050_l1e-3,po_a200_t10_orig,50,0.001,-840155,238
+handin\po_a400_t15_orig_b100_l1e-3.sol,po_a400_t15_orig_b100_l1e-3,po_a400_t15_orig,100,0.001,-3162386,655

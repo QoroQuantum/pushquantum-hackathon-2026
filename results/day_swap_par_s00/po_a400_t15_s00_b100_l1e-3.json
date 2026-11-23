@@ -1,0 +1,181 @@
+{
+  "instance": "po_a400_t15_s00",
+  "budget": 100,
+  "lam": "1e-3",
+  "init": "results/day_swap_par_s00/empty_start.sol",
+  "start": -1500,
+  "seed": 0,
+  "top": 0,
+  "start_round": 0,
+  "solution_file": "results/day_swap_par_s00/po_a400_t15_s00_b100_l1e-3.sol",
+  "workers": 6,
+  "round_seconds": 240.0,
+  "rounds": [
+    {
+      "round": 0,
+      "start": -1500,
+      "score": -2790755,
+      "kept_days": [
+        12,
+        13,
+        14,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "elapsed": 274.8
+    },
+    {
+      "round": 1,
+      "start": -2790755,
+      "score": -2798424,
+      "kept_days": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "elapsed": 541.5
+    },
+    {
+      "round": 2,
+      "start": -2798424,
+      "score": -2803547,
+      "kept_days": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        0,
+        13,
+        14,
+        1,
+        2
+      ],
+      "elapsed": 807.9
+    },
+    {
+      "round": 3,
+      "start": -2803547,
+      "score": -2806178,
+      "kept_days": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        0,
+        1,
+        2,
+        3
+      ],
+      "elapsed": 1074.0
+    },
+    {
+      "round": 4,
+      "start": -2806178,
+      "score": -2806776,
+      "kept_days": [
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "elapsed": 1340.3
+    },
+    {
+      "round": 5,
+      "start": -2806776,
+      "score": -2810618,
+      "kept_days": [
+        9,
+        10
+      ],
+      "elapsed": 1611.2
+    },
+    {
+      "round": 6,
+      "start": -2810618,
+      "score": -2811615,
+      "kept_days": [
+        10,
+        11
+      ],
+      "elapsed": 1883.8
+    },
+    {
+      "round": 7,
+      "start": -2811615,
+      "score": -2811615,
+      "kept_days": [],
+      "elapsed": 2155.8
+    },
+    {
+      "round": 8,
+      "start": -2811615,
+      "score": -2812081,
+      "kept_days": [
+        8,
+        9,
+        10
+      ],
+      "elapsed": 2431.4
+    },
+    {
+      "round": 9,
+      "start": -2812081,
+      "score": -2812832,
+      "kept_days": [
+        12,
+        13,
+        14
+      ],
+      "elapsed": 2709.0
+    },
+    {
+      "round": 10,
+      "start": -2812832,
+      "score": -2813209,
+      "kept_days": [
+        3,
+        4
+      ],
+      "elapsed": 2979.8
+    },
+    {
+      "round": 11,
+      "start": -2813209,
+      "score": -2813400,
+      "kept_days": [
+        9,
+        10
+      ],
+      "elapsed": 3251.2
+    }
+  ],
+  "score": -2813400
+}

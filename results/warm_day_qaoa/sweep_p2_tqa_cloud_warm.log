@@ -1,0 +1,55 @@
+po_a050_t10_s00 λ1e-3 start -178637 (bkv -191879); 1 days, 150 qubits, 11175 couplings; 4 angle sets -> 4 programs; eps 0.02, mu_step 0.25, p=1, chi 64, cluster qoro_cpu
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /Users/julesdupont/pushquantum-hackathon-2026/warm_day_qaoa.py:545 in        │
+│ <module>                                                                     │
+│                                                                              │
+│   542                                                                        │
+│   543                                                                        │
+│   544 if __name__ == "__main__":                                             │
+│ ❱ 545 │   main()                                                             │
+│   546                                                                        │
+│                                                                              │
+│ /Users/julesdupont/pushquantum-hackathon-2026/warm_day_qaoa.py:541 in main   │
+│                                                                              │
+│   538 │   s.add_argument("--out", default="results/warm_day_qaoa")           │
+│   539 │   s.set_defaults(fn=cmd_sweep)                                       │
+│   540 │   a = ap.parse_args()                                                │
+│ ❱ 541 │   a.fn(a)                                                            │
+│   542                                                                        │
+│   543                                                                        │
+│   544 if __name__ == "__main__":                                             │
+│                                                                              │
+│ /Users/julesdupont/pushquantum-hackathon-2026/warm_day_qaoa.py:393 in        │
+│ cmd_sweep                                                                    │
+│                                                                              │
+│   390 │   service = QoroService() if a.cluster != "local" else None          │
+│   391 │   bal0 = float(service.get_credit_balance()["balance"]) if service e │
+│   392 │   if a.swapnet:                                                      │
+│ ❱ 393 │   │   res, wall = sample_swapnet(backend, prog_blocks, progs)        │
+│   394 │   else:                                                              │
+│   395 │   │   res, wall = run_programs(backend, prog_blocks, progs, a.layers │
+│   396 │   bal1 = float(service.get_credit_balance()["balance"]) if service e │
+│                                                                              │
+│ /Users/julesdupont/pushquantum-hackathon-2026/warm_day_qaoa.py:187 in        │
+│ sample_swapnet                                                               │
+│                                                                              │
+│   184 │   t0 = time.time()                                                   │
+│   185 │   res = backend.submit_circuits(circuits)                            │
+│   186 │   if isinstance(backend, QoroService):                               │
+│ ❱ 187 │   │   backend.poll_job_status(res, loop_until_complete=True)         │
+│   188 │   │   res = backend.get_job_results(res)                             │
+│   189 │   by_label = {r["label"]: r["results"] for r in res.results}         │
+│   190 │   out = []                                                           │
+│                                                                              │
+│ /Users/julesdupont/pushquantum-hackathon-2026/.venv/lib/python3.12/site-pack │
+│ ages/divi/backends/runners/_qoro.py:1303 in poll_job_status                  │
+│                                                                              │
+│   1300 │   │   │   │   │   │   return status                                 │
+│   1301 │   │   │   │   │   raise_if_cancelled(event, cancelled)              │
+│   1302 │   │   │   │   │   if error_type := terminal_errors.get(status):     │
+│ ❱ 1303 │   │   │   │   │   │   raise error_type(job_id)                      │
+│   1304 │   │   │   │   │                                                     │
+│   1305 │   │   │   │   │   update_fn(retry_count, status.value)              │
+│   1306                                                                       │
+╰──────────────────────────────────────────────────────────────────────────────╯
+JobFailedError: Qoro job d4432272-e743-4574-9a01-0f16e1f527e5 failed (FAILED).

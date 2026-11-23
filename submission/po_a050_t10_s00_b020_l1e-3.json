@@ -1,0 +1,1 @@
+{"qubits": 150, "method": "hybrid: 8 rounds of 150-qubit warm-start QAOA on whole a050 days (Maestro MPS, swap network, qoro_cpu), then day_swap.py classical polish"}

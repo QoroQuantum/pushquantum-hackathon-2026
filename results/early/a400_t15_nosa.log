@@ -1,0 +1,3 @@
+po_a400_t15_orig, B=100, λ=1e-3, 400 assets, 15 days; best known None
+  blocks: -2676107 -> iterated search: -2815258 (1131 kicks, 82 improvements); total 1500s
+  wrote solutions/po_a400_t15_orig_b100_l1e-3.sol and results/pipeline_po_a400_t15_orig_B100_lam1e-3_seed0.json

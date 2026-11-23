@@ -1,0 +1,10 @@
+{
+ "instance": "po_a050_t10_orig",
+ "budget": 20,
+ "lam": "5e-4",
+ "seed": 1,
+ "init": "lambda 1e-4",
+ "start": -88923,
+ "score": -254727,
+ "solution_file": "results/grid_fresh/po_a050_t10_orig_b020_l5e-4_from1e-4_seed1.sol"
+}

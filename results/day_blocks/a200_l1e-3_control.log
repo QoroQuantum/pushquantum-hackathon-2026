@@ -1,0 +1,5 @@
+po_a200_t10_orig, B=50, λ=1e-3, 200 assets, 10 days; best known None
+  SA start: 10890 vars, build 10s, anneal 180s, repair 2s -> -788595
+  start (SA + fast repair): -788595
+  blocks: -790980 -> iterated search: -798331 (4233 kicks, 21 improvements); total 1392s
+  wrote results/day_blocks/control/po_a200_t10_orig_b050_l1e-3.sol and results/day_blocks/control/pipeline_po_a200_t10_orig_B50_lam1e-3_seed0.json

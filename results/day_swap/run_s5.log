@@ -1,0 +1,26 @@
+po_a400_t15_orig B=100 λ=1e-3: start -2900650 from results/day_swap/a400_m2900650.sol
+       17s  descent sweep 1: -2900650
+       33s  kick 20 (day 0): -2900830
+       34s  kick 22 (day 10): -2901544
+       40s  kick 37 (day 8): -2902195
+       40s  kick 39 (day 0): -2902677
+       41s  kick 44 (day 5): -2902785
+       43s  kick 45 (day 8): -2902956
+       44s  kick 46 (day 5): -2903192
+       45s  kick 47 (day 4): -2905996
+       49s  kick 53 (day 11): -2906463
+       50s  kick 54 (day 5): -2907008
+       56s  kick 60 (day 5): -2908216
+       62s  kick 65 (day 6): -2911065
+       65s  kick 69 (day 12): -2911437
+       70s  kick 74 (day 5): -2911449
+       75s  kick 82 (day 1): -2912522
+       77s  kick 84 (day 7): -2915815
+       83s  kick 94 (day 3): -2916496
+       86s  kick 100 (day 13): -2917140
+       89s  kick 104 (day 4): -2917236
+       94s  kick 112 (day 9): -2919188
+       95s  kick 114 (day 7): -2922333
+      106s  kick 133 (day 5): -2922607
+      109s  kick 136 (day 5): -2923616
+      109s  kick 140 (day 13): -2924187

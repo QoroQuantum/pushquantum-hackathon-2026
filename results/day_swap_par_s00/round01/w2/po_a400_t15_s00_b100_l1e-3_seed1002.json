@@ -1,0 +1,48 @@
+{
+  "instance": "po_a400_t15_s00",
+  "budget": 100,
+  "lam": "1e-3",
+  "init": "results/day_swap_par_s00/round01_start.sol",
+  "start": -2790755,
+  "score": -2792100,
+  "kicks": 31889,
+  "accepted": 5,
+  "kicks2": 8092,
+  "accepted2": 1,
+  "trace": [
+    [
+      0.0,
+      -2790755
+    ],
+    [
+      0.4,
+      -2790755
+    ],
+    [
+      72.1,
+      -2790787
+    ],
+    [
+      73.8,
+      -2790976
+    ],
+    [
+      76.2,
+      -2791460
+    ],
+    [
+      128.5,
+      -2791699
+    ],
+    [
+      133.4,
+      -2791781
+    ],
+    [
+      139.3,
+      -2792100
+    ]
+  ],
+  "seconds": 240.0,
+  "solution_file": "results/day_swap_par_s00/round01/w2/po_a400_t15_s00_b100_l1e-3_seed1002.sol"
+}

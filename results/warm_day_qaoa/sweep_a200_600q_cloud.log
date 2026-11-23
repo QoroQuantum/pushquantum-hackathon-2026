@@ -1,0 +1,106 @@
+po_a200_t10_orig λ1e-3 start -840155 (bkv None); 2 days, 600 qubits, 179565 couplings; 1 angle sets -> 2 programs; eps 0.005, mu_step 0.25, p=1, chi 16, cluster qoro_cpu
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /Users/julesdupont/pushquantum-hackathon-2026/.venv/lib/python3.12/site-pack │
+│ ages/divi/backends/runners/_qoro.py:1031 in _dispatch_job                    │
+│                                                                              │
+│   1028 │   │   │   │   │   }                                                 │
+│   1029 │   │   │   │   │   if shots is not None:                             │
+│   1030 │   │   │   │   │   │   payload["shots"] = shots                      │
+│ ❱ 1031 │   │   │   │   │   self._make_request(                               │
+│   1032 │   │   │   │   │   │   "post",                                       │
+│   1033 │   │   │   │   │   │   f"job/{job_id}/add_circuits/",                │
+│   1034 │   │   │   │   │   │   json=payload,                                 │
+│                                                                              │
+│ /Users/julesdupont/pushquantum-hackathon-2026/.venv/lib/python3.12/site-pack │
+│ ages/divi/backends/runners/_qoro.py:499 in _make_request                     │
+│                                                                              │
+│    496 │   │                                                                 │
+│    497 │   │   # Raise with comprehensive error details if request failed    │
+│    498 │   │   if response.status_code >= 400:                               │
+│ ❱  499 │   │   │   _raise_with_details(response)                             │
+│    500 │   │                                                                 │
+│    501 │   │   return response                                               │
+│    502                                                                       │
+│                                                                              │
+│ /Users/julesdupont/pushquantum-hackathon-2026/.venv/lib/python3.12/site-pack │
+│ ages/divi/backends/runners/_qoro.py:151 in _raise_with_details               │
+│                                                                              │
+│    148 │   │   │   # Keep non-HTML text but truncate if very long            │
+│    149 │   │   │   body = text[:500] + ("..." if len(text) > 500 else "")    │
+│    150 │   msg = f"{resp.status_code} {resp.reason}: {body}"                 │
+│ ❱  151 │   raise requests.HTTPError(msg, response=resp)                      │
+│    152                                                                       │
+│    153                                                                       │
+│    154 def _config_body(                                                     │
+╰──────────────────────────────────────────────────────────────────────────────╯
+HTTPError: 400 Bad Request: {"circuits": ["Circuit 'c0' exceeds qubit limit 
+156."]}
+
+The above exception was the direct cause of the following exception:
+
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /Users/julesdupont/pushquantum-hackathon-2026/warm_day_qaoa.py:516 in        │
+│ <module>                                                                     │
+│                                                                              │
+│   513                                                                        │
+│   514                                                                        │
+│   515 if __name__ == "__main__":                                             │
+│ ❱ 516 │   main()                                                             │
+│   517                                                                        │
+│                                                                              │
+│ /Users/julesdupont/pushquantum-hackathon-2026/warm_day_qaoa.py:512 in main   │
+│                                                                              │
+│   509 │   s.add_argument("--out", default="results/warm_day_qaoa")           │
+│   510 │   s.set_defaults(fn=cmd_sweep)                                       │
+│   511 │   a = ap.parse_args()                                                │
+│ ❱ 512 │   a.fn(a)                                                            │
+│   513                                                                        │
+│   514                                                                        │
+│   515 if __name__ == "__main__":                                             │
+│                                                                              │
+│ /Users/julesdupont/pushquantum-hackathon-2026/warm_day_qaoa.py:367 in        │
+│ cmd_sweep                                                                    │
+│                                                                              │
+│   364 │   service = QoroService() if a.cluster != "local" else None          │
+│   365 │   bal0 = float(service.get_credit_balance()["balance"]) if service e │
+│   366 │   if a.swapnet:                                                      │
+│ ❱ 367 │   │   res, wall = sample_swapnet(backend, prog_blocks, progs)        │
+│   368 │   else:                                                              │
+│   369 │   │   res, wall = run_programs(backend, prog_blocks, progs, a.layers │
+│   370 │   bal1 = float(service.get_credit_balance()["balance"]) if service e │
+│                                                                              │
+│ /Users/julesdupont/pushquantum-hackathon-2026/warm_day_qaoa.py:185 in        │
+│ sample_swapnet                                                               │
+│                                                                              │
+│   182 │   │   spo = BinaryOptimizationProblem(b["bqm"]).cost_hamiltonian     │
+│   183 │   │   circuits[f"c{i}"] = qasm2.dumps(swapnet_circuit(spo, b["thetas │
+│   184 │   t0 = time.time()                                                   │
+│ ❱ 185 │   res = backend.submit_circuits(circuits)                            │
+│   186 │   if isinstance(backend, QoroService):                               │
+│   187 │   │   backend.poll_job_status(res, loop_until_complete=True)         │
+│   188 │   │   res = backend.get_job_results(res)                             │
+│                                                                              │
+│ /Users/julesdupont/pushquantum-hackathon-2026/.venv/lib/python3.12/site-pack │
+│ ages/divi/backends/runners/_qoro.py:862 in submit_circuits                   │
+│                                                                              │
+│    859 │   │   )                                                             │
+│    860 │   │   shots = job_config.shots if ham_ops is None and shot_groups i │
+│    861 │   │                                                                 │
+│ ❱  862 │   │   return self._dispatch_job(                                    │
+│    863 │   │   │   build_call_plan(payloads, per_circuit),                   │
+│    864 │   │   │   job_config=job_config,                                    │
+│    865 │   │   │   maestro_config=maestro_config,                            │
+│                                                                              │
+│ /Users/julesdupont/pushquantum-hackathon-2026/.venv/lib/python3.12/site-pack │
+│ ages/divi/backends/runners/_qoro.py:1039 in _dispatch_job                    │
+│                                                                              │
+│   1036 │   │   │   │   │   )                                                 │
+│   1037 │   │   │   except requests.HTTPError as exc:                         │
+│   1038 │   │   │   │   if too_wide := _circuit_too_wide(exc):                │
+│ ❱ 1039 │   │   │   │   │   raise too_wide from exc                           │
+│   1040 │   │   │   │   raise                                                 │
+│   1041 │   │                                                                 │
+│   1042 │   │   return ExecutionResult(job_id=job_id, backend_jobs=len(call_p │
+╰──────────────────────────────────────────────────────────────────────────────╯
+CircuitTooWideError: 400 Bad Request: {"circuits": ["Circuit 'c0' exceeds qubit 
+limit 156."]}

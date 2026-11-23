@@ -1,0 +1,65 @@
+64 instances to recombine
+po_a050_t10_orig_b020_l0         2 inputs, best -501737: no better mix of days
+po_a050_t10_orig_b020_l1e-4      4 inputs, best -370869: no better mix of days
+po_a050_t10_orig_b020_l1e-3      7 inputs, best -206239: no better mix of days
+po_a050_t10_orig_b020_l1e-5      2 inputs, best -478956: no better mix of days
+po_a050_t10_orig_b020_l1e-6      2 inputs, best -499339: no better mix of days
+po_a050_t10_orig_b020_l5e-4      26 inputs, best -254857: no better mix of days
+po_a050_t10_s00_b020_l0          2 inputs, best -517725: no better mix of days
+po_a050_t10_orig_b020_l5e-5      5 inputs, best -417218: no better mix of days
+po_a050_t10_s00_b020_l1e-3       10 inputs, best -192036: no better mix of days
+po_a050_t10_s00_b020_l1e-4       4 inputs, best -355530: no better mix of days
+po_a050_t10_s00_b020_l1e-5       2 inputs, best -484396: no better mix of days
+po_a050_t10_s00_b020_l1e-6       2 inputs, best -513409: no better mix of days
+po_a050_t10_s00_b020_l5e-4       4 inputs, best -234783: no better mix of days
+po_a050_t10_s00_b020_l5e-5       2 inputs, best -408937: no better mix of days
+po_a050_t10_s01_b020_l0          2 inputs, best -431905: no better mix of days
+po_a050_t10_s01_b020_l1e-2       7 inputs, best -7663: no better mix of days
+po_a050_t10_s01_b020_l1e-3       7 inputs, best -141513: no better mix of days
+po_a050_t10_s01_b020_l1e-4       4 inputs, best -301400: no better mix of days
+po_a050_t10_s01_b020_l1e-5       2 inputs, best -402742: no better mix of days
+po_a050_t10_s01_b020_l1e-6       2 inputs, best -428609: no better mix of days
+po_a050_t10_s01_b020_l5e-4       5 inputs, best -183585: no better mix of days
+po_a050_t10_s02_b020_l0          2 inputs, best -625562: no better mix of days
+po_a050_t10_s01_b020_l5e-5       5 inputs, best -342074: no better mix of days
+po_a050_t10_s02_b020_l1e-3       8 inputs, best -233766: no better mix of days
+po_a050_t10_s02_b020_l1e-4       4 inputs, best -443357: no better mix of days
+po_a050_t10_s02_b020_l1e-5       2 inputs, best -594866: no better mix of days
+po_a050_t10_s02_b020_l1e-6       2 inputs, best -622388: no better mix of days
+po_a050_t10_s02_b020_l5e-4       2 inputs, best -287872: no better mix of days
+po_a050_t10_s02_b020_l5e-5       2 inputs, best -507544: no better mix of days
+po_a050_t15_orig_b020_l0         2 inputs, best -773902: no better mix of days
+po_a050_t10_orig_b020_l1e-2      5 inputs, best -47301 -> recombined -49020 -> polished -49020
+po_a050_t10_s00_b020_l1e-2       9 inputs, best -44110 -> recombined -50445 -> polished -50445
+po_a050_t15_orig_b020_l1e-4      2 inputs, best -572490: no better mix of days
+po_a050_t15_orig_b020_l1e-5      2 inputs, best -736833: no better mix of days
+po_a050_t15_orig_b020_l1e-6      2 inputs, best -769790: no better mix of days
+po_a050_t15_orig_b020_l5e-4      16 inputs, best -397568: no better mix of days
+po_a050_t15_orig_b020_l5e-5      5 inputs, best -639825: no better mix of days
+po_a050_t15_s00_b020_l0          2 inputs, best -879572: no better mix of days
+po_a050_t10_s02_b020_l1e-2       9 inputs, best -60036 -> recombined -60940 -> polished -60940
+po_a050_t15_s00_b020_l1e-3       2 inputs, best -314848: no better mix of days
+po_a050_t15_s00_b020_l1e-4       2 inputs, best -586823: no better mix of days
+po_a050_t15_s00_b020_l1e-5       2 inputs, best -819899: no better mix of days
+po_a050_t15_s00_b020_l1e-6       2 inputs, best -872055: no better mix of days
+po_a050_t15_s00_b020_l5e-4       5 inputs, best -386990: no better mix of days
+po_a050_t15_s00_b020_l5e-5       2 inputs, best -680124: no better mix of days
+po_a050_t15_orig_b020_l1e-2      5 inputs, best -79528 -> recombined -81689 -> polished -81689
+po_a050_t15_s01_b020_l0          2 inputs, best -672711: no better mix of days
+po_a050_t15_s01_b020_l1e-2       3 inputs, best -29092: no better mix of days
+po_a050_t15_s01_b020_l1e-3       2 inputs, best -243725: no better mix of days
+po_a050_t15_s01_b020_l1e-4       5 inputs, best -473765: no better mix of days
+po_a050_t15_s01_b020_l1e-5       2 inputs, best -626762: no better mix of days
+po_a050_t15_s01_b020_l1e-6       2 inputs, best -667210: no better mix of days
+po_a050_t15_s01_b020_l5e-4       16 inputs, best -304360: no better mix of days
+po_a050_t15_s02_b020_l0          5 inputs, best -885463: no better mix of days
+po_a050_t15_s01_b020_l5e-5       5 inputs, best -533733: no better mix of days
+po_a050_t15_s02_b020_l1e-3       2 inputs, best -316930: no better mix of days
+po_a050_t15_s02_b020_l1e-4       16 inputs, best -604145: no better mix of days
+po_a050_t15_s02_b020_l1e-5       2 inputs, best -830838: no better mix of days
+po_a050_t15_s02_b020_l1e-6       5 inputs, best -879472: no better mix of days
+po_a050_t15_s02_b020_l5e-4       4 inputs, best -392793: no better mix of days
+po_a050_t15_s02_b020_l5e-5       2 inputs, best -692197: no better mix of days
+po_a050_t15_orig_b020_l1e-3      8 inputs, best -321907 -> recombined -321964 -> polished -321964
+po_a050_t15_s00_b020_l1e-2       3 inputs, best -72986 -> recombined -79632 -> polished -82857
+po_a050_t15_s02_b020_l1e-2       5 inputs, best -77142 -> recombined -77339 -> polished -79560

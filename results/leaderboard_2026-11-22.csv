@@ -1,0 +1,37 @@
+instance,variables,place,user,objective,best known,gap,qubits,method,submitted at
+po_a400_t15_orig_b100_l1e-2,36165,1,Sahilkar,-883103,,,12,super secret method,2026-11-22 06:15 UTC
+po_a400_t15_orig_b100_l1e-3,36165,1,Jules02,-3162386,,,9,Block decomposition + local search,2026-11-22 00:54 UTC
+po_a400_t15_orig_b100_l1e-3,36165,2,LorenzoLaCorte,-3015526,,,26,classical + quantum,2026-11-22 03:01 UTC
+po_a400_t15_orig_b100_l1e-3,36165,3,Sahilkar,-2149772,,,12,super secret method,2026-11-22 06:15 UTC
+po_a400_t15_s00_b100_l1e-3,36165,1,Jules02,-2813400,,,0,Block decomposition + local search,2026-11-22 07:19 UTC
+po_a400_t15_s00_b100_l1e-3,36165,2,LorenzoLaCorte,-2596045,,,0,classical,2026-11-22 03:01 UTC
+po_a200_t15_orig_b050_l1e-3,18165,1,Sahilkar,-1081230,,,12,super secret method,2026-11-22 03:14 UTC
+po_a200_t10_orig_b050_l1e-3,12110,1,Jules02,-840155,,,0,Block decomposition + local search,2026-11-22 00:54 UTC
+po_a200_t10_orig_b050_l1e-3,12110,2,Sahilkar,-651418,,,12,super secret method,2026-11-22 03:14 UTC
+po_a200_t10_s00_b050_l1e-3,12110,1,LorenzoLaCorte,-780510,,,0,classical,2026-11-22 03:01 UTC
+po_a050_t15_orig_b020_l1e-2,4665,1,Jules02,-77193,-31504,-1.450260284408329,0,Block decomposition + local search,2026-11-22 01:25 UTC
+po_a050_t15_orig_b020_l1e-2,4665,2,LorenzoLaCorte,-50971,-31504,-0.6179215337734891,0,classical,2026-11-22 00:39 UTC
+po_a050_t15_s01_b020_l5e-4,4665,1,LorenzoLaCorte,-304271,-304289,5.915429082221178e-05,18,classical + quantum,2026-11-22 03:01 UTC
+po_a050_t15_s02_b020_l1e-2,4665,1,Jules02,-74860,-40622,-0.842843779232928,0,Block decomposition + local search,2026-11-22 01:25 UTC
+po_a050_t15_s02_b020_l1e-2,4665,2,LorenzoLaCorte,-41517,-40622,-0.02203239623849146,0,classical,2026-11-22 00:24 UTC
+po_a050_t15_s02_b020_l5e-4,4665,1,Jules02,-392793,-392668,-0.0003183350820540508,0,Block decomposition + local search,2026-11-22 01:42 UTC
+po_a050_t15_s02_b020_l5e-4,4665,2,LorenzoLaCorte,-392723,-392668,-0.00014006743610378233,0,classical,2026-11-22 00:39 UTC
+po_a050_t10_orig_b020_l0,3110,1,Hugo_Tadeo,-309623,-501737,0.3828978129976462,12,super secret method,2026-11-22 07:05 UTC
+po_a050_t10_orig_b020_l1e-3,3110,1,Hugo_Tadeo,-150340,-206239,0.2710399100073216,12,super secret method,2026-11-22 07:05 UTC
+po_a050_t10_orig_b020_l5e-5,3110,1,Hugo_Tadeo,-219544,-417218,0.4737906801719965,12,super secret method,2026-11-22 07:05 UTC
+po_a050_t10_s00_b020_l1e-2,3110,1,Jules02,-24353,-12340,-0.9735008103727716,0,Block decomposition + local search,2026-11-22 01:42 UTC
+po_a050_t10_s00_b020_l1e-2,3110,2,LorenzoLaCorte,-19785,-12340,-0.603322528363047,0,classical,2026-11-22 00:39 UTC
+po_a050_t10_s00_b020_l5e-4,3110,1,Jules02,-234783,-234259,-0.0022368404202186467,0,Block decomposition + local search,2026-11-22 01:25 UTC
+po_a050_t10_s00_b020_l5e-4,3110,2,LorenzoLaCorte,-234696,-234259,-0.0018654566099915052,0,classical,2026-11-22 00:39 UTC
+po_a050_t10_s02_b020_l1e-2,3110,1,Jules02,-52358,-43565,-0.20183633650866523,0,Block decomposition + local search,2026-11-22 01:42 UTC
+po_a050_t10_s02_b020_l1e-2,3110,2,LorenzoLaCorte,-45069,-43565,-0.034523126362906005,0,classical,2026-11-22 00:24 UTC
+po_a010_t10_orig_b004_l1e-3,710,1,Jules02,-8397,-8397,0.0,9,"QAOA block solver (p = 2, secret-sauce init) + local search",2026-11-22 00:01 UTC
+po_a010_t10_orig_b004_l1e-3,710,2,LorenzoLaCorte,-8397,-8397,0.0,9,quantum,2026-11-22 00:24 UTC
+po_a010_t10_orig_b004_l1e-4,710,1,antoine,-69482,-69482,0.0,12,"partitioned QAOA, p = 2, best of 3 seeds, + local search",2026-11-19 13:45 UTC
+po_a010_t10_orig_b004_l1e-4,710,2,LorenzoLaCorte,-69482,-69482,0.0,9,quantum,2026-11-22 00:24 UTC
+po_a010_t10_orig_b004_l1e-4,710,3,Jules02,-69482,-69482,0.0,9,"QAOA block solver (p = 2, secret-sauce init) + local search",2026-11-22 00:27 UTC
+po_a010_t10_orig_b004_l1e-4,710,4,Sahilkar,-69215,-69482,0.003842721856020264,12,"partitioned QAOA, p = 2, + local search",2026-11-21 18:53 UTC
+po_a010_t10_orig_b004_l1e-6,710,1,Hugo_Tadeo,-109847,-109847,0.0,12,super secret method,2026-11-22 05:31 UTC
+po_a010_t10_orig_b004_l5e-4,710,1,LorenzoLaCorte,-27044,-27044,0.0,9,quantum,2026-11-22 00:24 UTC
+po_a010_t10_orig_b004_l5e-4,710,2,Jules02,-27044,-27044,0.0,9,"QAOA block solver (p = 2, secret-sauce init) + local search",2026-11-22 01:18 UTC
+po_a010_t10_s02_b004_l1e-4,710,1,Jules02,-52907,-53255,0.0065345976903577125,9,"QAOA block solver (p = 2, secret-sauce init) + local search",2026-11-22 01:18 UTC
